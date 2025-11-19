@@ -232,7 +232,7 @@ This section tracks work from courses, guided projects, and structured learning.
 ## Certificates & Coursework
 
 - **Python for Everybody – Coursera** (Completed)  
-- **IBM Data Analyst Professional Certificate – Coursera** (In progress)  
+- **IBM Data Analyst Professional Certificate – Coursera** (In progress 90% complete)  
 - Additional certificates and badges to be added as completed.
 
 ---
