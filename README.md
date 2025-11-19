@@ -48,6 +48,9 @@ This repository/README is my central hub to:
 ### Healthcare & Lab Operations
 
 #### 1. Lab Operations SLA & QC Analytics (SQL)
+
+<img src="https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png" width="750">
+
 **Repository:** [`sql-lab-insights-and-sla-analysis`](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)  
 
 **Description:**  
