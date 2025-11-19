@@ -10,6 +10,16 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 - **Revenue, forecasting, and operations** for **e-commerce and small businesses**
 - **Automation & local AI tools** to reduce manual busy work and protect data privacy
 
+![Python](https://img.shields.io/badge/Python‐3.10‐3776AB?style=flat&logo=python&logoColor=white)
+
+![SQL](https://img.shields.io/badge/SQL‐PostgreSQL‐336791?style=flat&logo=postgresql&logoColor=white)
+
+![Power BI](https://img.shields.io/badge/Power%20BI‐Data%20Viz‐F2C811?style=flat&logo=power-bi&logoColor=black)
+
+![Healthcare Analytics](https://img.shields.io/badge/Domain‐Healthcare%20Analytics‐00AEEF?style=flat)
+
+![Open to Remote](https://img.shields.io/badge/🔄‐Remote%20Eligible‐6cc24a?style=flat)
+
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
 This repository/README is my central hub to:
