@@ -61,7 +61,7 @@ SQL-driven analysis of **laboratory performance metrics**, including turnaround 
 - Breakdown of performance across **time of day / day of week**
 - Focus on metrics a **lab manager, QA lead, or operations director** would actually use
 
-**Tech stack:** PostgreSQL (or other RDBMS), SQL (CTEs, aggregations, date/time logic).
+**Tech stack:** PostgreSQL (or other RDBMS), SQL (CTEs, aggregations, date/time logic), Python (Pandas, Matplotlib).
 
 
 #### 2. Chemistry QC Automation & Westgard Rules
@@ -96,7 +96,7 @@ End-to-end analytics workflow for an e-commerce-style dataset: **ETL, forecastin
 - **Prophet** forecasting for SKU-level or category-level sales
 - Power BI dashboard with **KPI cards, trends, and drill-downs** for business users
 
-**Tech stack:** PostgreSQL, dbt, Python (pandas, Prophet), Power BI, SQL.
+**Tech stack:** PostgreSQL, dbt, Python (pandas, Prophet), Power BI(DAX), SQL.
 
 
 #### 4. E-commerce Power BI Dashboard
