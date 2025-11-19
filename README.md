@@ -49,8 +49,6 @@ This repository/README is my central hub to:
 
 #### 1. Lab Operations SLA & QC Analytics (SQL)
 
-<img src="https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png" width="750">
-
 **Repository:** [`sql-lab-insights-and-sla-analysis`](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)  
 
 **Description:**  
@@ -123,7 +121,7 @@ Star-schema-based **Power BI dashboard** for e-commerce performance.
 **Repository:** [`insurance-cost-analysis`](https://github.com/stalcup-dev/insurance-cost-analysis)  
 
 **Description:**  
-Real-world, regression-based ML project predicting **medical insurance charges** and explaining cost drivers.
+Real-world, regression-based ML project predicting **medical insurance charges** and explaining cost drivers. A course project taken a few steps further in normalizing the data and validating with R², MAE, RMSE.
 
 **What this shows:**
 
@@ -213,15 +211,15 @@ This section tracks work from courses, guided projects, and structured learning.
 
 ### Programming & Data
 
-- **Python** – pandas, numpy, matplotlib/Plotly, scikit-learn, Prophet (forecasting)
+- **Python** – pandas, numpy, matplotlib/Plotly, scikit-learn, Seaborn, Prophet (forecasting)
 - Data wrangling, feature engineering, time-series and regression modeling
 - Basic automation for **data pipelines and QC routines**
 
 ### Domain Expertise
 
 - **Clinical lab operations** – chemistry, microbiology, toxicology, QC, Westgard rules
-- **Turnaround time & SLA metrics**, instrumentation, LIS workflows
-- Interest in **fitness & health data** – connecting analytics to performance and longevity
+- **Turnaround time & SLA/ Calculated KPI metrics**, instrumentation, LIS workflows
+- **Lab Data** Built queries to save time and managed messy datasets in lab. 
 
 ### Work Style
 
@@ -241,10 +239,9 @@ This section tracks work from courses, guided projects, and structured learning.
 
 ## Contacts
 
-I’m open to **remote Data Analyst / BI** roles, particularly where healthcare, lab operations, or operations analytics experience is valuable.
+I’m open to **remote Data Analyst / BI** roles.
 
-- **GitHub:** [@stalcup-dev](https://github.com/stalcup-dev)  
-- **LinkedIn:** _(add your LinkedIn URL here)_  
-- **Email:** _(add your preferred contact email here, or keep this line removed if you prefer messaging via LinkedIn)_
+- **GitHub:** [@stalcup-dev](https://github.com/stalcup-dev)   
+- **Email:** _(allen.stalc@gmail.com)_
 
 If you’d like to talk about my projects or potential collaboration, feel free to reach out.
