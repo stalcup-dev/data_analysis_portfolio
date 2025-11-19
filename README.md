@@ -21,7 +21,7 @@ This repository/README is my central hub to:
 
 ### Career path (short version)
 
-- 20xx–20xx → Medical Laboratory Technician – Core Lab / Chemistry / QC / Microbiology  
+- 2017–2023 → Medical Laboratory Technician – Core Lab / Chemistry / QC / Microbiology  
 - 2023–2024 → Started formal training in **Python, SQL, and data analysis**  
 - 2024–2025 → Built **healthcare, QC, and e-commerce analytics projects** in SQL, Python, dbt, and Power BI  
 - Now → Targeting **remote Data Analyst / BI** roles (healthcare, operations, e-commerce, or technical teams that value domain experts who can work with data)
