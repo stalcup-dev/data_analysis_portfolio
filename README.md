@@ -34,11 +34,10 @@ This repository/README is my central hub to:
 - Track my learning in **data analytics, BI, and automation**
 - Demonstrate how I combine **domain expertise (lab + health + operations)** with modern data tools
 
-
 ### Career path (short version)
 
-- 2017–2023 → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)  
-- 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, basic paid marketing, and performance tracking  
+- 2017–Present → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)  
+- 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking  
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**  
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI  
 - Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
