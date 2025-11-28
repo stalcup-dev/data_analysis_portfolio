@@ -6,7 +6,7 @@ Hi, I’m Allen 👋
 
 I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analytics / BI**, with a focus on:
 
-- **AB Testing** Effect Size, CI
+- **A/B testing** (effect sizes, confidence intervals, practical significance)
 - **Healthcare & lab operations** (QC, Westgard rules, TAT, SLA, bench/instrument performance)
 - **Revenue, forecasting, and operations** for **e-commerce and small businesses**
 - **Automation & local AI tools** to reduce manual busy work and protect data privacy
@@ -37,26 +37,32 @@ This repository/README is my central hub to:
 
 ### Career path (short version)
 
-- 2017–2023 → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology  
-- 2023–2024 → Started formal training in **Python, SQL, and data analysis**  
-- 2024–2025 → Built **healthcare, QC, and e-commerce analytics projects** in SQL, Python, dbt, and Power BI  
-- Now → Targeting **remote Data Analyst / BI** roles (healthcare, operations, e-commerce, or technical teams that value domain experts who can work with data)
+### Career path (short version)
+
+- 2017–2023 → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)  
+- 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, basic paid marketing, and performance tracking  
+- 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**  
+- 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI  
+- Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
 
 ---
 
 ## Table of contents
-
 - [About](#about)
+- [Skills (evidence)](#skills-evidence)
+- [Project Index (quick scan)](#project-index-quick-scan)
 - [Featured Projects](#featured-projects)
-- [Portfolio Projects](#portfolio-projects)  
-  - [Healthcare & Lab Operations](#healthcare--lab-operations)  
-  - [E-commerce & Forecasting](#e-commerce--forecasting)  
-  - [Machine Learning & Modeling](#machine-learning--modeling)  
-  - [Tools & Automation](#tools--automation)  
-- [Study Projects](#study-projects)  
-- [Skills & Tools](#skills--tools)  
-- [Certificates & Coursework](#certificates--coursework)  
+- [Portfolio Projects](#portfolio-projects)
+  - [Experimentation (A/B Testing)](#experimentation-ab-testing)
+  - [Healthcare & Lab Operations](#healthcare--lab-operations)
+  - [E-commerce & Forecasting](#e-commerce--forecasting)
+  - [Machine Learning & Modeling](#machine-learning--modeling)
+  - [Tools & Automation](#tools--automation)
+- [Study Projects](#study-projects)
+- [Skills & Tools](#skills--tools)
+- [Certificates & Coursework](#certificates--coursework)
 - [Contacts](#contacts)
+
 
 ---
 
@@ -64,9 +70,9 @@ This repository/README is my central hub to:
 
 | Project | What it proves | Stack | Link |
 |---|---|---|---|
-| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | <AB_REPO_LINK> |
-| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | <LINK> |
-| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | <LINK> |
+| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | <[AB_REPO_LINK](https://github.com/stalcup-dev/marketing-ab-experiment)> |
+| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | <[LINK](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)> |
+| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | <[LINK](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)> |
 
 ---
 
@@ -89,8 +95,8 @@ This repository/README is my central hub to:
 **Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
 
 **Repository**
-[`ab-marketing-experiment`]([https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/marketing-ab-experiment))  
-[`notebooks`]([https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks))  
+**Repository:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
+**Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
 
 ---
 
@@ -219,6 +225,13 @@ End-to-end mini-project extracting stock and revenue data (e.g., Tesla, GameStop
 
 ---
 
+### Experimentation (A/B Testing)
+
+#### 8. A/B Marketing Experiment — Ad vs PSA
+**Repository:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)
+
+---
+
 ## Study Projects
 
 This section tracks work from courses, guided projects, and structured learning.
@@ -268,9 +281,10 @@ This section tracks work from courses, guided projects, and structured learning.
 
 ### Domain Expertise
 
-- **Clinical lab operations** – chemistry, microbiology, toxicology, QC, Westgard rules
-- **Turnaround time & SLA/ Calculated KPI metrics**, instrumentation, LIS workflows
-- **Lab Data** Built queries to save time and managed messy datasets in lab. 
+- **Clinical lab operations** – chemistry, microbiology, toxicology, QC, Westgard rules; audit-ready documentation and process control
+- **Operational performance metrics** – turnaround time (TAT), SLA compliance, bottleneck analysis, instrument/bench-level performance, LIS-style workflows
+- **E-commerce (Amazon + eBay resale, 4+ years)** – product sourcing and selection, pricing and margin control, inventory and reorder planning, listing optimization (titles/keywords/photos), order fulfillment and shipping workflows, returns/refunds management, and performance metrics (sell-through rate, profit per unit, fees/COGS, break-even price)
+
 
 ### Work Style
 
