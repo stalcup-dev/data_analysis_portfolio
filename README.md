@@ -82,6 +82,9 @@ This repository/README is my central hub to:
 
 **Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.76 pp**, ~**+42%** relative lift).
 
+[![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
+
+
 **What I built (deliverables):**
 - **Experiment readout**: conversion summary, absolute/relative lift, and confidence intervals
 - **Validity checks**: sample size sanity, practical vs statistical significance framing
