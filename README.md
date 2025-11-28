@@ -6,6 +6,7 @@ Hi, I’m Allen 👋
 
 I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analytics / BI**, with a focus on:
 
+- **AB Testing** Effect Size, CI
 - **Healthcare & lab operations** (QC, Westgard rules, TAT, SLA, bench/instrument performance)
 - **Revenue, forecasting, and operations** for **e-commerce and small businesses**
 - **Automation & local AI tools** to reduce manual busy work and protect data privacy
@@ -15,6 +16,15 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 ![Power BI](https://img.shields.io/badge/Power_BI-Data_Visualization-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Healthcare Analytics](https://img.shields.io/badge/Domain-Healthcare_Analytics-00AEEF?style=flat)
 ![Remote](https://img.shields.io/badge/Open_to-Remote_Work-6cc24a?style=flat)
+
+## Skills (evidence)
+
+| Skill | Evidence in this portfolio |
+|---|---|
+| A/B testing, inference, CIs | A/B Marketing Experiment — Ad vs PSA |
+| SQL analytics (CTEs, time logic) | Lab Operations SLA & QC Analytics |
+| BI + stakeholder dashboards | Power BI Dashboard / KPI Dashboard |
+| Data modeling (star schema / marts) | Forecasting + KPI Dashboard (dbt + warehouse) |
 
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
@@ -36,7 +46,8 @@ This repository/README is my central hub to:
 
 ## Table of contents
 
-- [About](#about)  
+- [About](#about)
+- [Featured Projects](#featured-projects)
 - [Portfolio Projects](#portfolio-projects)  
   - [Healthcare & Lab Operations](#healthcare--lab-operations)  
   - [E-commerce & Forecasting](#e-commerce--forecasting)  
@@ -46,6 +57,40 @@ This repository/README is my central hub to:
 - [Skills & Tools](#skills--tools)  
 - [Certificates & Coursework](#certificates--coursework)  
 - [Contacts](#contacts)
+
+---
+
+## Project Index (quick scan)
+
+| Project | What it proves | Stack | Link |
+|---|---|---|---|
+| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | <AB_REPO_LINK> |
+| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | <LINK> |
+| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | <LINK> |
+
+---
+
+## Featured Projects 
+
+### 1) A/B Marketing Experiment — Ad vs PSA (Experimentation + Decision Memo)
+**Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
+
+**Primary metric:** Conversion to purchase (binary)
+
+**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.76 pp**, ~**+42%** relative lift).
+
+**What I built (deliverables):**
+- **Experiment readout**: conversion summary, absolute/relative lift, and confidence intervals
+- **Validity checks**: sample size sanity, practical vs statistical significance framing
+- **Cohort cuts**: lift by **ad intensity** and **day-of-week behavior** to explain *where* lift comes from
+- **Model-based estimate (optional)**: logistic regression to estimate treatment effect while controlling for exposure/usage signals
+- **Decision memo**: “ship / don’t ship” recommendation with business impact framing
+
+**Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
+
+**Repository**
+[`ab-marketing-experiment`]([https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/marketing-ab-experiment))  
+[`notebooks`]([https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks))  
 
 ---
 
