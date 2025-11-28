@@ -37,8 +37,6 @@ This repository/README is my central hub to:
 
 ### Career path (short version)
 
-### Career path (short version)
-
 - 2017–2023 → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)  
 - 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, basic paid marketing, and performance tracking  
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**  
