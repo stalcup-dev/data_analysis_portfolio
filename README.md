@@ -100,25 +100,34 @@ This repository/README is my central hub to:
 
 ---
 
-## Portfolio Projects
+## Featured Projects 
 
-### Healthcare & Lab Operations
+### 1) A/B Marketing Experiment — Ad vs PSA (Experiment Integrity + Decision Pack)
+**Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
 
-#### 1. Lab Operations SLA & QC Analytics (SQL)
+**Primary metric:** Conversion to purchase (binary)
 
-**Repository:** [`sql-lab-insights-and-sla-analysis`](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)  
+**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift).  
+**Uncertainty:** 95% CI for lift ≈ **[+0.60, +0.94] pp** (directional on this dataset).  
+**Business framing:** ≈ **7,692** incremental conversions per **1M** exposures (using +0.769 pp).
 
-**Description:**  
-SQL-driven analysis of **laboratory performance metrics**, including turnaround time, test volume, and SLA performance.
+[![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
 
-**What this shows:**
+**What I built (deliverables):**
+- **Experiment integrity report**: SRM check + baseline QA + group balance diagnostics before trusting results
+- **Estimation report**: conversion summary, absolute/relative lift, p-values, and **95% confidence intervals**
+- **Robustness checks**: **stratified lift by day/hour** vs naive lift to test whether timing mix explains the effect
+- **Cohort cuts**: lift by **ad intensity** and **day-of-week behavior** to explain *where* lift comes from
+- **Model-based estimate (optional)**: logistic regression to estimate treatment effect while controlling for exposure/usage signals
+- **1-page decision memo**: “ship / don’t ship” recommendation with impact framing + risk/assumption callouts
+- **Reproducibility & quality**: report builder scripts + **pytest** checks + linting (ruff) for a work-ready workflow
 
-- Calculation of **SLA metrics** (on-time vs delayed results) using SQL
-- Identification of **bottlenecks** by test, bench, or instrument
-- Breakdown of performance across **time of day / day of week**
-- Focus on metrics a **lab manager, QA lead, or operations director** would actually use
+**Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
 
-**Tech stack:** PostgreSQL (or other RDBMS), SQL (CTEs, aggregations, date/time logic), Python (Pandas, Matplotlib).
+**Links:**  
+- **Repo:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
+- **Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
+- **Reports:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports
 
 
 #### 2. Chemistry QC Automation & Westgard Rules
