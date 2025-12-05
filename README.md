@@ -80,7 +80,7 @@ This repository/README is my central hub to:
 
 **Primary metric:** Conversion to purchase (binary)
 
-**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.76 pp**, ~**+42%** relative lift).
+**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift, 95% CI [+0.60, +0.94] pp).
 
 [![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
 
@@ -100,16 +100,14 @@ This repository/README is my central hub to:
 
 ---
 
-## Featured Projects 
-
 ### 1) A/B Marketing Experiment — Ad vs PSA (Experiment Integrity + Decision Pack)
 **Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
 
 **Primary metric:** Conversion to purchase (binary)
 
-**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift).  
+**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift, 95% CI [+0.60, +0.94] pp).  
 **Uncertainty:** 95% CI for lift ≈ **[+0.60, +0.94] pp** (directional on this dataset).  
-**Business framing:** ≈ **7,692** incremental conversions per **1M** exposures (using +0.769 pp).
+**Business framing:** ≈ **7,692** incremental conversions per **1,000,000** exposures (using +0.77 pp).
 
 [![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
 
