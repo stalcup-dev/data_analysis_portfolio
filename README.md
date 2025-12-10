@@ -160,6 +160,8 @@ End-to-end analytics workflow for an e-commerce-style dataset: **ETL, forecastin
 - **Prophet** forecasting for SKU-level or category-level sales
 - Power BI dashboard with **KPI cards, trends, and drill-downs** for business users
 
+![Vita Markets KPI Dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
+
 **Tech stack:** PostgreSQL, dbt, Python (pandas, Prophet), Power BI(DAX), SQL.
 
 
