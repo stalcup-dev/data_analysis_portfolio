@@ -1,0 +1,33 @@
+name: Link Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links (README + case studies)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --max-retries 6
+            --retry-wait-time 2
+            --timeout 30
+            --accept 200,206,429
+            --exclude "https://img.shields.io/.*"
+            --exclude "https://linkedin.com/in/"
+            "README.md"
+            "case_studies/*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,18 @@
 # Allen Stalcup – Data Analytics Portfolio
 
+## 60-second scan
+
+I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I build decision-ready analyses (experiments, forecasting, ops metrics) with reproducible workflows and clear artifacts.
+
+**Top proofs (clickable):**
+- **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
+- **Forecasting + BI delivery:** End-to-end ETL → forecasting → KPI dashboards with a reproducible pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
+- **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
+
+**Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Git/GitHub
+
+**Contact:** allen.stalc@gmail.com | https://github.com/stalcup-dev
+
 ## About
 
 Hi, I’m Allen 👋
@@ -19,12 +32,12 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 
 ## Skills (evidence)
 
-| Skill | Evidence in this portfolio |
+| Skill | Proof (clickable) |
 |---|---|
-| A/B testing, inference, CIs | A/B Marketing Experiment — Ad vs PSA |
-| SQL analytics (CTEs, time logic) | Lab Operations SLA & QC Analytics |
-| BI + stakeholder dashboards | Power BI Dashboard / KPI Dashboard |
-| Data modeling (star schema / marts) | Forecasting + KPI Dashboard (dbt + warehouse) |
+| A/B testing, inference, confidence intervals | [marketing-ab-experiment](https://github.com/stalcup-dev/marketing-ab-experiment) (see [decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports)) |
+| SQL analytics (CTEs, time logic) | [sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| BI + stakeholder dashboards | [KPI dashboard (image)](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) |
+| Forecasting + data modeling | [end-to-end-sales-forecasting-kpi-dashboard-etl](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
 
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
@@ -45,6 +58,7 @@ This repository/README is my central hub to:
 ---
 
 ## Table of contents
+- [60-second scan](#60-second-scan)
 - [About](#about)
 - [Skills (evidence)](#skills-evidence)
 - [Project Index (quick scan)](#project-index-quick-scan)
@@ -65,179 +79,84 @@ This repository/README is my central hub to:
 
 ## Project Index (quick scan)
 
-| Project | What it proves | Stack | Link |
-|---|---|---|---|
-| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | <[AB_REPO_LINK](https://github.com/stalcup-dev/marketing-ab-experiment)> |
-| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | <[LINK](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)> |
-| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | <[LINK](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)> |
+| Project | Domain | What it proves | Key artifact | Tech | Link |
+|---|---|---|---|---|---|
+| A/B Marketing Experiment — Ad vs PSA | Experimentation | Experiment design → inference → ship/no-ship recommendation | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) | Python, statsmodels | [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) |
+| Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Warehouse modeling → forecasting → stakeholder dashboards | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) | Postgres, dbt, Python, Power BI | [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Lab SLA & QC Analytics | Healthcare ops | Ops metrics + SQL depth in an audit-ready domain | See [repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme) | SQL, Postgres, Python | [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| Chemistry QC Automation & Westgard Rules | Healthcare ops | Domain logic automation + reproducible QA outputs | See repo README | Python | [Repo](https://github.com/stalcup-dev/chemistry-qc-automation) |
+| E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | See repo README | Power BI, DAX | [Repo](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
+| Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | See repo README | Python, scikit-learn | [Repo](https://github.com/stalcup-dev/insurance-cost-analysis) |
+| Local AI Privacy Control | Tools | Local-first AI workflow for document analysis | See repo README | Python | [Repo](https://github.com/stalcup-dev/local-ai-privacy-control) |
+| Extracting & Visualizing Stock Data | Study project | Web data extraction + time-series visuals | See repo README | Python, pandas | [Repo](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data) |
 
 ---
 
 ## Featured Projects 
 
-### 1) A/B Marketing Experiment — Ad vs PSA (Experimentation + Decision Memo)
+### 1) A/B Marketing Experiment — Ad vs PSA
 **Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
 
-**Primary metric:** Conversion to purchase (binary)
+**Approach:** Experiment QA (SRM + balance checks) → lift estimation with confidence intervals → decision memo.
 
-**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift, 95% CI [+0.60, +0.94] pp).
+**Artifacts:**
+- Repo: https://github.com/stalcup-dev/marketing-ab-experiment
+- Decision pack reports: https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports
+- Notebooks: https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks
+- How to verify: [case_studies/ab_marketing_experiment.md](case_studies/ab_marketing_experiment.md)
 
-[![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
+**Tech:** Python (pandas, statsmodels), SQL/dbt, Jupyter
 
+### 2) Sales Forecasting & KPI Dashboard (ETL + BI)
+**Business question:** Can we turn raw sales data into refreshable KPIs and forecasts for planning and reporting?
 
-**What I built (deliverables):**
-- **Experiment readout**: conversion summary, absolute/relative lift, and confidence intervals
-- **Validity checks**: sample size sanity, practical vs statistical significance framing
-- **Cohort cuts**: lift by **ad intensity** and **day-of-week behavior** to explain *where* lift comes from
-- **Model-based estimate (optional)**: logistic regression to estimate treatment effect while controlling for exposure/usage signals
-- **Decision memo**: “ship / don’t ship” recommendation with business impact framing
+**Approach:** PostgreSQL + dbt modeling → Python forecasting pipeline → Power BI dashboards.
 
-**Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
+**Artifacts:**
+- Repo: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
+- KPI dashboard: https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png
+- How to verify: [case_studies/sales_forecasting_kpi_dashboard.md](case_studies/sales_forecasting_kpi_dashboard.md)
 
-**Repository**
-**Repository:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
-**Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
+**Tech:** Postgres, dbt, Python, Power BI
 
----
+### 3) Lab SLA & QC Analytics
+**Business question:** How do we measure SLA compliance and operational performance in a lab-style workflow?
 
-### 1) A/B Marketing Experiment — Ad vs PSA (Experiment Integrity + Decision Pack)
-**Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
+**Approach:** SQL-first metric design (time logic, rollups) + reproducible analysis notebooks/scripts.
 
-**Primary metric:** Conversion to purchase (binary)
+**Artifacts:**
+- Repo: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
+- Repo README: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme
+- How to verify: [case_studies/lab_sla_qc_analytics.md](case_studies/lab_sla_qc_analytics.md)
 
-**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift, 95% CI [+0.60, +0.94] pp).  
-**Uncertainty:** 95% CI for lift ≈ **[+0.60, +0.94] pp** (directional on this dataset).  
-**Business framing:** ≈ **7,692** incremental conversions per **1,000,000** exposures (using +0.77 pp).
-
-[![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
-
-**What I built (deliverables):**
-- **Experiment integrity report**: SRM check + baseline QA + group balance diagnostics before trusting results
-- **Estimation report**: conversion summary, absolute/relative lift, p-values, and **95% confidence intervals**
-- **Robustness checks**: **stratified lift by day/hour** vs naive lift to test whether timing mix explains the effect
-- **Cohort cuts**: lift by **ad intensity** and **day-of-week behavior** to explain *where* lift comes from
-- **Model-based estimate (optional)**: logistic regression to estimate treatment effect while controlling for exposure/usage signals
-- **1-page decision memo**: “ship / don’t ship” recommendation with impact framing + risk/assumption callouts
-- **Reproducibility & quality**: report builder scripts + **pytest** checks + linting (ruff) for a work-ready workflow
-
-**Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
-
-**Links:**  
-- **Repo:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
-- **Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
-- **Reports:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports
-
-
-#### 2. Chemistry QC Automation & Westgard Rules
-**Repository:** [`chemistry-qc-automation`](https://github.com/stalcup-dev/chemistry-qc-automation)  
-
-**Description:**  
-Automation of **clinical chemistry QC data** aggregation and Westgard rule evaluation.
-
-**What this shows:**
-
-- Parsing and aggregating QC data programmatically
-- Implementing **Westgard rule logic** to automatically flag failures
-- Generating **audit-ready outputs** for lab inspections and troubleshooting
-- Bridges my **lab QC domain knowledge** with **Python automation**
-
-**Tech stack:** Python (pandas), QC logic, automation scripts.
+**Tech:** SQL (PostgreSQL), Python
 
 ---
 
-### E-commerce & Forecasting
-
-#### 3. End-to-End Sales Forecasting & KPI Dashboard (ETL + BI)
-**Repository:** [`end-to-end-sales-forecasting-kpi-dashboard-etl`](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)  
-
-**Description:**  
-End-to-end analytics workflow for an e-commerce-style dataset: **ETL, forecasting, and KPI dashboard**.
-
-**What this shows:**
-
-- **Data modeling** in a warehouse (Postgres) with layered schemas
-- **dbt** transformations for clean, reusable models
-- **Prophet** forecasting for SKU-level or category-level sales
-- Power BI dashboard with **KPI cards, trends, and drill-downs** for business users
-
-![Vita Markets KPI Dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
-
-**Tech stack:** PostgreSQL, dbt, Python (pandas, Prophet), Power BI(DAX), SQL.
-
-
-#### 4. E-commerce Power BI Dashboard
-**Repository:** [`ecommerce-powerbi-dashboard`](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard)  
-
-**Description:**  
-Star-schema-based **Power BI dashboard** for e-commerce performance.
-
-**What this shows:**
-
-- Designing a **fact + dimension model** for analytics
-- Writing **DAX measures** for revenue, AOV, retention, and other business KPIs
-- Producing **stakeholder-ready visuals** for non-technical decision-makers
-
-**Tech stack:** Power BI, DAX, data modeling, basic SQL / ETL.
-
----
-
-### Machine Learning & Modeling
-
-#### 5. Insurance Cost Analysis (Regression Modeling)
-**Repository:** [`insurance-cost-analysis`](https://github.com/stalcup-dev/insurance-cost-analysis)  
-
-**Description:**  
-Real-world, regression-based ML project predicting **medical insurance charges** and explaining cost drivers. A course project taken a few steps further in normalizing the data and validating with R², MAE, RMSE.
-
-**What this shows:**
-
-- Data cleaning and **feature engineering**  
-- Training and evaluating regression models  
-- Interpreting model outputs to answer:  
-  > “Which factors most strongly drive insurance charges, and how could a business act on this?”  
-- Communication of results in **business-friendly language**
-
-**Tech stack:** Python (pandas, scikit-learn), regression modeling, visualization (matplotlib/other).
-
----
-
-### Tools & Automation
-
-#### 6. Local AI Privacy Control – Offline Document Assistant
-**Repository:** [`local-ai-privacy-control`](https://github.com/stalcup-dev/local-ai-privacy-control)  
-
-**Description:**  
-A **fully offline, GUI-based AI assistant** to analyze local Word/Excel files without sending data to the cloud.
-
-**What this shows:**
-
-- Practical focus on **data privacy** and local inference
-- Wiring up a **user-friendly interface** to AI models
-- Applying AI to **day-to-day analytics tasks** (document review, summary, quick analysis)
-
-**Tech stack:** Python, local LLM (e.g., Llama-3), GUI framework (see repo for details).
-
-
-#### 7. Extracting and Visualizing Stock Data
-**Repository:** [`Extracting-and-Visualizing-Stock-Data`](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data)  
-
-**Description:**  
-End-to-end mini-project extracting stock and revenue data (e.g., Tesla, GameStop) and visualizing trends.
-
-**What this shows:**
-
-- Pulling data from the web / APIs (e.g., `yfinance` / scraping)
-- Using **pandas** for time-series manipulation
-- Plotting **price vs revenue** and exploring basic relationships
-
-**Tech stack:** Python, pandas, Plotly/matplotlib, basic web data acquisition.
-
----
+## Portfolio Projects
 
 ### Experimentation (A/B Testing)
 
-#### 8. A/B Marketing Experiment — Ad vs PSA
-**Repository:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)
+- A/B Marketing Experiment — Ad vs PSA (**See Featured Project #1**) — https://github.com/stalcup-dev/marketing-ab-experiment
+
+### Healthcare & Lab Operations
+
+- Lab SLA & QC Analytics (**See Featured Project #3**) — https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
+- Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
+
+### E-commerce & Forecasting
+
+- Sales Forecasting & KPI Dashboard (**See Featured Project #2**) — https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
+- E-commerce Power BI Dashboard — https://github.com/stalcup-dev/ecommerce-powerbi-dashboard
+
+### Machine Learning & Modeling
+
+- Insurance Cost Analysis (Regression Modeling) — https://github.com/stalcup-dev/insurance-cost-analysis
+
+### Tools & Automation
+
+- Local AI Privacy Control – Offline Document Assistant — https://github.com/stalcup-dev/local-ai-privacy-control
+- Extracting and Visualizing Stock Data — https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data
 
 ---
 
