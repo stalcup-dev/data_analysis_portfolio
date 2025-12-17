@@ -27,7 +27,7 @@ jobs:
             --accept 200,206,429
             --exclude "https://img.shields.io/.*"
             --exclude "https://linkedin.com/in/"
-            "README.md"
-            "case_studies/*.md"
+            README.md
+            case_studies/*.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
