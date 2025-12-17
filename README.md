@@ -59,12 +59,11 @@ This repository/README is my central hub to:
 
 ### Career path (short version)
 
-- 2017–Present → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)  
-- 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking  
-- 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**  
-- 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI  
+- 2017–Present → Medical Laboratory Technologist – Core Lab / Chemistry / QC / Microbiology (high-stakes ops, accuracy, audit-ready reporting)
+- 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking
+- 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**
+- 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
 - Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
-
 ---
 
 ## Table of contents
@@ -180,29 +179,29 @@ This section tracks work from courses, guided projects, and structured learning.
 
 ### Python & Data Analysis
 
-- **Python for Everybody (Coursera)**  
-  Foundations of Python, data structures, APIs, and basic data processing.  
-  Status: **Completed**
+- **Python for Everybody (Coursera)**
+  - Foundations of Python, data structures, APIs, and basic data processing
+  - Status: **Completed**
 
-- **Extracting and Visualizing Stock Data with Python**  
-  Part of an applied data science track: web data extraction (e.g., `yfinance`) and visualization of financial metrics.  
-  Status: **Completed / In use in this repo** → [`Extracting-and-Visualizing-Stock-Data`](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data)
+- **Extracting and Visualizing Stock Data with Python**
+  - Part of an applied data science track: web data extraction (e.g., `yfinance`) and visualization of financial metrics
+  - Status: **Completed / In use in this repo** → [`Extracting-and-Visualizing-Stock-Data`](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data)
 
 ### Data Analytics & BI
 
-- **IBM Data Analyst Professional Certificate (Coursera)**  
-  SQL, Excel, Python, and dashboarding for data analytics.  
-  Status: **In progress**
+- **IBM Data Analyst Professional Certificate (Coursera)**
+  - SQL, Excel, Python, and dashboarding for data analytics
+  - Status: **In progress**
 
-- **Power BI / PL-300 Prep**  
-  Building data models, DAX, and reports aligned to PL-300 exam competencies.  
-  Status: **In progress** (applied in [`ecommerce-powerbi-dashboard`](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard))
+- **Power BI / PL-300 Prep**
+  - Building data models, DAX, and reports aligned to PL-300 exam competencies
+  - Status: **In progress** (applied in [`ecommerce-powerbi-dashboard`](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard))
 
-- **GSS Happiness — Adjusted Effects (Survey Inference)**  
-  Repo: https://github.com/stalcup-dev/gss-happiness-adjusted-effects  
+- **GSS Happiness — Adjusted Effects (Survey Inference)**
+  - Repo: https://github.com/stalcup-dev/gss-happiness-adjusted-effects
   - Answers: Which factors are most strongly associated with being “Very happy” in GSS 2010–2022?
-  - Found: Health shows the largest adjusted difference; predictive lift is intentionally treated as minimal.
-  - Proves: adjusted-effects thinking + inference guardrails + reproducible pipeline with tests.
+  - Found: Health shows the largest adjusted difference; predictive lift is intentionally treated as minimal
+  - Proves: adjusted-effects thinking + inference guardrails + reproducible pipeline with tests
 
 ### Algorithms, Foundations & Other
 
@@ -254,7 +253,7 @@ This section tracks work from courses, guided projects, and structured learning.
 
 I’m open to **remote Data Analyst / BI** roles.
 
-- **GitHub:** [@stalcup-dev](https://github.com/stalcup-dev)   
+- **GitHub:** [@stalcup-dev](https://github.com/stalcup-dev)
 - **Email:** _(allen.stalc@gmail.com)_
 
 If you’d like to talk about my projects or potential collaboration, feel free to reach out.
