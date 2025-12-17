@@ -40,14 +40,14 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 
 ## Skills (evidence)
 
-| Skill | Proof (clickable) |
-|---|---|
-| A/B testing, inference, confidence intervals | [marketing-ab-experiment](https://github.com/stalcup-dev/marketing-ab-experiment) (see [decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports)) |
-| SQL analytics (CTEs, time logic) | [sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
-| BI + stakeholder dashboards | [KPI dashboard (image)](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) |
-| Forecasting + data modeling | [end-to-end-sales-forecasting-kpi-dashboard-etl](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
-| Reproducible pipeline + decision memo | [healthcare-claims-analysis](https://github.com/stalcup-dev/healthcare-claims-analysis) (see [decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md)) |
-| Adjusted effects, bootstrap stability, survey weighting | [gss-happiness-adjusted-effects](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) (see [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md)) |
+| Skill | Evidence artifact | Link |
+|---|---|---|
+| A/B testing, inference, confidence intervals | Decision pack reports | https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports |
+| Forecasting + data modeling | Repo README (forecasting performance + verification checklist) | https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl |
+| BI + stakeholder dashboards | KPI dashboard image | https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png |
+| SQL analytics (CTEs, time logic, percentiles) | Repo README (SLA math + visuals) | https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme |
+| Reproducible pipeline + decision memo | Decision memo + data dictionary | https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md |
+| Adjusted effects, inference guardrails, reproducibility/tests | INSIGHTS + interpretation notes | https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md |
 
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
@@ -90,16 +90,16 @@ This repository/README is my central hub to:
 
 | Project | Domain | What it proves | Key artifact | Tech | Link |
 |---|---|---|---|---|---|
-| A/B Marketing Experiment — Ad vs PSA | Experimentation | Experiment design → inference → ship/no-ship recommendation | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) | Python, statsmodels | [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) |
-| Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Warehouse modeling → forecasting → stakeholder dashboards | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) | Postgres, dbt, Python, Power BI | [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
-| Healthcare Claims Analysis | Healthcare analytics | Reproducible pipeline outputs + decision memo + data dictionary | [Decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md) | Python, pandas | [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
-| Lab SLA & QC Analytics | Healthcare ops | Ops metrics + SQL depth in an audit-ready domain | See [repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme) | SQL, Postgres, Python | [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
-| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + inference guardrails + reproducibility/tests | [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md) | Python, statsmodels, bootstrap | [Repo](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) |
-| Chemistry QC Automation & Westgard Rules | Healthcare ops | Domain logic automation + reproducible QA outputs | See repo README | Python | [Repo](https://github.com/stalcup-dev/chemistry-qc-automation) |
-| E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | See repo README | Power BI, DAX | [Repo](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
-| Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | See repo README | Python, scikit-learn | [Repo](https://github.com/stalcup-dev/insurance-cost-analysis) |
-| Local AI Privacy Control | Tools | Local-first AI workflow for document analysis | See repo README | Python | [Repo](https://github.com/stalcup-dev/local-ai-privacy-control) |
-| Extracting & Visualizing Stock Data | Study project | Web data extraction + time-series visuals | See repo README | Python, pandas | [Repo](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data) |
+| A/B Marketing Experiment — Ad vs PSA | Experimentation | Experiment design → inference → ship/no-ship recommendation | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) | Python, statsmodels | [marketing-ab-experiment](https://github.com/stalcup-dev/marketing-ab-experiment) |
+| Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Warehouse modeling → forecasting → stakeholder dashboards | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) | Postgres, dbt, Python, Power BI | [end-to-end-sales-forecasting-kpi-dashboard-etl](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Healthcare Claims Analysis | Healthcare analytics | Reproducible pipeline outputs + decision memo + data dictionary | [Decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md) | Python, pandas | [healthcare-claims-analysis](https://github.com/stalcup-dev/healthcare-claims-analysis) |
+| Lab SLA & QC Analytics | Healthcare ops | Ops metrics + SQL depth in an audit-ready domain | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme) | SQL, Postgres, Python | [sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + inference guardrails + reproducibility/tests | [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md) | Python, statsmodels, bootstrap | [gss-happiness-adjusted-effects](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) |
+| Chemistry QC Automation & Westgard Rules | Healthcare ops | Domain logic automation + reproducible QA outputs | [Repo README](https://github.com/stalcup-dev/chemistry-qc-automation#readme) | Python | [chemistry-qc-automation](https://github.com/stalcup-dev/chemistry-qc-automation) |
+| E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | [Repo README](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard#readme) | Power BI, DAX | [ecommerce-powerbi-dashboard](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
+| Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | [Repo README](https://github.com/stalcup-dev/insurance-cost-analysis#readme) | Python, scikit-learn | [insurance-cost-analysis](https://github.com/stalcup-dev/insurance-cost-analysis) |
+| Local AI Privacy Control | Tools | Local-first AI workflow for document analysis | [Repo README](https://github.com/stalcup-dev/local-ai-privacy-control#readme) | Python | [local-ai-privacy-control](https://github.com/stalcup-dev/local-ai-privacy-control) |
+| Extracting & Visualizing Stock Data | Study project | Web data extraction + time-series visuals | [Repo README](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data#readme) | Python, pandas | [Extracting-and-Visualizing-Stock-Data](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data) |
 
 ---
 
@@ -154,8 +154,31 @@ This repository/README is my central hub to:
 ### Healthcare & Lab Operations
 
 - Healthcare Claims Analysis — https://github.com/stalcup-dev/healthcare-claims-analysis
-- Lab SLA & QC Analytics — https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
 - Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
+
+#### Lab SLA & QC Analytics (flagship)
+
+**Problem:** In a lab-style workflow, where are SLA misses happening (shift/site/analyte), and what operational signals (QC events, intake surges) explain them?
+
+**Metrics (audit-ready):**
+- Result-level SLA% defined from timestamps vs analyte target: `SLA % = 100 × AVG( (verified_ts − received_ts) ≤ analyte.tat_target_minutes )`
+- Turnaround time (TAT) distribution + p95 vs targets to quantify tail risk
+- QC-proximity impact: compare TAT near QC fails vs normal operation
+
+**Insights (from repo README; synthetic seed):**
+- Day shift is the bottleneck: Day ~91.8% SLA vs Evening ~99.1% and Night ~100.0%
+- ED is the site outlier: ED ~93.9% SLA vs clinics ~98–100%
+- QC proximity more than doubles average TAT: 34.6 min (normal) vs 73.8 min (near QC fail) (+39.2 min / +113%)
+
+**Recommended actions:**
+- Load-balance workload off Day shift during peak intake (move routine work to Evening/Night where feasible)
+- QC scheduling guardrails: avoid QC/maintenance windows near peak intake to reduce spillover delay
+
+**Links:**
+- Repo: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
+- Key results: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results
+- Visuals: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#visuals
+- Case study: [case_studies/lab_sla_qc_analytics.md](case_studies/lab_sla_qc_analytics.md)
 
 ### E-commerce & Forecasting
 
@@ -174,6 +197,9 @@ This repository/README is my central hub to:
 ---
 
 ## Study Projects
+
+<details>
+<summary>Show / hide</summary>
 
 This section tracks work from courses, guided projects, and structured learning.
 
@@ -210,9 +236,14 @@ This section tracks work from courses, guided projects, and structured learning.
   - Basic statistics and experiment analysis
   - Best practices for **data quality, validation, and documentation**
 
+</details>
+
 ---
 
 ## Skills & Tools
+
+<details>
+<summary>Show / hide</summary>
 
 ### Analytics & BI
 
@@ -232,6 +263,8 @@ This section tracks work from courses, guided projects, and structured learning.
 - **Operational performance metrics** – turnaround time (TAT), SLA compliance, bottleneck analysis, instrument/bench-level performance, LIS-style workflows
 - **E-commerce (Amazon + eBay resale, 4+ years)** – product sourcing and selection, pricing and margin control, inventory and reorder planning, listing optimization (titles/keywords/photos), order fulfillment and shipping workflows, returns/refunds management, and performance metrics (sell-through rate, profit per unit, fees/COGS, break-even price)
 
+</details>
+
 
 ### Work Style
 
@@ -243,9 +276,14 @@ This section tracks work from courses, guided projects, and structured learning.
 
 ## Certificates & Coursework
 
+<details>
+<summary>Show / hide</summary>
+
 - **Python for Everybody – Coursera** (Completed)  
 - **IBM Data Analyst Professional Certificate – Coursera** (In progress 90% complete)  
 - Additional certificates and badges to be added as completed.
+
+</details>
 
 ---
 
