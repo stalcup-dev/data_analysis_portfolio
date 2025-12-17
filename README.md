@@ -67,38 +67,13 @@ This repository/README is my central hub to:
 
 | Project | What it proves | Stack | Link |
 |---|---|---|---|
-| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | <[AB_REPO_LINK](https://github.com/stalcup-dev/marketing-ab-experiment)> |
-| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | <[LINK](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)> |
-| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | <[LINK](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)> |
+| A/B Marketing Experiment — Ad vs PSA | Experiment design → inference → ship/no-ship recommendation | Python, statsmodels | [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) |
+| Sales Forecasting & KPI Dashboard | End-to-end analytics + BI delivery | Postgres, dbt, Python, Power BI | [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Lab SLA & QC Analytics | Ops metrics, SQL depth, audit-ready thinking | SQL, Postgres, Python | [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
 
 ---
 
 ## Featured Projects 
-
-### 1) A/B Marketing Experiment — Ad vs PSA (Experimentation + Decision Memo)
-**Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
-
-**Primary metric:** Conversion to purchase (binary)
-
-**Headline result:** Replacing PSA with the Ad increases conversion from **1.79% → 2.55%** (**+0.77 pp**, ~**+43%** relative lift, 95% CI [+0.60, +0.94] pp).
-
-[![Conversion rate by group (95% CI)](https://raw.githubusercontent.com/stalcup-dev/marketing-ab-experiment/main/visuals/conversion_rate_by_group_95CI.png)](https://github.com/stalcup-dev/marketing-ab-experiment/blob/main/visuals/conversion_rate_by_group_95CI.png)
-
-
-**What I built (deliverables):**
-- **Experiment readout**: conversion summary, absolute/relative lift, and confidence intervals
-- **Validity checks**: sample size sanity, practical vs statistical significance framing
-- **Cohort cuts**: lift by **ad intensity** and **day-of-week behavior** to explain *where* lift comes from
-- **Model-based estimate (optional)**: logistic regression to estimate treatment effect while controlling for exposure/usage signals
-- **Decision memo**: “ship / don’t ship” recommendation with business impact framing
-
-**Tech stack:** Python (pandas, statsmodels), SQL/dbt (feature marts/cohorts), Jupyter, Git/GitHub
-
-**Repository**
-**Repository:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
-**Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
-
----
 
 ### 1) A/B Marketing Experiment — Ad vs PSA (Experiment Integrity + Decision Pack)
 **Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
@@ -126,6 +101,10 @@ This repository/README is my central hub to:
 - **Repo:** [`marketing-ab-experiment`](https://github.com/stalcup-dev/marketing-ab-experiment)  
 - **Notebooks:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks  
 - **Reports:** https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports
+
+---
+
+## Portfolio Projects
 
 
 #### 2. Chemistry QC Automation & Westgard Rules
