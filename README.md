@@ -9,6 +9,14 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - **Forecasting + BI delivery:** End-to-end ETL → forecasting → KPI dashboards with a reproducible pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
 
+### Case Studies (5 minutes)
+
+- [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
+- [Sales Forecasting & KPI Dashboard (Vita Markets)](case_studies/sales_forecasting_kpi_dashboard.md)
+- [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
+- [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
+- [GSS Happiness — Adjusted Effects (Survey Inference)](case_studies/gss_happiness_adjusted_effects.md)
+
 **Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Git/GitHub
 
 **Contact:** allen.stalc@gmail.com | https://github.com/stalcup-dev
@@ -38,6 +46,8 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 | SQL analytics (CTEs, time logic) | [sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
 | BI + stakeholder dashboards | [KPI dashboard (image)](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) |
 | Forecasting + data modeling | [end-to-end-sales-forecasting-kpi-dashboard-etl](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Reproducible pipeline + decision memo | [healthcare-claims-analysis](https://github.com/stalcup-dev/healthcare-claims-analysis) (see [decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md)) |
+| Adjusted effects, bootstrap stability, survey weighting | [gss-happiness-adjusted-effects](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) (see [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md)) |
 
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
@@ -83,7 +93,9 @@ This repository/README is my central hub to:
 |---|---|---|---|---|---|
 | A/B Marketing Experiment — Ad vs PSA | Experimentation | Experiment design → inference → ship/no-ship recommendation | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) | Python, statsmodels | [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) |
 | Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Warehouse modeling → forecasting → stakeholder dashboards | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) | Postgres, dbt, Python, Power BI | [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Healthcare Claims Analysis | Healthcare analytics | Reproducible pipeline outputs + decision memo + data dictionary | [Decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md) | Python, pandas | [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
 | Lab SLA & QC Analytics | Healthcare ops | Ops metrics + SQL depth in an audit-ready domain | See [repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme) | SQL, Postgres, Python | [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + inference guardrails + reproducibility/tests | [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md) | Python, statsmodels, bootstrap | [Repo](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) |
 | Chemistry QC Automation & Westgard Rules | Healthcare ops | Domain logic automation + reproducible QA outputs | See repo README | Python | [Repo](https://github.com/stalcup-dev/chemistry-qc-automation) |
 | E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | See repo README | Power BI, DAX | [Repo](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
 | Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | See repo README | Python, scikit-learn | [Repo](https://github.com/stalcup-dev/insurance-cost-analysis) |
@@ -92,7 +104,7 @@ This repository/README is my central hub to:
 
 ---
 
-## Featured Projects 
+## Featured Projects
 
 ### 1) A/B Marketing Experiment — Ad vs PSA
 **Business question:** Should we replace the PSA (control) with the product Ad (treatment) to increase purchases?
@@ -119,17 +131,18 @@ This repository/README is my central hub to:
 
 **Tech:** Postgres, dbt, Python, Power BI
 
-### 3) Lab SLA & QC Analytics
-**Business question:** How do we measure SLA compliance and operational performance in a lab-style workflow?
+### 3) Healthcare Claims Analysis
+**Business question:** What are the headline claims KPIs, cost concentration signals, and actionable findings we can summarize in an audit-ready memo?
 
-**Approach:** SQL-first metric design (time logic, rollups) + reproducible analysis notebooks/scripts.
+**Approach:** Modular Python pipeline with data quality checks → KPI + concentration metrics → rendered docs (README + decision memo + data dictionary) sourced from pipeline outputs.
 
 **Artifacts:**
-- Repo: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
-- Repo README: https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme
-- How to verify: [case_studies/lab_sla_qc_analytics.md](case_studies/lab_sla_qc_analytics.md)
+- Repo: https://github.com/stalcup-dev/healthcare-claims-analysis
+- Decision memo: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md
+- Data dictionary: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/data_dictionary.md
+- How to verify: [case_studies/healthcare_claims_analysis.md](case_studies/healthcare_claims_analysis.md)
 
-**Tech:** SQL (PostgreSQL), Python
+**Tech:** Python (pandas, numpy), reproducible reporting
 
 ---
 
@@ -141,7 +154,8 @@ This repository/README is my central hub to:
 
 ### Healthcare & Lab Operations
 
-- Lab SLA & QC Analytics (**See Featured Project #3**) — https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
+- Healthcare Claims Analysis — https://github.com/stalcup-dev/healthcare-claims-analysis
+- Lab SLA & QC Analytics — https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis
 - Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
 
 ### E-commerce & Forecasting
@@ -183,6 +197,12 @@ This section tracks work from courses, guided projects, and structured learning.
 - **Power BI / PL-300 Prep**  
   Building data models, DAX, and reports aligned to PL-300 exam competencies.  
   Status: **In progress** (applied in [`ecommerce-powerbi-dashboard`](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard))
+
+- **GSS Happiness — Adjusted Effects (Survey Inference)**  
+  Repo: https://github.com/stalcup-dev/gss-happiness-adjusted-effects  
+  - Answers: Which factors are most strongly associated with being “Very happy” in GSS 2010–2022?
+  - Found: Health shows the largest adjusted difference; predictive lift is intentionally treated as minimal.
+  - Proves: adjusted-effects thinking + inference guardrails + reproducible pipeline with tests.
 
 ### Algorithms, Foundations & Other
 
