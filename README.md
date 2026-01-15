@@ -28,7 +28,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 | Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denials + AR workflow fixes | [Case study](case_studies/revenue_cycle_healthcare_claims.md) |
 | GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + guardrails | [Case study](case_studies/gss_happiness_adjusted_effects.md) |
 
-**Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Git/GitHub
+**Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Tableau, Git/GitHub
 
 **Contact:** allen.stalc@gmail.com | https://github.com/stalcup-dev
 
