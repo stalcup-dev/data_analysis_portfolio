@@ -1,5 +1,8 @@
 # Healthcare Claims Analysis
 
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![Healthcare Analytics](https://img.shields.io/badge/Domain-Healthcare_Analytics-00AEEF?style=flat)
+
 ## TL;DR
 - Built a reproducible claims analysis pipeline that generates clean data, KPI tables, figures, and written outputs.
 - Rendered a decision memo and a data dictionary directly from pipeline outputs (no hand-typed metrics).
@@ -11,6 +14,8 @@ What are the headline claims KPIs, cost concentration signals, and “where to l
 ## Data
 - Synthetic claims dataset (`claim_data.csv`) used for portfolio demonstration.
 - Notes: Results reflect this synthetic sample; real claims typically show stronger skew/cost concentration.
+- **Primary stakeholder:** Revenue cycle analyst / finance operations lead.
+- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
 
 ## Approach
 - Orchestrate an end-to-end run (load → quality checks → cleaning → metrics/analysis → doc rendering).

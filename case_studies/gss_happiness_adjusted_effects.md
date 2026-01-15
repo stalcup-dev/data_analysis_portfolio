@@ -1,5 +1,8 @@
 # GSS Happiness — Adjusted Effects (Survey Inference)
 
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![Survey Inference](https://img.shields.io/badge/Domain-Survey_Inference-3b82f6?style=flat)
+
 ## TL;DR
 - Estimated adjusted (model-standardized) differences in P(VERY HAPPY) across key predictors (health, income position, marital status).
 - Added inference guardrails: WTSSPS-weighted descriptives, documented limitations (non-causal framing, survey design caveats), and sensitivity notes.
@@ -11,6 +14,8 @@ Which factors are most strongly associated with being “Very happy” in recent
 ## Data
 - General Social Survey (GSS) extract (2010–2022) with WTSSPS survey weights.
 - Notes: The repo documents a 2021–2022 survey mode change and treats results as interpretive (not causal).
+- **Primary stakeholder:** Research/insights lead.
+- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
 
 ## Approach
 - Phase 1: schema + label reporting and validation.

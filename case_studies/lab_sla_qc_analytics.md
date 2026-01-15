@@ -1,5 +1,8 @@
 # Lab SLA & QC Analytics (SQL)
 
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Healthcare Analytics](https://img.shields.io/badge/Domain-Healthcare_Analytics-00AEEF?style=flat)
+
 ## TL;DR
 - Standardized result-level SLA math and rolled it up by shift/site/analyte.
 - Quantified QC-related delays by comparing turnaround time (TAT) near QC failures vs normal operation.
@@ -11,6 +14,8 @@ Where are SLA misses happening (shift, site, analyte), and what operational sign
 ## Data
 - Source: Synthetic lab operations seed described in the project repo.
 - Notes: The repo explicitly notes reseeding can change exact values; insights/actions are intended to hold.
+- **Primary stakeholder:** Lab operations manager / quality lead.
+- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
 
 ## Approach
 - Define SLA at the **result level** using time logic:

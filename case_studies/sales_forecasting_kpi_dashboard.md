@@ -1,5 +1,9 @@
 # Sales Forecasting & KPI Dashboard (Vita Markets)
 
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-Data_Visualization-F2C811?style=flat&logo=powerbi&logoColor=black)
+
 ## TL;DR
 - Built a reproducible pipeline from raw CSV → PostgreSQL → dbt models → Prophet forecasts → Power BI dashboards.
 - Reported forecast quality using a holdout set (MAPE, bias, coverage) and exposed results via stable database views for BI.
@@ -11,6 +15,8 @@ How can we turn raw sales data into refreshable KPIs and trustworthy forecasts f
 ## Data
 - Source: Synthetic DTC retailer dataset (Vita Markets) described in the project repo.
 - Notes: This is a portfolio simulation; insights are for demonstration.
+- **Primary stakeholder:** Forecasting / inventory planning lead.
+- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
 
 ## Approach
 - Model the warehouse in Postgres + dbt (staging → marts) to support consistent KPIs.
