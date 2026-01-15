@@ -8,6 +8,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** End-to-end ETL → forecasting → KPI dashboards with a reproducible pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
+- **Quantified KPI outcomes:** Denial rate, AR days, clean-claim rate, and p95 TAT documented in case studies and linked artifacts.
 
 ### Case Studies (5 minutes)
 
@@ -15,7 +16,17 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - [Sales Forecasting & KPI Dashboard (Vita Markets)](case_studies/sales_forecasting_kpi_dashboard.md)
 - [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
 - [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
+- [Revenue Cycle Healthcare Claims — Denials & AR Focus](case_studies/revenue_cycle_healthcare_claims.md)
 - [GSS Happiness — Adjusted Effects (Survey Inference)](case_studies/gss_happiness_adjusted_effects.md)
+
+| Case Study | Domain | Outcome highlight | Link |
+| --- | --- | --- | --- |
+| A/B Marketing Experiment — Ad vs PSA | Experimentation | Lift + decision memo | [Case study](case_studies/ab_marketing_experiment.md) |
+| Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Forecast + KPI dashboard delivery | [Case study](case_studies/sales_forecasting_kpi_dashboard.md) |
+| Lab SLA & QC Analytics | Healthcare ops | SLA/TAT bottleneck diagnosis | [Case study](case_studies/lab_sla_qc_analytics.md) |
+| Healthcare Claims Analysis | Healthcare analytics | KPI + concentration summary | [Case study](case_studies/healthcare_claims_analysis.md) |
+| Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denials + AR workflow fixes | [Case study](case_studies/revenue_cycle_healthcare_claims.md) |
+| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + guardrails | [Case study](case_studies/gss_happiness_adjusted_effects.md) |
 
 **Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Git/GitHub
 
@@ -46,6 +57,7 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 | Forecasting + data modeling | Repo README (forecasting performance + verification checklist) | https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl |
 | BI + stakeholder dashboards | KPI dashboard image | https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png |
 | SQL analytics (CTEs, time logic, percentiles) | Repo README (SLA math + visuals) | https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme |
+| Revenue cycle analytics (denials, AR KPIs) | Repo README (KPI summary + charts) | https://github.com/stalcup-dev/revenue-cycle-healthcare-claims#readme |
 | Reproducible pipeline + decision memo | Decision memo + data dictionary | https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md |
 | Adjusted effects, inference guardrails, reproducibility/tests | INSIGHTS + interpretation notes | https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md |
 
@@ -92,6 +104,7 @@ This repository/README is my central hub to:
 |---|---|---|---|---|---|
 | A/B Marketing Experiment — Ad vs PSA | Experimentation | Experiment design → inference → ship/no-ship recommendation | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) | Python, statsmodels | [marketing-ab-experiment](https://github.com/stalcup-dev/marketing-ab-experiment) |
 | Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Warehouse modeling → forecasting → stakeholder dashboards | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) | Postgres, dbt, Python, Power BI | [end-to-end-sales-forecasting-kpi-dashboard-etl](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denials + AR drivers tied to actionable workflow fixes | [KPI summary + chart](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims#readme) | Python, SQL | [revenue-cycle-healthcare-claims](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) |
 | Healthcare Claims Analysis | Healthcare analytics | Reproducible pipeline outputs + decision memo + data dictionary | [Decision memo](https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md) | Python, pandas | [healthcare-claims-analysis](https://github.com/stalcup-dev/healthcare-claims-analysis) |
 | Lab SLA & QC Analytics | Healthcare ops | Ops metrics + SQL depth in an audit-ready domain | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme) | SQL, Postgres, Python | [sql-lab-insights-and-sla-analysis](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
 | GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + inference guardrails + reproducibility/tests | [INSIGHTS.md](https://github.com/stalcup-dev/gss-happiness-adjusted-effects/blob/main/INSIGHTS.md) | Python, statsmodels, bootstrap | [gss-happiness-adjusted-effects](https://github.com/stalcup-dev/gss-happiness-adjusted-effects) |
@@ -130,7 +143,20 @@ This repository/README is my central hub to:
 
 **Tech:** Postgres, dbt, Python, Power BI
 
-### 3) Healthcare Claims Analysis
+### 3) Revenue Cycle Healthcare Claims
+**Business question:** Where are denials and AR delays leaking revenue, and which operational fixes produce the biggest lift?
+
+**Approach:** Claims workflow KPI modeling → denial segmentation by payer/provider → AR aging + rework signals → recommendations tied to measurable process changes.
+
+**Artifacts:**
+- Repo: https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
+- How to verify: review the repo README and analysis artifacts linked there for KPI tables, charts, and assumptions.
+- Case study: [case_studies/revenue_cycle_healthcare_claims.md](case_studies/revenue_cycle_healthcare_claims.md)
+- Key artifact: Add a chart or dashboard image link from the repo (denials by reason, AR aging, or payer mix)
+
+**Tech:** Python, SQL, healthcare revenue cycle analytics
+
+### 4) Healthcare Claims Analysis
 **Business question:** What are the headline claims KPIs, cost concentration signals, and actionable findings we can summarize in an audit-ready memo?
 
 **Approach:** Modular Python pipeline with data quality checks → KPI + concentration metrics → rendered docs (README + decision memo + data dictionary) sourced from pipeline outputs.
@@ -153,10 +179,11 @@ This repository/README is my central hub to:
 
 ### Healthcare & Lab Operations
 
+- Revenue Cycle Healthcare Claims — https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
 - Healthcare Claims Analysis — https://github.com/stalcup-dev/healthcare-claims-analysis
 - Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
 
-#### Lab SLA & QC Analytics (flagship)
+#### Lab SLA & QC Analytics
 
 **Problem:** In a lab-style workflow, where are SLA misses happening (shift/site/analyte), and what operational signals (QC events, intake surges) explain them?
 
