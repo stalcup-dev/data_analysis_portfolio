@@ -1,5 +1,8 @@
 # A/B Marketing Experiment — Ad vs PSA
 
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![Experimentation](https://img.shields.io/badge/Domain-Experimentation-6f42c1?style=flat)
+
 ## TL;DR
 - Built an experiment “decision pack” that runs integrity checks (SRM/balance) before estimating lift and generating a 1-page memo.
 - Reported directional lift with confidence intervals, plus robustness checks (stratified by time).
@@ -11,6 +14,8 @@ Should we replace the PSA (control) with a product Ad (treatment) to increase pu
 ## Data
 - Source: Kaggle `marketing_AB` dataset (see repo README for details).
 - Notes: The full CSV is intentionally not committed; the repo uses a small fixture for CI.
+- **Primary stakeholder:** Growth/product marketing lead.
+- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
 
 ## Approach
 - Integrity checks: traffic allocation diagnostic (SRM vs expected split), basic QA, and timing distribution diagnostics.
