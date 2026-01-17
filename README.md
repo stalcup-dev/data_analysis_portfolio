@@ -8,6 +8,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** End-to-end ETL → forecasting → KPI dashboards with a reproducible pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
+- **Certificate milestone (3.5 months):** IBM Data Analyst Professional Certificate — completed. ([Certificate](certificates/ibm-data-analyst-professional-certificate.png) | [Coursera link](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW))
 - **Quantified KPI outcomes:** Denial rate, AR days, clean-claim rate, and p95 TAT documented in case studies and linked artifacts.
 
 ### Case Studies (5 minutes)
@@ -77,6 +78,7 @@ This repository/README is my central hub to:
 - 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
+- 2025 → Completed **IBM Data Analyst Professional Certificate** in **3.5 months** (Coursera)
 - Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
 ---
 
@@ -251,7 +253,7 @@ This section tracks work from courses, guided projects, and structured learning.
 
 - **IBM Data Analyst Professional Certificate (Coursera)**
   - SQL, Excel, Python, and dashboarding for data analytics
-  - Status: **In progress**
+  - Status: **Completed (3.5 months)** → [Certificate](certificates/ibm-data-analyst-professional-certificate.png) | [Coursera link](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW)
 
 - **Power BI / PL-300 Prep**
   - Building data models, DAX, and reports aligned to PL-300 exam competencies
@@ -314,7 +316,7 @@ This section tracks work from courses, guided projects, and structured learning.
 <summary>Show / hide</summary>
 
 - **Python for Everybody – Coursera** (Completed)  
-- **IBM Data Analyst Professional Certificate – Coursera** (In progress 90% complete)  
+- **IBM Data Analyst Professional Certificate – Coursera** (Completed in 3.5 months) → [Certificate](certificates/ibm-data-analyst-professional-certificate.png) | https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW  
 - Additional certificates and badges to be added as completed.
 
 </details>
