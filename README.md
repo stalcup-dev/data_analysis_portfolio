@@ -134,6 +134,11 @@ This repository/README is my central hub to:
 - Notebooks: https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks
 - How to verify: [case_studies/ab_marketing_experiment.md](case_studies/ab_marketing_experiment.md)
 
+**Results**
+- Lift: +X% (CI: …)
+- Decision: ship / no ship / iterate
+- Estimated impact: $ / time saved / error reduction
+
 **Tech:** Python (pandas, statsmodels), SQL/dbt, Jupyter
 
 ### 2) Sales Forecasting & KPI Dashboard (ETL + BI)
@@ -145,6 +150,11 @@ This repository/README is my central hub to:
 - Repo: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - KPI dashboard: https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png
 - How to verify: [case_studies/sales_forecasting_kpi_dashboard.md](case_studies/sales_forecasting_kpi_dashboard.md)
+
+**Results**
+- Lift: +X% (CI: …)
+- Decision: ship / no ship / iterate
+- Estimated impact: $ / time saved / error reduction
 
 **Tech:** Postgres, dbt, Python, Power BI
 
@@ -159,6 +169,11 @@ This repository/README is my central hub to:
 - Case study: [case_studies/revenue_cycle_healthcare_claims.md](case_studies/revenue_cycle_healthcare_claims.md)
 - Key artifact: Add a chart or dashboard image link from the repo (denials by reason, AR aging, or payer mix)
 
+**Results**
+- Lift: +X% (CI: …)
+- Decision: ship / no ship / iterate
+- Estimated impact: $ / time saved / error reduction
+
 **Tech:** Python, SQL, healthcare revenue cycle analytics
 
 ### 4) Healthcare Claims Analysis
@@ -171,6 +186,11 @@ This repository/README is my central hub to:
 - Decision memo: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md
 - Data dictionary: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/data_dictionary.md
 - How to verify: [case_studies/healthcare_claims_analysis.md](case_studies/healthcare_claims_analysis.md)
+
+**Results**
+- Lift: +X% (CI: …)
+- Decision: ship / no ship / iterate
+- Estimated impact: $ / time saved / error reduction
 
 **Tech:** Python (pandas, numpy), reproducible reporting
 
