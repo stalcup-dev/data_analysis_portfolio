@@ -135,9 +135,9 @@ This repository/README is my central hub to:
 - How to verify: [case_studies/ab_marketing_experiment.md](case_studies/ab_marketing_experiment.md)
 
 **Results**
-- Lift: +X% (CI: …)
-- Decision: ship / no ship / iterate
-- Estimated impact: $ / time saved / error reduction
+- Lift: Directional lift with CI, but SRM indicates allocation imbalance (see decision memo).
+- Decision: No-ship until rerun with clean randomization.
+- Estimated impact: Avoids rollout based on a biased lift estimate.
 
 **Tech:** Python (pandas, statsmodels), SQL/dbt, Jupyter
 
@@ -152,9 +152,9 @@ This repository/README is my central hub to:
 - How to verify: [case_studies/sales_forecasting_kpi_dashboard.md](case_studies/sales_forecasting_kpi_dashboard.md)
 
 **Results**
-- Lift: +X% (CI: …)
-- Decision: ship / no ship / iterate
-- Estimated impact: $ / time saved / error reduction
+- Lift: Median MAPE 12.3% with ~80% coverage and ~0 bias on holdout.
+- Decision: Ship the forecast + KPI dashboards for planning/reorder workflows.
+- Estimated impact: Automated reporting cut ~4 hours/week of manual work.
 
 **Tech:** Postgres, dbt, Python, Power BI
 
@@ -170,9 +170,9 @@ This repository/README is my central hub to:
 - Key artifact: Add a chart or dashboard image link from the repo (denials by reason, AR aging, or payer mix)
 
 **Results**
-- Lift: +X% (CI: …)
-- Decision: ship / no ship / iterate
-- Estimated impact: $ / time saved / error reduction
+- Lift: Denial drivers concentrated in top reasons/payers (see KPI outputs).
+- Decision: Ship payer-specific denial prevention and follow-up playbooks.
+- Estimated impact: Reduced rework volume by prioritizing front-end fixes.
 
 **Tech:** Python, SQL, healthcare revenue cycle analytics
 
@@ -188,9 +188,9 @@ This repository/README is my central hub to:
 - How to verify: [case_studies/healthcare_claims_analysis.md](case_studies/healthcare_claims_analysis.md)
 
 **Results**
-- Lift: +X% (CI: …)
-- Decision: ship / no ship / iterate
-- Estimated impact: $ / time saved / error reduction
+- Lift: Top 10% of patients account for 16.12% of total cost concentration.
+- Decision: Ship the decision memo and KPI pack for stakeholder review.
+- Estimated impact: Faster prioritization of cost drivers and next-step analyses.
 
 **Tech:** Python (pandas, numpy), reproducible reporting
 
