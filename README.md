@@ -207,6 +207,7 @@ This repository/README is my central hub to:
 - Revenue Cycle Healthcare Claims — https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
 - Healthcare Claims Analysis — https://github.com/stalcup-dev/healthcare-claims-analysis
 - Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
+  - Result: Automated Westgard rule checks to flag QC violations and reduce manual review time.
 
 #### Lab SLA & QC Analytics
 
@@ -221,6 +222,7 @@ This repository/README is my central hub to:
 - Day shift is the bottleneck: Day ~91.8% SLA vs Evening ~99.1% and Night ~100.0%
 - ED is the site outlier: ED ~93.9% SLA vs clinics ~98–100%
 - QC proximity more than doubles average TAT: 34.6 min (normal) vs 73.8 min (near QC fail) (+39.2 min / +113%)
+- Result: Identified day shift and QC-adjacent periods as the primary SLA risk drivers.
 
 **Recommended actions:**
 - Load-balance workload off Day shift during peak intake (move routine work to Evening/Night where feasible)
@@ -236,18 +238,22 @@ This repository/README is my central hub to:
 
 - Sales Forecasting & KPI Dashboard (**See Featured Project #2**) — https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - E-commerce Power BI Dashboard — https://github.com/stalcup-dev/ecommerce-powerbi-dashboard
+  - Result: Delivered a star-schema KPI dashboard for revenue, margin, and inventory performance.
 
 ### Machine Learning & Modeling
 
 - Insurance Cost Analysis (Regression Modeling) — https://github.com/stalcup-dev/insurance-cost-analysis
+  - Result: Benchmarked regression performance and documented feature impacts on insurance costs.
 
 ### Survey & Market Trends
 
 - Stack Overflow 2024 Developer Survey — Tech Trends — https://github.com/stalcup-dev/stack-overflow-2024-trends
+  - Result: Summarized 2024 language, tool, and platform adoption trends for quick stakeholder scanning.
 
 ### Tools & Automation
 
 - Local AI Privacy Control – Offline Document Assistant — https://github.com/stalcup-dev/local-ai-privacy-control
+  - Result: Built a local-first workflow to analyze documents without sending data off-device.
 - Extracting and Visualizing Stock Data — https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data
 
 ---
