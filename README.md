@@ -8,6 +8,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** End-to-end ETL → forecasting → KPI dashboards with a reproducible pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
+- **Certificate milestone (3.5 months):** IBM Data Analyst Professional Certificate — completed. ([Certificate](certificates/ibm-data-analyst-professional-certificate.png) | [Coursera link](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW))
 - **Quantified KPI outcomes:** Denial rate, AR days, clean-claim rate, and p95 TAT documented in case studies and linked artifacts.
 
 ### Case Studies (5 minutes)
@@ -77,6 +78,7 @@ This repository/README is my central hub to:
 - 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
+- 2025 → Completed **IBM Data Analyst Professional Certificate** in **3.5 months** (Coursera)
 - Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
 ---
 
@@ -132,6 +134,11 @@ This repository/README is my central hub to:
 - Notebooks: https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/notebooks
 - How to verify: [case_studies/ab_marketing_experiment.md](case_studies/ab_marketing_experiment.md)
 
+**Results**
+- Lift: Directional lift with CI, but SRM indicates allocation imbalance (see decision memo).
+- Decision: No-ship until rerun with clean randomization.
+- Estimated impact: Avoids rollout based on a biased lift estimate.
+
 **Tech:** Python (pandas, statsmodels), SQL/dbt, Jupyter
 
 ### 2) Sales Forecasting & KPI Dashboard (ETL + BI)
@@ -143,6 +150,11 @@ This repository/README is my central hub to:
 - Repo: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - KPI dashboard: https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png
 - How to verify: [case_studies/sales_forecasting_kpi_dashboard.md](case_studies/sales_forecasting_kpi_dashboard.md)
+
+**Results**
+- Lift: Median MAPE 12.3% with ~80% coverage and ~0 bias on holdout.
+- Decision: Ship the forecast + KPI dashboards for planning/reorder workflows.
+- Estimated impact: Automated reporting cut ~4 hours/week of manual work.
 
 **Tech:** Postgres, dbt, Python, Power BI
 
@@ -157,6 +169,11 @@ This repository/README is my central hub to:
 - Case study: [case_studies/revenue_cycle_healthcare_claims.md](case_studies/revenue_cycle_healthcare_claims.md)
 - Key artifact: Add a chart or dashboard image link from the repo (denials by reason, AR aging, or payer mix)
 
+**Results**
+- Lift: Denial drivers concentrated in top reasons/payers (see KPI outputs).
+- Decision: Ship payer-specific denial prevention and follow-up playbooks.
+- Estimated impact: Reduced rework volume by prioritizing front-end fixes.
+
 **Tech:** Python, SQL, healthcare revenue cycle analytics
 
 ### 4) Healthcare Claims Analysis
@@ -169,6 +186,11 @@ This repository/README is my central hub to:
 - Decision memo: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/decision_memo.md
 - Data dictionary: https://github.com/stalcup-dev/healthcare-claims-analysis/blob/main/docs/data_dictionary.md
 - How to verify: [case_studies/healthcare_claims_analysis.md](case_studies/healthcare_claims_analysis.md)
+
+**Results**
+- Lift: Top 10% of patients account for 16.12% of total cost concentration.
+- Decision: Ship the decision memo and KPI pack for stakeholder review.
+- Estimated impact: Faster prioritization of cost drivers and next-step analyses.
 
 **Tech:** Python (pandas, numpy), reproducible reporting
 
@@ -185,6 +207,7 @@ This repository/README is my central hub to:
 - Revenue Cycle Healthcare Claims — https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
 - Healthcare Claims Analysis — https://github.com/stalcup-dev/healthcare-claims-analysis
 - Chemistry QC Automation & Westgard Rules — https://github.com/stalcup-dev/chemistry-qc-automation
+  - Result: Automated Westgard rule checks to flag QC violations and reduce manual review time.
 
 #### Lab SLA & QC Analytics
 
@@ -199,6 +222,7 @@ This repository/README is my central hub to:
 - Day shift is the bottleneck: Day ~91.8% SLA vs Evening ~99.1% and Night ~100.0%
 - ED is the site outlier: ED ~93.9% SLA vs clinics ~98–100%
 - QC proximity more than doubles average TAT: 34.6 min (normal) vs 73.8 min (near QC fail) (+39.2 min / +113%)
+- Result: Identified day shift and QC-adjacent periods as the primary SLA risk drivers.
 
 **Recommended actions:**
 - Load-balance workload off Day shift during peak intake (move routine work to Evening/Night where feasible)
@@ -214,18 +238,22 @@ This repository/README is my central hub to:
 
 - Sales Forecasting & KPI Dashboard (**See Featured Project #2**) — https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - E-commerce Power BI Dashboard — https://github.com/stalcup-dev/ecommerce-powerbi-dashboard
+  - Result: Delivered a star-schema KPI dashboard for revenue, margin, and inventory performance.
 
 ### Machine Learning & Modeling
 
 - Insurance Cost Analysis (Regression Modeling) — https://github.com/stalcup-dev/insurance-cost-analysis
+  - Result: Benchmarked regression performance and documented feature impacts on insurance costs.
 
 ### Survey & Market Trends
 
 - Stack Overflow 2024 Developer Survey — Tech Trends — https://github.com/stalcup-dev/stack-overflow-2024-trends
+  - Result: Summarized 2024 language, tool, and platform adoption trends for quick stakeholder scanning.
 
 ### Tools & Automation
 
 - Local AI Privacy Control – Offline Document Assistant — https://github.com/stalcup-dev/local-ai-privacy-control
+  - Result: Built a local-first workflow to analyze documents without sending data off-device.
 - Extracting and Visualizing Stock Data — https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data
 
 ---
@@ -251,7 +279,7 @@ This section tracks work from courses, guided projects, and structured learning.
 
 - **IBM Data Analyst Professional Certificate (Coursera)**
   - SQL, Excel, Python, and dashboarding for data analytics
-  - Status: **In progress**
+  - Status: **Completed (3.5 months)** → [Certificate](certificates/ibm-data-analyst-professional-certificate.png) | [Coursera link](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW)
 
 - **Power BI / PL-300 Prep**
   - Building data models, DAX, and reports aligned to PL-300 exam competencies
@@ -314,7 +342,7 @@ This section tracks work from courses, guided projects, and structured learning.
 <summary>Show / hide</summary>
 
 - **Python for Everybody – Coursera** (Completed)  
-- **IBM Data Analyst Professional Certificate – Coursera** (In progress 90% complete)  
+- **IBM Data Analyst Professional Certificate – Coursera** (Completed in 3.5 months) → [Certificate](certificates/ibm-data-analyst-professional-certificate.png) | https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW  
 - Additional certificates and badges to be added as completed.
 
 </details>
