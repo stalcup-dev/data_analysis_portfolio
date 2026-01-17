@@ -18,6 +18,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
 - [Revenue Cycle Healthcare Claims — Denials & AR Focus](case_studies/revenue_cycle_healthcare_claims.md)
 - [GSS Happiness — Adjusted Effects (Survey Inference)](case_studies/gss_happiness_adjusted_effects.md)
+- [Stack Overflow 2024 Developer Survey — Tech Trends](case_studies/stack_overflow_2024_trends.md)
 
 | Case Study | Domain | Outcome highlight | Link |
 | --- | --- | --- | --- |
@@ -27,6 +28,7 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 | Healthcare Claims Analysis | Healthcare analytics | KPI + concentration summary | [Case study](case_studies/healthcare_claims_analysis.md) |
 | Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denials + AR workflow fixes | [Case study](case_studies/revenue_cycle_healthcare_claims.md) |
 | GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects + guardrails | [Case study](case_studies/gss_happiness_adjusted_effects.md) |
+| Stack Overflow 2024 Developer Survey — Tech Trends | Survey analytics | Tech adoption trends | [Case study](case_studies/stack_overflow_2024_trends.md) |
 
 **Stack:** Python, SQL (PostgreSQL), dbt, Power BI (DAX), Tableau, Git/GitHub
 
@@ -111,6 +113,7 @@ This repository/README is my central hub to:
 | Chemistry QC Automation & Westgard Rules | Healthcare ops | Domain logic automation + reproducible QA outputs | [Repo README](https://github.com/stalcup-dev/chemistry-qc-automation#readme) | Python | [chemistry-qc-automation](https://github.com/stalcup-dev/chemistry-qc-automation) |
 | E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | [Repo README](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard#readme) | Power BI, DAX | [ecommerce-powerbi-dashboard](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
 | Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | [Repo README](https://github.com/stalcup-dev/insurance-cost-analysis#readme) | Python, scikit-learn | [insurance-cost-analysis](https://github.com/stalcup-dev/insurance-cost-analysis) |
+| Stack Overflow 2024 Developer Survey — Tech Trends | Survey analytics | 2024 tech adoption snapshot | [Repo README](https://github.com/stalcup-dev/stack-overflow-2024-trends#readme) | Python | [stack-overflow-2024-trends](https://github.com/stalcup-dev/stack-overflow-2024-trends) |
 | Local AI Privacy Control | Tools | Local-first AI workflow for document analysis | [Repo README](https://github.com/stalcup-dev/local-ai-privacy-control#readme) | Python | [local-ai-privacy-control](https://github.com/stalcup-dev/local-ai-privacy-control) |
 | Extracting & Visualizing Stock Data | Study project | Web data extraction + time-series visuals | [Repo README](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data#readme) | Python, pandas | [Extracting-and-Visualizing-Stock-Data](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data) |
 
@@ -215,6 +218,10 @@ This repository/README is my central hub to:
 ### Machine Learning & Modeling
 
 - Insurance Cost Analysis (Regression Modeling) — https://github.com/stalcup-dev/insurance-cost-analysis
+
+### Survey & Market Trends
+
+- Stack Overflow 2024 Developer Survey — Tech Trends — https://github.com/stalcup-dev/stack-overflow-2024-trends
 
 ### Tools & Automation
 
