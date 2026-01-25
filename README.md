@@ -2,7 +2,7 @@
 
 ## 60-second scan
 
-I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I build decision-ready analyses (experiments, forecasting, ops metrics) with reproducible workflows and clear artifacts.
+I’m targeting **remote Data Analyst / BI** roles across product, growth, healthcare, and operations. I build decision-ready analyses (experiments, forecasting, ops metrics) with reproducible workflows and clear artifacts.
 
 **Top proofs (clickable):**
 - **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
