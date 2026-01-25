@@ -73,7 +73,7 @@ In the lab, I’ve spent years making sure high-stakes results are **accurate, t
 
 ### Volunteer experience (Oppia)
 
-- **Focus:** Remote (async) learner engagement funnels, cohort retention metrics, and outcome reporting for education program stakeholders.
+- **Focus:**  Remote (async) Learner engagement funnels, cohort retention metrics, and outcome reporting for education program stakeholders.
 - **Tech stack:** Python, SQL, spreadsheets, GA4, GTM.
 
 
