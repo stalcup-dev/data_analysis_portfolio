@@ -73,7 +73,7 @@ In the lab, I’ve spent years making sure high-stakes results are **accurate, t
 
 ### Volunteer experience (Oppia)
 
-- **Focus:** Learner engagement funnels, cohort retention metrics, and outcome reporting for education program stakeholders.
+- **Focus:**  Remote (async) Learner engagement funnels, cohort retention metrics, and outcome reporting for education program stakeholders.
 - **Tech stack:** Python, SQL, spreadsheets, GA4, GTM.
 
 
@@ -89,7 +89,7 @@ This repository/README is my central hub to:
 - 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
-- 2024–Present → **Oppia (non-profit)** — data analysis volunteer supporting education impact work (learner engagement funnels, cohort retention metrics, dashboard-ready reporting for program stakeholders; Tech: Python, SQL, spreadsheets, GA4, GTM)
+- 2024–Present → **Oppia (non-profit)** — remote (async) data analysis volunteer supporting education impact work (learner engagement funnels, cohort retention metrics, dashboard-ready reporting for program stakeholders; Tech: Python, SQL, spreadsheets, GA4, GTM)
 - 2025 → Completed **IBM Data Analyst Professional Certificate** in **3.5 months** (Coursera)
 - Now → Targeting **remote Data Analyst / BI** roles across product, growth, healthcare, and operations
 ---
