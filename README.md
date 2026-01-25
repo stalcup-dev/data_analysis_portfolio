@@ -2,7 +2,7 @@
 
 ## 60-second scan
 
-I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I build decision-ready analyses (experiments, forecasting, ops metrics) with reproducible workflows and clear artifacts.
+I’m targeting **remote Data Analyst / BI** roles across product, growth, healthcare, and operations. I build decision-ready analyses (experiments, forecasting, ops metrics) with reproducible workflows and clear artifacts.
 
 **Top proofs (clickable):**
 - **Experiment analysis → decision memo:** A/B experiment with a decision pack and supporting notebooks. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
@@ -10,6 +10,11 @@ I’m targeting **remote Product Analyst / Experimentation Analyst** roles. I bu
 - **Ops metrics in SQL:** SLA/TAT-style analytics using production-style SQL patterns. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Repo README](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#readme))
 - **Certificate milestone (3.5 months):** IBM Data Analyst Professional Certificate — completed. ([Certificate](certificates/ibm-data-analyst-professional-certificate.png) | [Coursera link](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW))
 - **Quantified KPI outcomes:** Denial rate, AR days, clean-claim rate, and p95 TAT documented in case studies and linked artifacts.
+
+**Decision-focused highlights:**
+- **Ship/no-ship experimentation:** Decision memo with SRM checks and lift estimates. ([Decision pack reports](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
+- **Operational decisions from KPIs:** SLA/TAT bottleneck findings with recommended actions. ([Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
+- **Revenue impact prioritization:** Denials + AR drivers tied to workflow fixes. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
 
 ### Case Studies (5 minutes)
 
@@ -66,6 +71,12 @@ I’m a **Medical Laboratory Technician (8+ years)** pivoting into **Data Analyt
 
 In the lab, I’ve spent years making sure high-stakes results are **accurate, timely, and audit-ready**. Now I use **SQL, Python, and Power BI** to do the same for data: build pipelines, calculate meaningful metrics, and turn them into dashboards decision-makers can use.
 
+### Volunteer experience (Oppia)
+
+- **Focus:** Learner engagement funnels, cohort retention metrics, and outcome reporting for education program stakeholders.
+- **Tech stack:** Python, SQL, spreadsheets, GA4, GTM.
+
+
 This repository/README is my central hub to:
 
 - Showcase my **end-to-end analytics projects**
@@ -78,14 +89,16 @@ This repository/README is my central hub to:
 - 2019–Present → Running an **Amazon + eBay reselling business** (4+ years): sourcing, pricing/margins, inventory/reorder planning, listing optimization, fulfillment/returns, **basic paid marketing**, and performance tracking
 - 2023–2024 → Started formal training in **Python, SQL, statistics, and data analysis**
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
+- 2024–Present → **Oppia (non-profit)** — data analysis volunteer supporting education impact work (learner engagement funnels, cohort retention metrics, dashboard-ready reporting for program stakeholders; Tech: Python, SQL, spreadsheets, GA4, GTM)
 - 2025 → Completed **IBM Data Analyst Professional Certificate** in **3.5 months** (Coursera)
-- Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
+- Now → Targeting **remote Data Analyst / BI** roles across product, growth, healthcare, and operations
 ---
 
 ## Table of contents
 - [60-second scan](#60-second-scan)
 - [About](#about)
 - [Skills (evidence)](#skills-evidence)
+- [Volunteer experience (Oppia)](#volunteer-experience-oppia)
 - [Project Index (quick scan)](#project-index-quick-scan)
 - [Featured Projects](#featured-projects)
 - [Portfolio Projects](#portfolio-projects)
