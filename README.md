@@ -91,7 +91,7 @@ This repository/README is my central hub to:
 - 2024–2025 → Built **healthcare ops + experimentation + e-commerce analytics projects** in SQL, Python, dbt, and Power BI
 - 2024–Present → **Oppia (non-profit)** — data analysis volunteer supporting education impact work (learner engagement funnels, cohort retention metrics, dashboard-ready reporting for program stakeholders; Tech: Python, SQL, spreadsheets, GA4, GTM)
 - 2025 → Completed **IBM Data Analyst Professional Certificate** in **3.5 months** (Coursera)
-- Now → Targeting **remote Data Analyst / BI** roles (product/growth experimentation, healthcare ops, e-commerce/ops analytics)
+- Now → Targeting **remote Data Analyst / BI** roles across product, growth, healthcare, and operations
 ---
 
 ## Table of contents
