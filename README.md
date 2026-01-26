@@ -129,6 +129,7 @@ This repository/README is my central hub to:
 | E-commerce Power BI Dashboard | BI | Star-schema modeling + DAX measures for KPIs | [Repo README](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard#readme) | Power BI, DAX | [ecommerce-powerbi-dashboard](https://github.com/stalcup-dev/ecommerce-powerbi-dashboard) |
 | Insurance Cost Analysis | ML (regression) | Feature engineering + regression evaluation | [Repo README](https://github.com/stalcup-dev/insurance-cost-analysis#readme) | Python, scikit-learn | [insurance-cost-analysis](https://github.com/stalcup-dev/insurance-cost-analysis) |
 | Stack Overflow 2024 Developer Survey — Tech Trends | Survey analytics | 2024 tech adoption snapshot | [Repo README](https://github.com/stalcup-dev/stack-overflow-2024-trends#readme) | Python | [stack-overflow-2024-trends](https://github.com/stalcup-dev/stack-overflow-2024-trends) |
+| Steam Discount Analysis | Pricing analytics | Discount depth and sale cadence insights | [Repo README](https://github.com/stalcup-dev/steam-discount-analysis#readme) | Python, pandas | [steam-discount-analysis](https://github.com/stalcup-dev/steam-discount-analysis) |
 | Local AI Privacy Control | Tools | Local-first AI workflow for document analysis | [Repo README](https://github.com/stalcup-dev/local-ai-privacy-control#readme) | Python | [local-ai-privacy-control](https://github.com/stalcup-dev/local-ai-privacy-control) |
 | Extracting & Visualizing Stock Data | Study project | Web data extraction + time-series visuals | [Repo README](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data#readme) | Python, pandas | [Extracting-and-Visualizing-Stock-Data](https://github.com/stalcup-dev/Extracting-and-Visualizing-Stock-Data) |
 
@@ -262,6 +263,8 @@ This repository/README is my central hub to:
 
 - Stack Overflow 2024 Developer Survey — Tech Trends — https://github.com/stalcup-dev/stack-overflow-2024-trends
   - Result: Summarized 2024 language, tool, and platform adoption trends for quick stakeholder scanning.
+- Steam Discount Analysis — https://github.com/stalcup-dev/steam-discount-analysis
+  - Result: Profiled discount depth and sale cadence patterns to inform pricing insights.
 
 ### Tools & Automation
 
