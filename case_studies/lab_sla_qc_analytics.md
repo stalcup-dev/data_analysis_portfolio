@@ -15,7 +15,7 @@ Where are SLA misses happening (shift, site, analyte), and what operational sign
 - Source: Synthetic lab operations seed described in the project repo.
 - Notes: The repo explicitly notes reseeding can change exact values; insights/actions are intended to hold.
 - **Primary stakeholder:** Lab operations manager / quality lead.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Define SLA at the **result level** using time logic:

@@ -15,7 +15,7 @@ Should we replace the PSA (control) with a product Ad (treatment) to increase pu
 - Source: Kaggle `marketing_AB` dataset (see repo README for details).
 - Notes: The full CSV is intentionally not committed; the repo uses a small fixture for CI.
 - **Primary stakeholder:** Growth/product marketing lead.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Integrity checks: traffic allocation diagnostic (SRM vs expected split), basic QA, and timing distribution diagnostics.
