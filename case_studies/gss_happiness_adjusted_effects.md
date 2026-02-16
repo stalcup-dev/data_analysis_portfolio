@@ -15,7 +15,7 @@ Which factors are most strongly associated with being “Very happy” in recent
 - General Social Survey (GSS) extract (2010–2022) with WTSSPS survey weights.
 - Notes: The repo documents a 2021–2022 survey mode change and treats results as interpretive (not causal).
 - **Primary stakeholder:** Research/insights lead.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Phase 1: schema + label reporting and validation.

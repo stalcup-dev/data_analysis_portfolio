@@ -14,7 +14,7 @@ What do the 2024 Stack Overflow Developer Survey responses say about current tec
 ## Data
 - Stack Overflow 2024 Developer Survey dataset (public release).
 - **Primary stakeholder:** Product, engineering, or strategy leads.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Ingested survey data and standardized key categorical fields.

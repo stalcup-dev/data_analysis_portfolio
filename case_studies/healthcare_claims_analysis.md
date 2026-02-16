@@ -15,7 +15,7 @@ What are the headline claims KPIs, cost concentration signals, and “where to l
 - Synthetic claims dataset (`claim_data.csv`) used for portfolio demonstration.
 - Notes: Results reflect this synthetic sample; real claims typically show stronger skew/cost concentration.
 - **Primary stakeholder:** Revenue cycle analyst / finance operations lead.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Orchestrate an end-to-end run (load → quality checks → cleaning → metrics/analysis → doc rendering).

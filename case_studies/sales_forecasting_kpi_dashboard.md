@@ -16,7 +16,7 @@ How can we turn raw sales data into refreshable KPIs and trustworthy forecasts f
 - Source: Synthetic DTC retailer dataset (Vita Markets) described in the project repo.
 - Notes: This is a portfolio simulation; insights are for demonstration.
 - **Primary stakeholder:** Forecasting / inventory planning lead.
-- **Time to deliver:** TBD (self-paced; replace with actual delivery time).
+- **Time to deliver:** Self-directed portfolio sprint; iterated as findings were validated.
 
 ## Approach
 - Model the warehouse in Postgres + dbt (staging → marts) to support consistent KPIs.
