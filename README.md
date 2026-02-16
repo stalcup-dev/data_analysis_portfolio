@@ -6,11 +6,12 @@ I’m targeting **remote RevOps Analyst, Revenue Cycle Analyst, and RCM Analyst*
 
 I build **decision-ready analytics** with reproducible workflows: clear business question → validated analysis → stakeholder-facing recommendation.
 
-**Top proof of work (RevOps + RCM aligned)**
+**Top proof of work (RevOps + business-impact aligned)**
 - **Revenue cycle claims analytics:** denial and AR performance signals mapped to workflow fixes. ([Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) | [Case study](case_studies/revenue_cycle_healthcare_claims.md))
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
-- **A/B Experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
+- **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-decision-pack) | [Case study](case_studies/steam_decision_pack.md))
+- **A/B experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** ETL → forecasting → KPI dashboard pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [Dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
 
@@ -32,6 +33,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 ## Case studies (best starting point)
 
 - [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
+- [Steam Decision Pack](case_studies/steam_decision_pack.md)
 - [Sales Forecasting & KPI Dashboard (Vita Markets)](case_studies/sales_forecasting_kpi_dashboard.md)
 - [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
 - [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
@@ -43,6 +45,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 | Case Study | Domain | Outcome highlight |
 | --- | --- | --- |
 | A/B Marketing Experiment — Ad vs PSA | Experimentation | Lift analysis + no-ship decision memo |
+| Steam Decision Pack | Gaming market analytics | Pricing and launch recommendation memo |
 | Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Forecast performance + dashboard delivery |
 | Lab SLA & QC Analytics | Healthcare operations | Bottleneck diagnosis and SLA improvement plan |
 | Healthcare Claims Analysis | Healthcare analytics | KPI summary + concentration signals |
@@ -60,6 +63,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 | RevOps / RCM analytics | Denial trends, AR drivers, KPI monitoring, and prioritization playbooks | [Revenue cycle case study](case_studies/revenue_cycle_healthcare_claims.md) |
 | Cohort retention analytics | Cohort construction, activation/retention diagnostics, and action prioritization | [Cohort retention case study](case_studies/cohort_retention_decision_pack.md) |
 | Experimentation & inference | Effect sizes, CIs, SRM checks, practical decision framing | [Marketing A/B decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) |
+| Market sizing & decision packs | Competitive benchmarking, pricing bands, and recommendation memos | [Steam decision pack case study](case_studies/steam_decision_pack.md) |
 | SQL analytics | CTEs, time logic, KPI definitions, percentile/TAT analysis | [Lab SLA SQL project](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
 | Forecasting & KPI pipelines | Model performance validation + business KPI outputs | [Sales forecasting repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
 | BI storytelling | Dashboard-first communication for business users | [KPI dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png) |
@@ -88,42 +92,16 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Links:** [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) · [Case study](case_studies/healthcare_claims_analysis.md)
 
-### 3) Cohort Retention Decision Pack
-**Business question:** Which cohorts and onboarding steps are most responsible for early churn risk?
+### 3) Steam Decision Pack
+**Business question:** Which release/pricing strategy should be prioritized for a Steam launch decision?
 
-**Approach:** Cohort retention analysis segmented by acquisition/onboarding patterns, translated into a decision pack.
+**Approach:** Product and competitor segmentation, price-band benchmarking, and recommendation framing in a decision-pack format.
 
-**Result:** Identified high-risk early-retention cohorts and mapped priorities for lifecycle, onboarding, and channel strategy.
+**Result:** Produced a concise recommendation memo with assumptions, risks, and next-step validation checks.
 
-**Links:** [Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) · [Case study](case_studies/cohort_retention_decision_pack.md)
+**Links:** [Repo](https://github.com/stalcup-dev/steam-decision-pack) · [Case study](case_studies/steam_decision_pack.md)
 
 ### 4) A/B Marketing Experiment — Ad vs PSA
-| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects with inference guardrails |
-| Stack Overflow 2024 Trends | Survey analytics | Stakeholder-ready trend synthesis |
-
----
-
-## Featured project snapshots
-
-### 1) Revenue Cycle Healthcare Claims
-**Business question:** Which denial and AR drivers should be prioritized first to reduce rework and leakage?
-
-**Approach:** Denial segmentation by payer/provider + AR aging workflow diagnostics.
-
-**Result:** Mapped top denial/AR drivers to concrete front-end and follow-up playbooks.
-
-**Links:** [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) · [Case study](case_studies/revenue_cycle_healthcare_claims.md)
-
-### 2) Healthcare Claims Analysis
-**Business question:** Which claims KPIs and concentration signals should leadership review first?
-
-**Approach:** Reproducible Python pipeline with QA checks, KPI computation, and memo-ready outputs.
-
-**Result:** Produced concentration and KPI summaries for faster cost/effort prioritization.
-
-**Links:** [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) · [Case study](case_studies/healthcare_claims_analysis.md)
-
-### 3) A/B Marketing Experiment — Ad vs PSA
 **Business question:** Should we ship ad creative based on measured lift?
 
 **Approach:** Data QA + SRM checks, hypothesis testing, confidence intervals, practical-significance framing.
@@ -132,7 +110,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Links:** [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) · [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports)
 
-### 4) Sales Forecasting & KPI Dashboard (ETL + BI)
+### 5) Sales Forecasting & KPI Dashboard (ETL + BI)
 **Business question:** Can raw sales data become refreshable planning KPIs + reliable forecasts?
 
 **Approach:** PostgreSQL + dbt modeling → Python forecasting pipeline → Power BI reporting.
@@ -141,7 +119,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Links:** [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) · [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
 
-### 5) Lab SLA & QC Analytics (SQL)
+### 6) Lab SLA & QC Analytics (SQL)
 **Business question:** Where are SLA misses concentrated, and what operational actions reduce delay risk?
 
 **Approach:** Shift/site/analyte segmentation, p95 TAT analysis, QC-proximity impact checks.
@@ -156,6 +134,9 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 ### Experimentation
 - A/B Marketing Experiment — Ad vs PSA: https://github.com/stalcup-dev/marketing-ab-experiment
+
+### Market analytics
+- Steam Decision Pack: https://github.com/stalcup-dev/steam-decision-pack
 
 ### Healthcare & operations
 - Revenue Cycle Healthcare Claims: https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
