@@ -98,6 +98,32 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 **Links:** [Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) · [Case study](case_studies/cohort_retention_decision_pack.md)
 
 ### 4) A/B Marketing Experiment — Ad vs PSA
+| GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects with inference guardrails |
+| Stack Overflow 2024 Trends | Survey analytics | Stakeholder-ready trend synthesis |
+
+---
+
+## Featured project snapshots
+
+### 1) Revenue Cycle Healthcare Claims
+**Business question:** Which denial and AR drivers should be prioritized first to reduce rework and leakage?
+
+**Approach:** Denial segmentation by payer/provider + AR aging workflow diagnostics.
+
+**Result:** Mapped top denial/AR drivers to concrete front-end and follow-up playbooks.
+
+**Links:** [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) · [Case study](case_studies/revenue_cycle_healthcare_claims.md)
+
+### 2) Healthcare Claims Analysis
+**Business question:** Which claims KPIs and concentration signals should leadership review first?
+
+**Approach:** Reproducible Python pipeline with QA checks, KPI computation, and memo-ready outputs.
+
+**Result:** Produced concentration and KPI summaries for faster cost/effort prioritization.
+
+**Links:** [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) · [Case study](case_studies/healthcare_claims_analysis.md)
+
+### 3) A/B Marketing Experiment — Ad vs PSA
 **Business question:** Should we ship ad creative based on measured lift?
 
 **Approach:** Data QA + SRM checks, hypothesis testing, confidence intervals, practical-significance framing.
@@ -106,7 +132,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Links:** [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) · [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports)
 
-### 5) Sales Forecasting & KPI Dashboard (ETL + BI)
+### 4) Sales Forecasting & KPI Dashboard (ETL + BI)
 **Business question:** Can raw sales data become refreshable planning KPIs + reliable forecasts?
 
 **Approach:** PostgreSQL + dbt modeling → Python forecasting pipeline → Power BI reporting.
@@ -115,7 +141,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Links:** [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) · [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
 
-### 6) Lab SLA & QC Analytics (SQL)
+### 5) Lab SLA & QC Analytics (SQL)
 **Business question:** Where are SLA misses concentrated, and what operational actions reduce delay risk?
 
 **Approach:** Shift/site/analyte segmentation, p95 TAT analysis, QC-proximity impact checks.
@@ -130,7 +156,6 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 ### Experimentation
 - A/B Marketing Experiment — Ad vs PSA: https://github.com/stalcup-dev/marketing-ab-experiment
-- Cohort Retention Decision Pack: https://github.com/stalcup-dev/cohort-retention-decision-pack
 
 ### Healthcare & operations
 - Revenue Cycle Healthcare Claims: https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
