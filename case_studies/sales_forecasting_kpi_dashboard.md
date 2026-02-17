@@ -48,6 +48,7 @@ Source: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboar
 - How to verify:
   - Follow the repo “Quick Start (10 minutes)” instructions.
   - Use the repo “Verification Checklist” to confirm forecast rows, metrics, and view schemas.
+  - Tests/CI: see `.github/workflows/ci.yml` and `tests/` in the repo for automated checks of models and pipelines.
 
 ## Tech + Skills Demonstrated
 - Data modeling: PostgreSQL + dbt (staging/marts, schema tests)

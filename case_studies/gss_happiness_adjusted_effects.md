@@ -42,6 +42,7 @@ Which factors are most strongly associated with being “Very happy” in recent
   - Follow the repo download/setup instructions (see `docs/DOWNLOAD_GSS.md`).
   - Run the phase scripts (Phase 1–3) to regenerate `reports/figures` and `reports/tables`.
   - Run tests to confirm preprocessing/validation guardrails.
+  - Tests/CI: see `tests/` and `.github/workflows/ci.yml` in the repo for automated checks of preprocessing and modeling steps.
 
 ## Tech + Skills Demonstrated
 - Survey-aware analytics: weighting in descriptives, documented design limitations
