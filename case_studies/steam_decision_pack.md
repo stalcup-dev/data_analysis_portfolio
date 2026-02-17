@@ -49,6 +49,20 @@ What pricing and release strategy should be prioritized to maximize launch poten
 - Track core KPIs weekly after launch and predefine thresholds for strategy adjustments.
 - Maintain a short assumptions log to connect observed outcomes to prior decisions.
 
+## Quantified Impact Plan (implementation-ready)
+To close the “directional insight → measurable business delta” gap, this case study now includes a repeatable impact model.
+
+| Metric | Baseline | Target delta | Translation to business value |
+| --- | --- | --- | --- |
+| Wishlist-to-sales conversion proxy | pre-launch benchmark for closest comps | +10% to +25% versus low-fit baseline scenario | `(wishlist volume × conversion uplift × net price)` |
+| Review sentiment (first 30 days) | comp median by genre/price band | +3 to +8 sentiment points | sentiment lift used as a leading indicator for conversion/visibility durability |
+| Launch-window visibility risk | baseline release-density index | avoid top-density windows; target 20%+ lower congestion bands | lower congestion translated to reach/discoverability opportunity |
+
+**30/60/90 validation plan**
+- **30 days:** validate launch-week conversion vs benchmark assumptions and price-band expectations.
+- **60 days:** monitor review trajectory and discount sensitivity to confirm positioning fit.
+- **90 days:** update pricing and promo strategy based on realized conversion + sentiment profile.
+
 ## Business Impact (Portfolio Context)
 - Demonstrates cross-functional decision support outside healthcare while keeping a structured analytics workflow.
 - Shows ability to translate market analytics into actionable recommendation packs with clear risk framing.

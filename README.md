@@ -16,17 +16,27 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
 
 **Selected measurable outcomes**
-- Prioritized **denial + AR drivers** into role-based playbooks for front-end prevention and follow-up.
-- Produced claims KPI outputs showing **cost concentration** patterns for targeted intervention planning.
-- Built cohort-retention readouts to prioritize onboarding/channel actions by **early retention quality**.
-- Flagged **sample ratio mismatch (SRM)** risk in an A/B test and recommended **no-ship** until clean rerun.
-- Delivered a forecasting workflow with reported **median MAPE ~12.3%** and low holdout bias.
-- Quantified lab ops bottlenecks with shift/site-level SLA and p95 TAT diagnostics.
+- Forecasting pipeline: **median MAPE ~12.3%**, **~80% interval coverage**, and near-zero holdout bias.
+- Lab operations analytics: QC-proximate windows showed **+39.2 minutes TAT (+113%)** versus normal periods.
+- Claims KPI concentration analysis: **top 10% of patients account for 16.12% of billed cost** in the portfolio dataset.
+- Automated KPI reporting eliminated a recurring **~4 hours/week of manual reporting** in the forecasting project.
+- A/B decision pack detected **SRM risk** and prevented a potentially invalid “ship” call before rerandomization.
+- Revenue-cycle and cohort projects now include an explicit **impact-quantification plan** (baseline, formula, and 30/60/90-day tracking design).
 
 ### Role fit: RevOps / RCM
 - KPI design for revenue workflows: denial rate, AR aging, concentration, throughput, and SLA/TAT.
 - Root-cause segmentation by payer/provider/process step to support prioritization.
 - Decision memos and stakeholder summaries that connect analytics to operational actions.
+
+### Quantified impact playbook (how I address the “directional vs delta” gap)
+For projects where production post-implementation outcomes are not yet available, I now include a standard quantification block:
+1. **Baseline**: current metric level + period (e.g., denial rate over trailing 8 weeks).
+2. **Effect estimate**: expected point estimate + confidence band from analysis or benchmark.
+3. **Business translation**: convert effect into dollars/hours/cycle-time with explicit assumptions.
+4. **Decision threshold**: define what effect size justifies ship/scale/no-ship.
+5. **30/60/90 follow-up**: pre-committed check-in metrics to validate realized impact vs estimate.
+
+This format is now documented in case studies so hiring teams can see both analytical findings and implementation-grade impact math.
 
 ---
 

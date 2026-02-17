@@ -54,6 +54,20 @@ Where is revenue leakage most concentrated in the claims workflow, and which fix
 - Track denial rate, clean-claim rate, AR aging, and rework volume together.
 - Run weekly cohort reviews to confirm whether interventions shift the right segments.
 
+## Quantified Impact Plan (implementation-ready)
+To close the “directional insight → measurable business delta” gap, this case study now includes a repeatable impact model.
+
+| Metric | Baseline | Target delta | Translation to business value |
+| --- | --- | --- | --- |
+| Denial rate | trailing 8-week denial % by payer/reason | -1 to -3 percentage points in prioritized cohorts | `(claims volume × denial-rate reduction × avg net reimbursement)` = avoided leakage |
+| AR >60 days share | trailing 8-week aging distribution | -10% to -20% in targeted queues | `(accounts shifted out of >60 bucket × expected collection probability gain)` |
+| Rework touches per claim | baseline touch count in high-friction cohorts | -0.2 to -0.5 touches/claim | `(touches avoided × avg handling minutes × loaded labor cost)` = capacity released |
+
+**30/60/90 validation plan**
+- **30 days:** confirm process adoption (eligibility/coding guardrails and queue triage adherence).
+- **60 days:** compare denial and AR deltas vs matched pre-period and non-priority cohorts.
+- **90 days:** convert sustained deltas into annualized dollar and capacity impact for leadership review.
+
 ## Business Impact (Portfolio Context)
 - Demonstrates ability to turn claims data into a ranked action plan tied to operational execution.
 - Shows RevOps/RCM readiness: metric design, root-cause segmentation, and stakeholder-facing decision support.
