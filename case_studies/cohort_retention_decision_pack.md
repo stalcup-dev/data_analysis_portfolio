@@ -49,6 +49,20 @@ Which acquisition cohorts and onboarding stages are contributing most to early c
 - Track activation and retention together in weekly cohort reviews.
 - Pair trend monitoring with explicit intervention logging to measure lift.
 
+## Quantified Impact Plan (implementation-ready)
+To close the “directional insight → measurable business delta” gap, this case study now includes a repeatable impact model.
+
+| Metric | Baseline | Target delta | Translation to business value |
+| --- | --- | --- | --- |
+| Week-1 retention | trailing 6-cohort median by channel | +2 to +5 percentage points in priority cohorts | `(new users × retention lift × downstream conversion value)` |
+| Activation completion | baseline onboarding completion rate | +3 to +8 percentage points | `(additional activated users × expected Week-4 retention × margin proxy)` |
+| Paid channel efficiency | baseline CAC payback proxy | -5% to -15% payback period | `(spend reallocated to higher-retention cohorts × incremental retained users)` |
+
+**30/60/90 validation plan**
+- **30 days:** verify instrumentation and cohort definitions remain stable after onboarding changes.
+- **60 days:** evaluate retention/activation uplifts with confidence bands for treated cohorts.
+- **90 days:** quantify realized payback improvement and lock in winning channel/onboarding mix.
+
 ## Business Impact (Portfolio Context)
 - Demonstrates ability to turn retention analytics into prioritized, cross-functional action plans.
 - Shows RevOps readiness: KPI design, cohort segmentation, and decision-pack communication.
