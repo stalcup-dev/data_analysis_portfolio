@@ -7,7 +7,8 @@ I’m targeting **remote RevOps Analyst, Revenue Cycle Analyst, and RCM Analyst*
 I build **decision-ready analytics** with reproducible workflows: clear business question → validated analysis → stakeholder-facing recommendation.
 
 ### Start here (fastest way to evaluate fit)
-- **Revenue Cycle / RCM analytics focus:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md) → [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
+- **Revenue Cycle / RCM analytics focus:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
+- **RevOps / growth analytics focus:** [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
 - **Decision quality under uncertainty:** [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - **End-to-end delivery (data model → forecast → BI):** [Sales Forecasting & KPI Dashboard](case_studies/sales_forecasting_kpi_dashboard.md)
 
