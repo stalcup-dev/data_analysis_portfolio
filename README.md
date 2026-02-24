@@ -54,25 +54,25 @@ This format is now documented in case studies so hiring teams can see both analy
 
 ## Case studies (best starting point)
 
+- [Revenue Cycle Healthcare Claims — Denials & AR Focus](case_studies/revenue_cycle_healthcare_claims.md)
+- [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
+- [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
+- [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
 - [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - [Steam Decision Pack](case_studies/steam_decision_pack.md)
 - [Sales Forecasting & KPI Dashboard (Vita Markets)](case_studies/sales_forecasting_kpi_dashboard.md)
-- [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
-- [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
-- [Revenue Cycle Healthcare Claims — Denials & AR Focus](case_studies/revenue_cycle_healthcare_claims.md)
-- [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
 - [GSS Happiness — Adjusted Effects (Survey Inference)](case_studies/gss_happiness_adjusted_effects.md)
 - [Stack Overflow 2024 Developer Survey — Tech Trends](case_studies/stack_overflow_2024_trends.md)
 
 | Case Study | Domain | Outcome highlight |
 | --- | --- | --- |
+| Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denial + AR prioritization workflow |
+| Healthcare Claims Analysis | Healthcare analytics | KPI summary + concentration signals |
+| Lab SLA & QC Analytics | Healthcare operations | Bottleneck diagnosis and SLA improvement plan |
+| Cohort Retention Decision Pack | RevOps / Growth analytics | Activation + retention-driven prioritization |
 | A/B Marketing Experiment — Ad vs PSA | Experimentation | Lift analysis + no-ship decision memo |
 | Steam Decision Pack | Gaming market analytics | Pricing and launch recommendation memo |
 | Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Forecast performance + dashboard delivery |
-| Lab SLA & QC Analytics | Healthcare operations | Bottleneck diagnosis and SLA improvement plan |
-| Healthcare Claims Analysis | Healthcare analytics | KPI summary + concentration signals |
-| Revenue Cycle Healthcare Claims | Healthcare revenue cycle | Denial + AR prioritization workflow |
-| Cohort Retention Decision Pack | RevOps / Growth analytics | Activation + retention-driven prioritization |
 | GSS Happiness — Adjusted Effects | Survey inference | Adjusted effects with inference guardrails |
 | Stack Overflow 2024 Trends | Survey analytics | Stakeholder-ready trend synthesis |
 
