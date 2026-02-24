@@ -21,7 +21,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
 - **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis))
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
-- **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-decision-pack) | [Case study](case_studies/steam_decision_pack.md))
+- **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
 - **A/B experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** ETL → forecasting → KPI dashboard pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [Dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
@@ -143,7 +143,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 **Result:** Produced a concise recommendation memo with assumptions, risks, and next-step validation checks.
 
-**Links:** [Repo](https://github.com/stalcup-dev/steam-decision-pack) · [Case study](case_studies/steam_decision_pack.md)
+**Links:** [Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) · [Case study](case_studies/steam_decision_pack.md)
 
 ### 6) A/B Marketing Experiment — Ad vs PSA
 **Business question:** Should we ship ad creative based on measured lift?
@@ -188,7 +188,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 - A/B Marketing Experiment — Ad vs PSA: https://github.com/stalcup-dev/marketing-ab-experiment
 
 ### Market analytics
-- Steam Decision Pack: https://github.com/stalcup-dev/steam-decision-pack
+- Steam Decision Pack: https://github.com/stalcup-dev/steam-growth-decision-pack-public
 
 ### E-commerce & forecasting
 - End-to-End Sales Forecasting KPI Dashboard ETL: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
