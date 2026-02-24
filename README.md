@@ -20,7 +20,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 **Top proof of work (healthcare + RevOps priority)**
 - **Revenue cycle claims analytics:** denial and AR performance signals mapped to workflow fixes. ([Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) | [Case study](case_studies/revenue_cycle_healthcare_claims.md))
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
-- **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis))
+- **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | [Story pack](https://github.com/stalcup-dev/medicaid-spending-open-analysis/blob/main/public_story_pack_v1_3.pdf))
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
 - **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
 - **A/B experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
@@ -126,7 +126,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 **Result:** Delivered a concise national spending review that surfaces the biggest trend changes and turns them into actionable next-step priorities.
 
-**Links:** [Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis)
+**Links:** [Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) · [Story pack (PDF)](https://github.com/stalcup-dev/medicaid-spending-open-analysis/blob/main/public_story_pack_v1_3.pdf)
 
 ### 4) Cohort Retention Decision Pack
 **Business question:** Which lifecycle stages are driving retention drop-off, and where should RevOps focus first?
