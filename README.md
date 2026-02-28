@@ -19,6 +19,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 **Top proof of work (healthcare + RevOps priority)**
 - **Revenue cycle claims analytics:** denial and AR performance signals mapped to workflow fixes. ([Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) | [Case study](case_studies/revenue_cycle_healthcare_claims.md))
+- **RCM improvement plan:** structured roadmap to prioritize denial reduction, AR cleanup, and workflow-level fixes. ([Repo](https://github.com/stalcup-dev/rcm-improvement-plan))
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
 - **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | [Story pack](https://github.com/stalcup-dev/medicaid-spending-open-analysis/blob/main/public_story_pack_v1_3.pdf))
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
@@ -179,6 +180,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 ### Healthcare, RevOps & operations
 - Revenue Cycle Healthcare Claims: https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
+- RCM Improvement Plan: https://github.com/stalcup-dev/rcm-improvement-plan
 - Healthcare Claims Analysis: https://github.com/stalcup-dev/healthcare-claims-analysis
 - Medicaid Spending Open Analysis: https://github.com/stalcup-dev/medicaid-spending-open-analysis
 - Cohort Retention Decision Pack: https://github.com/stalcup-dev/cohort-retention-decision-pack
