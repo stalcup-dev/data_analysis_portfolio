@@ -257,19 +257,30 @@ What I bring:
 
 ## Dashboard gallery
 
-### Revenue Cycle (RCM) dashboard
+### Revenue Cycle (RCM) dashboard — Tableau
 [RCM project repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
 
-![Revenue Cycle dashboard preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1)
+![Revenue Cycle Tableau dashboard preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1)
 
 If the preview does not render in your viewer, open it directly in the project repo: [RCM dashboard image](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png).
 
-### Sales & Forecasting dashboards
+### Sales & Forecasting dashboards — Power BI
 [Sales forecasting project repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)
 
-![Sales KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
+![Sales KPI Power BI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
 
-![Sales forecasting dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/ForecastingDash.png)
+![Sales forecasting Power BI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/ForecastingDash.png)
+
+---
+
+
+## Technical tools
+**BI & dashboards:** Power BI, Tableau, Looker, Streamlit   
+**Data & SQL:** PostgreSQL, DuckDB, BigQuery (SQL)  
+**Python analytics:** Python (Pandas, NumPy, Matplotlib), Jupyter  
+**Instrumentation:** GA4, Google Tag Manager (GTM)  
+**Workflow & quality:** VS Code, Git/GitHub, Streamlit, pytest, ruff  
+**How I use them:** build decision-ready RCM/ops reporting, QA/anomaly checks, and lightweight dashboards with reproducible pipelines.
 
 ---
 
