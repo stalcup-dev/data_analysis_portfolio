@@ -1,15 +1,30 @@
-# Allen Stalcup — Data Analyst Portfolio
+# Allen Stalcup — Healthcare Data Analyst Portfolio
 
-## Recruiter 60-second scan
+## Quick navigation
+- [Healthcare-focused 60-second scan](#healthcare-focused-60-second-scan)
+- [Healthcare-first project path](#healthcare-first-project-path)
+- [Selected measurable outcomes](#selected-measurable-outcomes)
+- [Role fit: healthcare analyst (revenue cycle + operations)](#role-fit-healthcare-analyst-revenue-cycle--operations)
+- [Case studies](#case-studies-best-starting-point)
+- [Core skills (with evidence)](#core-skills-with-evidence)
+- [Featured project snapshots](#featured-project-snapshots)
+- [Full project catalog](#full-project-catalog)
+- [About me](#about-me)
+- [Certifications](#certifications)
+- [Dashboard gallery](#dashboard-gallery)
+- [Contact](#contact)
 
-I’m targeting **remote RevOps Analyst, Revenue Cycle Analyst, and RCM Analyst** roles (plus Data Analyst / BI roles with revenue ownership).
+## Healthcare-focused 60-second scan
+
+I’m targeting **remote Healthcare Analyst, Revenue Cycle Analyst, RevOps Analyst, and RCM Analyst** roles (plus Data Analyst / BI roles with revenue ownership).
 
 I build **decision-ready analytics** with reproducible workflows: clear business question → validated analysis → stakeholder-facing recommendation.
 
 ### Start here (fastest way to evaluate fit)
-- **Revenue Cycle / RCM analytics focus:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
-- **RevOps / growth analytics focus:** [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
-- **Decision quality under uncertainty:** [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
+- **Healthcare revenue cycle focus:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
+- **Healthcare operations focus:** [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
+- **Healthcare + policy trend context:** [Medicaid Spending Open Analysis](https://github.com/stalcup-dev/medicaid-spending-open-analysis)
+- **Cross-functional decision quality:** [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - **End-to-end delivery (data model → forecast → BI):** [Sales Forecasting & KPI Dashboard](case_studies/sales_forecasting_kpi_dashboard.md)
 
 ### What this portfolio demonstrates
@@ -17,18 +32,22 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - I pair analysis with QA guardrails (validation checks, assumptions, and caveats) before recommendations.
 - I deliver stakeholder-facing outputs (decision packs, case studies, and KPI-ready summaries), not just notebooks.
 
-**Top proof of work (healthcare + RevOps priority)**
+## Healthcare-first project path
+
+### Tier 1: Core healthcare analytics proof
 - **Revenue cycle claims analytics:** denial and AR performance signals mapped to workflow fixes. ([Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) | [Case study](case_studies/revenue_cycle_healthcare_claims.md))
 - **RCM improvement plan:** structured roadmap to prioritize denial reduction, AR cleanup, and workflow-level fixes. ([Repo](https://github.com/stalcup-dev/rcm-improvement-plan))
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
+- **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Case study](case_studies/lab_sla_qc_analytics.md) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
 - **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | [Story pack](https://github.com/stalcup-dev/medicaid-spending-open-analysis))
+
+### Tier 2: Adjacent decision science and business impact
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
-- **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
 - **A/B experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
 - **Forecasting + BI delivery:** ETL → forecasting → KPI dashboard pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [Dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
-- **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
+- **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
 
-**Selected measurable outcomes**
+## Selected measurable outcomes
 - Forecasting pipeline: **median MAPE ~12.3%**, **~80% interval coverage**, and near-zero holdout bias.
 - Lab operations analytics: QC-proximate windows showed **+39.2 minutes TAT (+113%)** versus normal periods.
 - Claims KPI concentration analysis: **top 10% of patients account for 16.12% of billed cost** in the portfolio dataset.
@@ -36,12 +55,12 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - A/B decision pack detected **SRM risk** and prevented a potentially invalid “ship” call before rerandomization.
 - Revenue-cycle and cohort projects now include an explicit **impact-quantification plan** (baseline, formula, and 30/60/90-day tracking design).
 
-### Role fit: RevOps / RCM
-- KPI design for revenue workflows: denial rate, AR aging, concentration, throughput, and SLA/TAT.
+## Role fit: healthcare analyst (revenue cycle + operations)
+- KPI design for healthcare revenue workflows: denial rate, AR aging, concentration, throughput, and SLA/TAT.
 - Root-cause segmentation by payer/provider/process step to support prioritization.
 - Decision memos and stakeholder summaries that connect analytics to operational actions.
 
-### Quantified impact playbook (how I address the “directional vs delta” gap)
+## Quantified impact playbook (how I address the “directional vs delta” gap)
 For projects where production post-implementation outcomes are not yet available, I now include a standard quantification block:
 1. **Baseline**: current metric level + period (e.g., denial rate over trailing 8 weeks).
 2. **Effect estimate**: expected point estimate + confidence band from analysis or benchmark.
@@ -55,9 +74,12 @@ This format is now documented in case studies so hiring teams can see both analy
 
 ## Case studies (best starting point)
 
+### Healthcare-first order
 - [Revenue Cycle Healthcare Claims — Denials & AR Focus](case_studies/revenue_cycle_healthcare_claims.md)
 - [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
 - [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
+
+### Additional analytics projects
 - [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
 - [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - [Steam Decision Pack](case_studies/steam_decision_pack.md)
@@ -83,7 +105,8 @@ This format is now documented in case studies so hiring teams can see both analy
 
 | Skill | What I can do | Evidence |
 |---|---|---|
-| RevOps / RCM analytics | Denial trends, AR drivers, KPI monitoring, and prioritization playbooks | [Revenue cycle case study](case_studies/revenue_cycle_healthcare_claims.md) |
+| Healthcare / RevOps / RCM analytics | Denial trends, AR drivers, KPI monitoring, and prioritization playbooks | [Revenue cycle case study](case_studies/revenue_cycle_healthcare_claims.md) |
+| Healthcare operations analytics | SLA/TAT monitoring, bottleneck diagnosis, and process-level action plans | [Lab SLA & QC analytics case study](case_studies/lab_sla_qc_analytics.md) |
 | Cohort retention analytics | Cohort construction, activation/retention diagnostics, and action prioritization | [Cohort retention case study](case_studies/cohort_retention_decision_pack.md) |
 | Experimentation & inference | Effect sizes, CIs, SRM checks, practical decision framing | [Marketing A/B decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) |
 | Market sizing & decision packs | Competitive benchmarking, pricing bands, and recommendation memos | [Steam decision pack case study](case_studies/steam_decision_pack.md) |
@@ -210,7 +233,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 ## About me
 
-I’m a **Medical Laboratory Technician (8+ years)** transitioning into **RevOps / RCM analytics and BI**.
+I’m a **Medical Laboratory Technician (8+ years)** transitioning into **healthcare analytics, RevOps / RCM analytics, and BI**.
 
 What I bring:
 - Strong **operations-first mindset** (SLA, TAT, QC, root-cause orientation).
@@ -231,11 +254,26 @@ What I bring:
 - **Revenue Cycle, Billing, and Coding** — Johns Hopkins University (Course) · Completed February 2026
 - **Python for Everybody (Coursera)** — completed
 
+
+## Dashboard gallery
+
+### Revenue Cycle (RCM) dashboard
+[RCM project repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
+
+![Revenue Cycle dashboard preview](https://raw.githubusercontent.com/stalcup-dev/revenue-cycle-healthcare-claims/main/RCM_Dashboard.png)
+
+### Sales & Forecasting dashboards
+[Sales forecasting project repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)
+
+![Sales KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
+
+![Sales forecasting dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/ForecastingDash.png)
+
 ---
 
 ## Contact
 
-Open to **remote RevOps Analyst, Revenue Cycle Analyst, and RCM Analyst** opportunities.
+Open to **remote Healthcare Analyst, RevOps Analyst, Revenue Cycle Analyst, and RCM Analyst** opportunities.
 
 - GitHub: https://github.com/stalcup-dev
 - Email: allen.stalc@gmail.com
