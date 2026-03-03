@@ -11,6 +11,7 @@
 - [Full project catalog](#full-project-catalog)
 - [About me](#about-me)
 - [Certifications](#certifications)
+- [Dashboard gallery](#dashboard-gallery)
 - [Contact](#contact)
 
 ## Healthcare-focused 60-second scan
@@ -252,6 +253,21 @@ What I bring:
 - **IBM Data Analyst Professional Certificate** (completed in ~3.5 months): [Certificate image](certificates/ibm-data-analyst-professional-certificate.png) · [Coursera verification](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW)
 - **Revenue Cycle, Billing, and Coding** — Johns Hopkins University (Course) · Completed February 2026
 - **Python for Everybody (Coursera)** — completed
+
+
+## Dashboard gallery
+
+### Revenue Cycle (RCM) dashboard
+[RCM project repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
+
+![Revenue Cycle dashboard preview](https://raw.githubusercontent.com/stalcup-dev/revenue-cycle-healthcare-claims/main/RCM_Dashboard.png)
+
+### Sales & Forecasting dashboards
+[Sales forecasting project repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)
+
+![Sales KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
+
+![Sales forecasting dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/ForecastingDash.png)
 
 ---
 
