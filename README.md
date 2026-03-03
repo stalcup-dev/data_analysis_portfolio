@@ -260,7 +260,9 @@ What I bring:
 ### Revenue Cycle (RCM) dashboard
 [RCM project repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
 
-![Revenue Cycle dashboard preview](https://raw.githubusercontent.com/stalcup-dev/revenue-cycle-healthcare-claims/main/RCM_Dashboard.png)
+![Revenue Cycle dashboard preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/RCM_Dashboard.png?raw=1)
+
+If the preview does not render in your viewer, open it directly in the project repo: [RCM dashboard image](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/RCM_Dashboard.png).
 
 ### Sales & Forecasting dashboards
 [Sales forecasting project repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)
