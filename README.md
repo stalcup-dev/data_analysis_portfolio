@@ -38,7 +38,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - **Revenue cycle claims analytics:** denial and AR performance signals mapped to workflow fixes. ([Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) | [Case study](case_studies/revenue_cycle_healthcare_claims.md))
 - **RCM improvement plan:** structured roadmap to prioritize denial reduction, AR cleanup, and workflow-level fixes. ([Repo](https://github.com/stalcup-dev/rcm-improvement-plan))
 - **Healthcare claims KPI concentration analysis:** cost concentration and KPI memoing for prioritization. ([Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) | [Case study](case_studies/healthcare_claims_analysis.md))
-- **Healthcare encounters analysis:** encounter-level trend and utilization diagnostics translated into decision-ready priorities. ([Repo](https://github.com/stalcup-dev/healthcare-encounters-analysis))
+- **Healthcare encounters analysis:** encounter-level trend and utilization diagnostics translated into decision-ready priorities. ([Repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack))
 - **Healthcare operations SQL analytics:** SLA/TAT bottlenecks and operational recommendations. ([Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) | [Case study](case_studies/lab_sla_qc_analytics.md) | [Key results](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis#tldr-key-results))
 - **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | [Story pack](https://github.com/stalcup-dev/medicaid-spending-open-analysis))
 
@@ -205,7 +205,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 ### Healthcare, RevOps & operations
 - Revenue Cycle Healthcare Claims: https://github.com/stalcup-dev/revenue-cycle-healthcare-claims
 - RCM Improvement Plan: https://github.com/stalcup-dev/rcm-improvement-plan
-- Healthcare Encounters Analysis: https://github.com/stalcup-dev/healthcare-encounters-analysis
+- Healthcare Encounters Analysis: https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack
 - Healthcare Claims Analysis: https://github.com/stalcup-dev/healthcare-claims-analysis
 - Medicaid Spending Open Analysis: https://github.com/stalcup-dev/medicaid-spending-open-analysis
 - Cohort Retention Decision Pack: https://github.com/stalcup-dev/cohort-retention-decision-pack
