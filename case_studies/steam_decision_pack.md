@@ -68,8 +68,8 @@ To close the “directional insight → measurable business delta” gap, this c
 - Shows ability to translate market analytics into actionable recommendation packs with clear risk framing.
 
 ## Artifacts
-- Repo: https://github.com/stalcup-dev/steam-decision-pack
-- Project README and outputs: https://github.com/stalcup-dev/steam-decision-pack#readme
+- Repo: https://github.com/stalcup-dev/steam-growth-decision-pack-public
+- Project README and outputs: https://github.com/stalcup-dev/steam-growth-decision-pack-public#readme
 - Portfolio README reference: [Main portfolio README](../README.md)
 
 ## Tech + Skills Demonstrated
