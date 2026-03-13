@@ -23,9 +23,15 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 ### Start here (fastest way to evaluate fit)
 - **Healthcare revenue cycle focus:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
 - **Healthcare operations focus:** [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
+- **Commercial analytics / pricing + supply chain focus:** [MarginMap](https://github.com/stalcup-dev/marginmap) (includes a policy simulator for what-if decisions) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
 - **Healthcare + policy trend context:** [Medicaid Spending Open Analysis](https://github.com/stalcup-dev/medicaid-spending-open-analysis)
 - **Cross-functional decision quality:** [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - **End-to-end delivery (data model → forecast → BI):** [Sales Forecasting & KPI Dashboard](case_studies/sales_forecasting_kpi_dashboard.md)
+
+### Quick review path
+1. Open **Start here** links for domain fit (healthcare, commercial/supply chain, experimentation).
+2. Skim **Selected measurable outcomes** for performance and impact signals.
+3. Open **Featured project snapshots** for concise business question → approach → result summaries.
 
 ### What this portfolio demonstrates
 - I scope ambiguous business questions into measurable KPIs and explicit decision criteria.
@@ -45,6 +51,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 ### Tier 2: Adjacent decision science and business impact
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
 - **A/B experiment (ship/no-ship decision):** SRM checks, lift analysis, and decision memo. ([Repo](https://github.com/stalcup-dev/marketing-ab-experiment) | [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports))
+- **MarginMap (pricing, margin & supply chain analytics):** plain-English margin visibility, product mix diagnostics, and what-if policy simulation for commercial teams. ([Repo](https://github.com/stalcup-dev/marginmap) | [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md))
 - **Forecasting + BI delivery:** ETL → forecasting → KPI dashboard pipeline. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [Dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
 
@@ -82,6 +89,7 @@ This format is now documented in case studies so hiring teams can see both analy
 
 ### Additional analytics projects
 - [Cohort Retention Decision Pack](case_studies/cohort_retention_decision_pack.md)
+- [MarginMap Supply Chain Analytics — Policy Simulator Case Study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
 - [A/B Marketing Experiment — Ad vs PSA](case_studies/ab_marketing_experiment.md)
 - [Steam Decision Pack](case_studies/steam_decision_pack.md)
 - [Sales Forecasting & KPI Dashboard (Vita Markets)](case_studies/sales_forecasting_kpi_dashboard.md)
@@ -94,6 +102,7 @@ This format is now documented in case studies so hiring teams can see both analy
 | Healthcare Claims Analysis | Healthcare analytics | KPI summary + concentration signals |
 | Lab SLA & QC Analytics | Healthcare operations | Bottleneck diagnosis and SLA improvement plan |
 | Cohort Retention Decision Pack | RevOps / Growth analytics | Activation + retention-driven prioritization |
+| MarginMap | Commercial / pricing + supply chain analytics | Margin visibility, supply chain cost signals, and policy what-if support |
 | A/B Marketing Experiment — Ad vs PSA | Experimentation | Lift analysis + no-ship decision memo |
 | Steam Decision Pack | Gaming market analytics | Pricing and launch recommendation memo |
 | Sales Forecasting & KPI Dashboard | E-commerce / Forecasting | Forecast performance + dashboard delivery |
@@ -109,6 +118,7 @@ This format is now documented in case studies so hiring teams can see both analy
 | Healthcare / RevOps / RCM analytics | Denial trends, AR drivers, KPI monitoring, and prioritization playbooks | [Revenue cycle case study](case_studies/revenue_cycle_healthcare_claims.md) |
 | Healthcare operations analytics | SLA/TAT monitoring, bottleneck diagnosis, and process-level action plans | [Lab SLA & QC analytics case study](case_studies/lab_sla_qc_analytics.md) |
 | Cohort retention analytics | Cohort construction, activation/retention diagnostics, and action prioritization | [Cohort retention case study](case_studies/cohort_retention_decision_pack.md) |
+| Margin, pricing & supply chain analytics | Unit economics, supply chain cost-to-serve segmentation, and what-if policy simulation for pricing decisions | [MarginMap repo](https://github.com/stalcup-dev/marginmap) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) |
 | Experimentation & inference | Effect sizes, CIs, SRM checks, practical decision framing | [Marketing A/B decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) |
 | Market sizing & decision packs | Competitive benchmarking, pricing bands, and recommendation memos | [Steam decision pack case study](case_studies/steam_decision_pack.md) |
 | SQL analytics | CTEs, time logic, KPI definitions, percentile/TAT analysis | [Lab SLA SQL project](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
@@ -180,7 +190,16 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 **Links:** [Repo](https://github.com/stalcup-dev/marketing-ab-experiment) · [Decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports)
 
-### 7) Sales Forecasting & KPI Dashboard (ETL + BI)
+### 7) MarginMap
+**Business question:** Which products, customer groups, pricing choices, and supply chain costs are squeezing profit, and what should teams fix first?
+
+**Approach:** Built a margin and supply chain analytics workflow that breaks down revenue, cost, and product mix in plain language, then tests policy changes with a what-if simulator.
+
+**Result:** Produced a clear action roadmap showing where margin is leaking, which levers improve profit fastest, and how policy changes could affect outcomes before rollout.
+
+**Links:** [Repo](https://github.com/stalcup-dev/marginmap) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
+
+### 8) Sales Forecasting & KPI Dashboard (ETL + BI)
 **Business question:** Can raw sales data become refreshable planning KPIs + reliable forecasts?
 
 **Approach:** PostgreSQL + dbt modeling → Python forecasting pipeline → Power BI reporting.
@@ -189,7 +208,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 **Links:** [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) · [KPI dashboard](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png)
 
-### 8) Lab SLA & QC Analytics (SQL)
+### 9) Lab SLA & QC Analytics (SQL)
 **Business question:** Where are SLA misses concentrated, and what operational actions reduce delay risk?
 
 **Approach:** Shift/site/analyte segmentation, p95 TAT analysis, QC-proximity impact checks.
@@ -219,6 +238,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 - Steam Decision Pack: https://github.com/stalcup-dev/steam-growth-decision-pack-public
 
 ### E-commerce & forecasting
+- MarginMap: https://github.com/stalcup-dev/marginmap · Case study: https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md
 - End-to-End Sales Forecasting KPI Dashboard ETL: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - E-commerce Power BI Dashboard: https://github.com/stalcup-dev/ecommerce-powerbi-dashboard
 
