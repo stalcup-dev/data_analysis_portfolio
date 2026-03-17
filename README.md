@@ -22,7 +22,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 
 ### Start here (fastest way to evaluate fit)
 - **Healthcare revenue cycle + claims operations:** [Revenue Cycle Healthcare Claims](case_studies/revenue_cycle_healthcare_claims.md) → [Healthcare Claims Analysis](case_studies/healthcare_claims_analysis.md)
-- **Commercial margin, pricing, and cost-to-serve analytics:** [MarginMap](https://github.com/stalcup-dev/marginmap) (policy simulator + decision framing) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
+- **Commercial margin, pricing, and cost-to-serve analytics:** [MarginMap](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) (policy simulator + decision framing) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
 - **Forecasting + KPI automation:** [Sales Forecasting & KPI Dashboard](case_studies/sales_forecasting_kpi_dashboard.md)
 - **Healthcare operations (secondary ops proof):** [Lab SLA & QC Analytics (SQL)](case_studies/lab_sla_qc_analytics.md)
 - **Healthcare policy trend context:** [Medicaid Spending Open Analysis](https://github.com/stalcup-dev/medicaid-spending-open-analysis)
@@ -49,7 +49,7 @@ I build **decision-ready analytics** with reproducible workflows: clear business
 - **Medicaid spending open analysis:** national Medicaid spending trends and cost drivers translated into clear follow-up priorities. ([Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | [Story pack](https://github.com/stalcup-dev/medicaid-spending-open-analysis))
 
 ### Tier 2: Margin, forecasting, and adjacent decision science
-- **MarginMap (pricing, margin & supply chain analytics):** cost-to-serve visibility, margin leakage diagnostics, and what-if policy simulation for commercial teams. ([Repo](https://github.com/stalcup-dev/marginmap) | [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md))
+- **MarginMap (pricing, margin & supply chain analytics):** cost-to-serve visibility, margin leakage diagnostics, and what-if policy simulation for commercial teams. ([Repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) | [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md))
 - **Forecasting + BI delivery:** ETL → forecasting → KPI dashboard pipeline for planning and reporting workflows. ([Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | [Dashboard image](https://raw.githubusercontent.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/main/KPIDashboard.png))
 - **Cohort retention decision pack:** activation/retention cohort diagnostics tied to RevOps prioritization. ([Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | [Case study](case_studies/cohort_retention_decision_pack.md))
 - **Steam decision pack:** market, pricing, and launch-timing signals turned into a ship-ready recommendation memo. ([Repo](https://github.com/stalcup-dev/steam-growth-decision-pack-public) | [Case study](case_studies/steam_decision_pack.md))
@@ -120,7 +120,7 @@ This format is now documented in case studies so hiring teams can see both analy
 | Healthcare / RevOps / RCM analytics | Denial trends, AR drivers, KPI monitoring, and prioritization playbooks | [Revenue cycle case study](case_studies/revenue_cycle_healthcare_claims.md) |
 | Healthcare operations analytics | SLA/TAT monitoring, bottleneck diagnosis, and process-level action plans | [Lab SLA & QC analytics case study](case_studies/lab_sla_qc_analytics.md) |
 | Cohort retention analytics | Cohort construction, activation/retention diagnostics, and action prioritization | [Cohort retention case study](case_studies/cohort_retention_decision_pack.md) |
-| Margin, pricing & supply chain analytics | Unit economics, supply chain cost-to-serve segmentation, and what-if policy simulation for pricing decisions | [MarginMap repo](https://github.com/stalcup-dev/marginmap) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) |
+| Margin, pricing & supply chain analytics | Unit economics, supply chain cost-to-serve segmentation, and what-if policy simulation for pricing decisions | [MarginMap repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) |
 | Experimentation & inference | Effect sizes, CIs, SRM checks, practical decision framing | [Marketing A/B decision pack](https://github.com/stalcup-dev/marketing-ab-experiment/tree/main/decision_pack/reports) |
 | Market sizing & decision packs | Competitive benchmarking, pricing bands, and recommendation memos | [Steam decision pack case study](case_studies/steam_decision_pack.md) |
 | SQL analytics | CTEs, time logic, KPI definitions, percentile/TAT analysis | [Lab SLA SQL project](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
@@ -199,7 +199,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 
 **Result:** Produced a clear action roadmap showing where margin is leaking, which levers improve profit fastest, and how policy changes could affect outcomes before rollout.
 
-**Links:** [Repo](https://github.com/stalcup-dev/marginmap) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
+**Links:** [Repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) · [Case study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md)
 
 ### 8) Sales Forecasting & KPI Dashboard (ETL + BI)
 **Business question:** Can raw sales data become refreshable planning KPIs + reliable forecasts?
@@ -240,7 +240,7 @@ Each snapshot uses the same structure (**business question → approach → resu
 - Steam Decision Pack: https://github.com/stalcup-dev/steam-growth-decision-pack-public
 
 ### E-commerce & forecasting
-- MarginMap: https://github.com/stalcup-dev/marginmap · Case study: https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md
+- MarginMap: https://github.com/stalcup-dev/marginmap-supply-chain-analytics · Case study: https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md
 - End-to-End Sales Forecasting KPI Dashboard ETL: https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl
 - E-commerce Power BI Dashboard: https://github.com/stalcup-dev/ecommerce-powerbi-dashboard
 
