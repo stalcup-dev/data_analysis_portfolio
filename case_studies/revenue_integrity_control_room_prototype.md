@@ -70,4 +70,4 @@ The prototype control room is positioned as an executive-to-operator bridge:
 5. Apply the included prioritization framework to identify top intervention cohorts.
 
 ## Repository Link
-- GitHub: https://github.com/stalcup-dev/revenue-integrity-control-room-prototype
+- Case study: https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md
