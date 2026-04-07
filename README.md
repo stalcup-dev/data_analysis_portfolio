@@ -4,18 +4,30 @@ I build decision-ready analytics for healthcare revenue cycle and regulated oper
 
 This portfolio is best aligned to healthcare analytics, revenue cycle, and operations-focused analyst roles.
 
+## Featured Project
+
+### Revenue Integrity Control Room Prototype
+[Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+
+- Integrates claims-integrity risk, AR pressure, and denial concentration into one operating view for faster prioritization.
+- Emphasizes financial-impact routing so follow-up capacity is directed to the highest-value cohorts first.
+- Supports operational control with transparent KPI logic and decision-ready drilldowns for leaders and analysts.
+- Strengthens decision support by linking prevention actions (front-end quality) with recovery actions (back-end collections).
+
 ## Start here
 
-### Flagship projects (3)
-1. **Revenue Cycle Healthcare Claims** — denial and AR analytics translated into workflow-level prioritization for RCM teams.  
+### Flagship projects (4)
+1. **Revenue Integrity Control Room Prototype** — integrated revenue-integrity monitoring for risk prioritization and action routing.
+   [Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+2. **Revenue Cycle Healthcare Claims** — denial and AR analytics translated into workflow-level prioritization for RCM teams.
    [Case study](case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
-2. **Healthcare Claims Analysis** — concentration and KPI analysis to focus follow-up effort on highest-impact claim drivers.  
+3. **Healthcare Claims Analysis** — concentration and KPI analysis to focus follow-up effort on highest-impact claim drivers.
    [Case study](case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis)
-3. **Lab SLA & QC Analytics (SQL)** — healthcare operations analysis that isolates turnaround-time bottlenecks and QC-adjacent delay risk.  
+4. **Lab SLA & QC Analytics (SQL)** — healthcare operations analysis that isolates turnaround-time bottlenecks and QC-adjacent delay risk.
    [Case study](case_studies/lab_sla_qc_analytics.md) · [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)
 
 ### Review path
-For a fast screen: review the three flagship case studies in order, then skim Supporting Projects for secondary depth.
+For a fast screen: review the featured control-room case study first, then the remaining flagship case studies in order; skim Supporting Projects for secondary depth.
 
 ## Decision-ready proof
 - **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue.  
@@ -30,17 +42,22 @@ To protect credibility across projects:
 
 ## Flagship case studies
 
-### 1) Revenue Cycle Healthcare Claims
+### 1) Revenue Integrity Control Room Prototype
+- **Business question:** Which claims-integrity risks should be prioritized now to reduce preventable leakage and AR drag?
+- **What this shows:** Control-room style KPI integration, risk-based routing logic, and executive-friendly operational decision support.
+- **Evidence:** [Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+
+### 2) Revenue Cycle Healthcare Claims
 - **Business question:** Which denial and AR drivers should be prioritized first to reduce preventable revenue leakage?
 - **What this shows:** RCM KPI design, concentration logic, root-cause framing, and action routing tied to operational teams.
 - **Evidence:** [Case study](case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
 
-### 2) Healthcare Claims Analysis
+### 3) Healthcare Claims Analysis
 - **Business question:** Where are healthcare claims costs concentrated, and what should be prioritized first?
 - **What this shows:** Healthcare claims segmentation, KPI computation, and memo-ready prioritization for analyst-to-leadership communication.
 - **Evidence:** [Case study](case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis)
 
-### 3) Lab SLA & QC Analytics (SQL)
+### 4) Lab SLA & QC Analytics (SQL)
 - **Business question:** Where are SLA misses concentrated, and which operational fixes should be prioritized first?
 - **What this shows:** SQL-based bottleneck analysis, p95 turnaround-time review, and healthcare operations problem framing grounded in lab workflows.
 - **Evidence:** [Case study](case_studies/lab_sla_qc_analytics.md) · [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)
