@@ -30,10 +30,22 @@ This portfolio is best aligned to healthcare analytics, revenue cycle, and opera
 For a fast screen: review the featured control-room case study first, then the remaining flagship case studies in order; skim Supporting Projects for secondary depth.
 
 ## Decision-ready proof
-- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue.  
-- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues.  
-- **Observed in analysis:** Encounter-submission QA triaged **219 defects** and closed with **0 unresolved critical defects** (80 BLOCKER + 18 HIGH resolved pre-submission).  
+### Cross-project portfolio proof (existing)
+- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue.
+- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues.
+- **Observed in analysis:** Encounter-submission QA triaged **219 defects** and closed with **0 unresolved critical defects** (80 BLOCKER + 18 HIGH resolved pre-submission).
 - **Observed in holdout / validation:** Forecasting pipeline reported **median MAPE ~12.3%** with **~80% interval coverage** for repeatable planning outputs.
+
+### Revenue Integrity Control Room report addendum
+- **Observed in shipped control-room output:** the current deterministic outpatient slice surfaced **24 open exceptions**, with **$9.74K still recoverable**, **$3.63K already lost**, and **17 exceptions breaching SLA**, turning broad charge-capture leakage into a ranked, owner-routed work queue.
+- **Observed in shipped prioritization:** the top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**, each with explicit owner, recoverability, and next-step guidance; the top queue alone carried **$8.4K at risk** with **$2.5K still recoverable**.
+- **Observed in case-level governance proof:** the featured OR case preserved the same failed-control story across summary, proof, and exported memo, keeping failed control, root cause, blocker, owner, aging, and recoverability aligned end to end.
+- **Observed in browser-visible governance proof:** selected cases surface one current blocker, accountable owner, stage age, SLA status, recoverability, and routing history in the working app (not only in export artifacts).
+- **Observed in realism / validation:** the shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing-reason coverage**.
+
+### Use with caution
+- **Modeled estimate only:** Scenario Lab outputs are **what-if projections**, not forecasts; default levers project 4 fewer backlog items, +16.6 SLA points, and a $2,464 recoverable-dollar lift.
+- **Do not over-claim scope:** this portfolio evidence is deterministic, synthetic, facility-side, and outpatient-first proof; it is **not** production deployment evidence, realized ROI, live hospital outcomes, or forecast-accuracy proof.
 
 To protect credibility across projects:
 - **Modeled estimate** = directional impact projection from scenario analysis.
