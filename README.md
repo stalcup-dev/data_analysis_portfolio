@@ -31,21 +31,23 @@ For a fast screen: review the featured control-room case study first, then the r
 
 ## Decision-ready proof
 ### Cross-project portfolio proof (existing)
-- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue.
-- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues.
-- **Observed in analysis:** Encounter-submission QA triaged **219 defects** and closed with **0 unresolved critical defects** (80 BLOCKER + 18 HIGH resolved pre-submission).
-- **Observed in holdout / validation:** Forecasting pipeline reported **median MAPE ~12.3%** with **~80% interval coverage** for repeatable planning outputs.
+*Reference note: each bullet links to the source artifact location where the cited metric is documented.*
+- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue ([Evidence repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)).
+- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues ([Evidence repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)).
+- **Observed in analysis:** Encounter-submission QA triaged **219 defects** and closed with **0 unresolved critical defects** (80 BLOCKER + 18 HIGH resolved pre-submission) ([Evidence repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack)).
+- **Observed in holdout / validation:** Forecasting pipeline reported **median MAPE ~12.3%** with **~80% interval coverage** for repeatable planning outputs ([Case study](case_studies/sales_forecasting_kpi_dashboard.md) · [Evidence repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)).
 
 ### Revenue Integrity Control Room report addendum
-- **Observed in shipped control-room output:** the current deterministic outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure**, with **72.9% still recoverable** (**$9.74K**) and **27.1% already lost** (**$3.63K**); **70.8% of exceptions were SLA-breaching**, turning broad charge-capture leakage into a ranked, owner-routed work queue.
-- **Observed in shipped prioritization:** the top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**, each with explicit owner, recoverability, and next-step guidance; the top queue alone represented about **63% of active exposure** (**$8.4K**), with about **29.8% of that queue still recoverable** (**$2.5K**).
-- **Observed in case-level governance proof:** the featured OR case preserved the same failed-control story across summary, proof, and exported memo, keeping failed control, root cause, blocker, owner, aging, and recoverability aligned end to end.
-- **Observed in browser-visible governance proof:** selected cases surface one current blocker, accountable owner, stage age, SLA status, recoverability, and routing history in the working app (not only in export artifacts).
-- **Observed in realism / validation:** the shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing-reason coverage**.
+- **Observed in shipped control-room output:** the current deterministic outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure**, with **72.9% still recoverable** (**$9.74K**) and **27.1% already lost** (**$3.63K**); **70.8% of exceptions were SLA-breaching**, turning broad charge-capture leakage into a ranked, owner-routed work queue ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Featured story image](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1)).
+- **Observed in shipped prioritization:** the top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**, each with explicit owner, recoverability, and next-step guidance; the top queue alone represented about **63% of active exposure** (**$8.4K**), with about **29.8% of that queue still recoverable** (**$2.5K**) ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
+- **Observed in case-level governance proof:** the featured OR case preserved the same failed-control story across summary, proof, and exported memo, keeping failed control, root cause, blocker, owner, aging, and recoverability aligned end to end ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
+- **Observed in browser-visible governance proof:** selected cases surface one current blocker, accountable owner, stage age, SLA status, recoverability, and routing history in the working app (not only in export artifacts) ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
+- **Observed in realism / validation:** the shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing-reason coverage** ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
 
 ### Use with caution
 - **Modeled estimate only:** Scenario Lab outputs are **what-if projections**, not forecasts; default levers project 4 fewer backlog items, +16.6 SLA points, and a $2,464 recoverable-dollar lift.
-- **Do not over-claim scope:** this portfolio evidence is deterministic, synthetic, facility-side, and outpatient-first proof; it is **not** production deployment evidence, realized ROI, live hospital outcomes, or forecast-accuracy proof.
+- **Scope guard:** this portfolio evidence is deterministic, synthetic, facility-side, and outpatient-first proof; it is **not** production deployment evidence, realized ROI, live hospital outcomes, or forecast-accuracy proof.
+- **Realism report context:** the shipped realism artifact (**22/22 checks passed**) supports internal consistency and governance traceability for this synthetic prototype; it does not convert this work into live-deployment or realized-outcome evidence.
 
 To protect credibility across projects:
 - **Modeled estimate** = directional impact projection from scenario analysis.
@@ -110,6 +112,9 @@ Medical Laboratory Technician (8+ years) with frontline experience in regulated 
 - **Python for Everybody (Coursera)**
 
 ## Visual proof (compact)
+**Revenue Integrity Control Room — featured story**  
+![Revenue Integrity Control Room featured story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1)
+
 **Revenue Cycle dashboard preview**  
 ![Revenue Cycle dashboard preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1)
 

@@ -8,6 +8,7 @@
 **Revenue Integrity Control Room Prototype** — a healthcare revenue-cycle analytics concept for monitoring claim-quality risk, workqueue pressure, and financial exposure in one operating view.
 
 > **Evidence note:** This portfolio summarizes deterministic, synthetic, outpatient-first control-room outputs intended for decision support and governance traceability, not production ROI claims or forecasts.
+> **Realism report context:** The shipped realism artifact (**22/22 checks passed**) supports internal consistency and governance traceability for this synthetic prototype; it does not constitute live-hospital outcome or deployment proof.
 
 ## Business Context
 Healthcare revenue cycle teams often work across disconnected reports (denials, edits, aging, productivity), which slows prioritization and creates avoidable leakage. A “control room” approach centralizes risk and performance indicators so operations leaders can direct limited follow-up capacity toward the highest-value claims first.
