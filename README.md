@@ -7,7 +7,7 @@ This portfolio is best aligned to healthcare analytics, revenue cycle, and opera
 ## Featured Project
 
 ### Revenue Integrity Control Room Prototype
-[Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+[Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Repo](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype)
 
 - Integrates claims-integrity risk, AR pressure, and denial concentration into one operating view for faster prioritization.
 - Emphasizes financial-impact routing so follow-up capacity is directed to the highest-value cohorts first.
@@ -18,7 +18,7 @@ This portfolio is best aligned to healthcare analytics, revenue cycle, and opera
 
 ### Flagship projects (4)
 1. **Revenue Integrity Control Room Prototype** — integrated revenue-integrity monitoring for risk prioritization and action routing.
-   [Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+   [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Repo](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype)
 2. **Revenue Cycle Healthcare Claims** — denial and AR analytics translated into workflow-level prioritization for RCM teams.
    [Case study](case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)
 3. **Healthcare Claims Analysis** — concentration and KPI analysis to focus follow-up effort on highest-impact claim drivers.
@@ -57,7 +57,7 @@ To protect credibility across projects:
 ### 1) Revenue Integrity Control Room Prototype
 - **Business question:** Which claims-integrity risks should be prioritized now to reduce preventable leakage and AR drag?
 - **What this shows:** Control-room style KPI integration, risk-based routing logic, and executive-friendly operational decision support.
-- **Evidence:** [Case study](case_studies/revenue_integrity_control_room_prototype.md) · [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
+- **Evidence:** [Repo case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Repo](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype)
 
 ### 2) Revenue Cycle Healthcare Claims
 - **Business question:** Which denial and AR drivers should be prioritized first to reduce preventable revenue leakage?
