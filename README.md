@@ -32,10 +32,10 @@ For a fast screen: review the featured control-room case study first, then the r
 ## Decision-ready proof
 ### Cross-project portfolio proof (existing)
 *Reference note: each bullet links to the source artifact location where the cited metric is documented.*
-- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, with **91.1% of prevented-exposure proxy** concentrated in the top two denial buckets, turning a broad denial pattern into a focused work queue ([Evidence repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)).
-- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues ([Evidence repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims)).
-- **Observed in analysis:** Encounter-submission QA triaged **219 defects** and closed with **0 unresolved critical defects** (80 BLOCKER + 18 HIGH resolved pre-submission) ([Evidence repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack)).
-- **Observed in holdout / validation:** Forecasting pipeline reported **median MAPE ~12.3%** with **~80% interval coverage** for repeatable planning outputs ([Case study](case_studies/sales_forecasting_kpi_dashboard.md) · [Evidence repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl)).
+- **Observed in analysis:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% top-2 share of priority**, turning a broad denial pattern into a focused work queue ([RCI brief artifact](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/denials_rci_brief_v1.html) · [Triage brief artifact](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/denials_triage_brief_v1.html)).
+- **Observed in analysis:** Revenue-cycle root-cause prioritization concentrated **98.3% of weighted priority** in the top two denial buckets, tightening follow-up around the highest-value workflow issues ([RCI brief artifact](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/denials_rci_brief_v1.html)).
+- **Observed in analysis:** Encounter-submission QA KPI snapshot reported **219 total rejects**, with critical-severity mix of **80 BLOCKER + 18 HIGH** for pre-submission triage tracking ([KPI snapshot artifact](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/blob/main/docs/kpi_snapshot.md)).
+- **Observed in holdout / validation:** Forecasting pipeline reported **median MAPE ~12.3%** with **~80% interval coverage** for repeatable planning outputs ([Case study](case_studies/sales_forecasting_kpi_dashboard.md) · [Forecasting performance artifact](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/blob/main/README.md#forecasting-performance)).
 
 ### Revenue Integrity Control Room report addendum
 - **Observed in shipped control-room output:** the current deterministic outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure**, with **72.9% still recoverable** (**$9.74K**) and **27.1% already lost** (**$3.63K**); **70.8% of exceptions were SLA-breaching**, turning broad charge-capture leakage into a ranked, owner-routed work queue ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Featured story image](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1)).
@@ -45,14 +45,7 @@ For a fast screen: review the featured control-room case study first, then the r
 - **Observed in realism / validation:** the shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing-reason coverage** ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
 
 ### Use with caution
-- **Modeled estimate only:** Scenario Lab outputs are **what-if projections**, not forecasts; default levers project 4 fewer backlog items, +16.6 SLA points, and a $2,464 recoverable-dollar lift.
-- **Scope guard:** this portfolio evidence is deterministic, synthetic, facility-side, and outpatient-first proof; it is **not** production deployment evidence, realized ROI, live hospital outcomes, or forecast-accuracy proof.
-- **Realism report context:** the shipped realism artifact (**22/22 checks passed**) supports internal consistency and governance traceability for this synthetic prototype; it does not convert this work into live-deployment or realized-outcome evidence.
-
-To protect credibility across projects:
-- **Modeled estimate** = directional impact projection from scenario analysis.
-- **Operational target** = implementation goal set for a team/process.
-- **Validation plan** = post-change 30/60/90 metric check to compare realized vs expected impact.
+- Assumptions, scope limits, and realism context are documented in the featured control-room case study; this README keeps a concise summary and links to source proof artifacts ([Evidence case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)).
 
 ## Flagship case studies
 
@@ -109,6 +102,7 @@ Medical Laboratory Technician (8+ years) with frontline experience in regulated 
 ## Certifications
 - **IBM Data Analyst Professional Certificate** — [Certificate image](certificates/ibm-data-analyst-professional-certificate.png) · [Coursera verification](https://www.coursera.org/account/accomplishments/specialization/certificate/VFYV9RUV1HWW)
 - **Revenue Cycle, Billing, and Coding** — Johns Hopkins University (Course), completed Feb 2026
+- **Clinical Trials Interpretation** — Johns Hopkins University (Course)
 - **Python for Everybody (Coursera)**
 
 ## Visual proof (compact)
