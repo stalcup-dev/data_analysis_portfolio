@@ -284,7 +284,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 > **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, drill-down routing, and a realism validation layer.
 
-![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05.png)
+![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
 
 </details>
 
@@ -294,7 +294,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 > **Why this matters to hiring teams:** This view demonstrates case-level governance depth — every exception carries a current owner, primary blocker, recoverability classification, SLA status, and next-step guidance.
 
-![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_queue_governance_case_detail_2026-05.png)
+![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/queue_governance_case_detail.png)
 
 </details>
 
@@ -304,7 +304,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 > **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs were last validated and flags stale assumptions before they drive bad calls.
 
-![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05.png)
+![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
 
 </details>
 
