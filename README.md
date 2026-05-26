@@ -53,9 +53,6 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 ### Control room summary view (May 2026)
 ![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
 
-### Decision-pack freshness lens (May 2026)
-![Revenue Integrity Control Room — React Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
-
 **Shipped output — key metrics:**
 
 | Metric | Result |
@@ -276,6 +273,20 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 |---|---|
 | 📧 **Email** | [allen.stalc@gmail.com](mailto:allen.stalc@gmail.com) |
 | 💻 **GitHub** | [github.com/stalcup-dev](https://github.com/stalcup-dev) |
+
+---
+
+## 🖼️ Additional Visuals
+
+<details>
+<summary><strong>📅 Decision-Pack Freshness Lens — Control Room (May 2026)</strong></summary>
+<br/>
+
+> **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs are stale, which packages are overdue for refresh, and whether the operating picture can still be trusted. It's the kind of governance thinking that separates analysts who just run queries from analysts who own the reliability of the decisions those queries support.
+
+![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
+
+</details>
 
 ---
 
