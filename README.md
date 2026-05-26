@@ -1,8 +1,8 @@
 <h1 align="center">Allen Stalcup</h1>
-<h3 align="center">Healthcare & Revenue Cycle Data Analyst · React App Builder · Clinical Operations Background</h3>
+<h3 align="center">Healthcare & Revenue Cycle Data Analyst · Clinical Operations Background</h3>
 
 <p align="center">
-  <em>I don't just analyze data — I ship it in beautifully designed, fast, decision-ready tools.</em>
+  <em>I turn complex healthcare data into clear, decision-ready analysis — backed by 8+ years of frontline clinical operations experience.</em>
 </p>
 
 <p align="center">
@@ -29,33 +29,17 @@
 
 ## 👋 Who I Am
 
-Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context directly into my analytics work, building tools that people actually use to make faster, better decisions.
+Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context directly into my analysis work: I know what the numbers mean operationally, not just statistically.
 
-**What sets me apart:** I go beyond dashboards and notebooks. I build **production-quality React applications** that turn complex healthcare data into clean, fast, interactive decision tools — designed with real UX intuition and analyst-grade rigor behind every number.
+I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, forecasting, and cost concentration problems. When a project calls for it, I can also take the analysis the extra mile and package it as a polished, interactive React application — the kind that stakeholders actually open instead of a static PDF.
 
 > 🎯 This portfolio targets **Healthcare Analytics, Revenue Cycle Analyst, RCM Analyst, and Operations Analyst** roles — remote preferred.
 
 ---
 
-## ⚡ React Data App Development — A Differentiator
-
-> Most analysts deliver a dashboard. I deliver a **working application.**
-
-I design and build fast, polished React apps purpose-built for data analysis workflows — the kind that look like a product team built them, shipped solo. These are not toy prototypes: they include live state management, drill-down navigation, governance audit trails, SLA tracking, and memo-export flows.
-
-**Why this matters for your team:**
-- 📊 Analysts get interactive tools that update in real time — no static PDFs
-- 🏥 Operations leaders get drill-down views with owner accountability baked in
-- 🔁 Insights stay fresh — filters, routing logic, and exception queues are queryable live
-- 🎨 Beautiful, professional UI that earns stakeholder trust on first open
-
-**Live example:** The [Revenue Integrity Control Room](#-featured-project--revenue-integrity-control-room-prototype) below is a fully shipped React app — not a mockup.
-
----
-
 ## 🏆 Featured Project — Revenue Integrity Control Room Prototype
 
-> *An integrated React-powered operating view for risk prioritization, AR pressure, and denial recovery.*
+> *An integrated operating view for risk prioritization, AR pressure, and denial recovery.*
 
 <p>
   <a href="https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md"><img src="https://img.shields.io/badge/📄%20Case%20Study-Read%20now-blue?style=for-the-badge" alt="Case Study"/></a>
@@ -63,14 +47,14 @@ I design and build fast, polished React apps purpose-built for data analysis wor
   <a href="https://github.com/stalcup-dev/revenue-integrity-control-room-prototype"><img src="https://img.shields.io/badge/💻%20Repository-View%20code-grey?style=for-the-badge" alt="Repo"/></a>
 </p>
 
-### Featured story — shipped React UI
+### Featured story
 ![Revenue Integrity Control Room — Featured Story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1)
 
-### Live React app — control room summary view (May 2026)
-![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+### Control room summary view (May 2026)
+![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-21.png)
 
-### Live React app — decision-pack freshness lens (May 2026)
-![Revenue Integrity Control Room — React Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
+### Decision-pack freshness lens (May 2026)
+![Revenue Integrity Control Room — React Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-21.png)
 
 **Shipped output — key metrics:**
 
@@ -87,7 +71,6 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 | Routing history coverage | **100%** |
 
 **What this demonstrates:**
-- ⚛️ Full-stack React app with drill-down navigation, live filters, and governance audit trail
 - 🏥 Claims-integrity risk, AR pressure, and denial concentration unified in one operating view
 - 💰 Financial-impact routing directing follow-up to the highest-value cohorts first
 - 🗂️ Top 3 active queues narrowed action to **billing prebill holds, documentation support, and coding review** — each with explicit owner, recoverability score, and next-step guidance
@@ -101,32 +84,32 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 > *Every figure below is sourced from a shipped project artifact. Links go directly to the proof location — not summaries.*
 
 ### Revenue Integrity Control Room
-- **Observed in shipped output:** The outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure** with **72.9% still recoverable ($9.74K)** and **27.1% already lost ($3.63K)**; **70.8% of exceptions were SLA-breaching**, turning broad charge-capture leakage into a ranked, owner-routed work queue. ([Case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Featured story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1))
-- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)**, with **~29.8% of that queue still recoverable ($2.5K)**. ([Case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md))
-- **Observed in realism / validation:** The shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing history coverage**. ([Case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md))
+- **Observed in shipped output:** The outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure** with **72.9% still recoverable ($9.74K)** and **27.1% already lost ($3.63K)**.
+- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)**.
+- **Observed in realism / validation:** The shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing coverage**.
 
 ### Revenue Cycle Healthcare Claims
-- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are wasteful compared to focused intervention on the top segments. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
-- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial pattern into a focused, ranked action queue. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
-- **Observed in root-cause prioritization:** Root-cause segmentation concentrated **98.3% of weighted priority** in the top two denial categories, tightening follow-up around the highest-value workflows. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
-- **Observed in capacity model:** At 10,000 claims/month × 15 min/touch × $35/hr loaded cost, a **0.5 touch/claim reduction in high-friction cohorts releases ~$43,750/month in staff capacity** — a direct, quantified labor ROI tied to front-end clean-claim improvement. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
-- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage back-end recovery action. ([Case study](case_studies/revenue_cycle_healthcare_claims.md))
+- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are less effective than targeted payer-specific interventions.
+- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial list into a focused action queue.
+- **Observed in root-cause prioritization:** Root-cause segmentation concentrated **98.3% of weighted priority** in the top two denial categories, tightening follow-up around the highest-value work.
+- **Observed in capacity model:** At 10,000 claims/month × 15 min/touch × $35/hr loaded cost, a **0.5 touch/claim reduction in high-friction cohorts releases ~$43,750/month in staff capacity**.
+- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage AR intervention.
 
 ### Healthcare Claims Analysis
-- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold 1.68%, confirming a standard but actionable Pareto distribution for targeted care management. ([Case study](case_studies/healthcare_claims_analysis.md))
-- **Observed in clinical focus output:** Diagnosis **A05.4 is the single leading cost driver at $5,872 (1.98% of total spend)** — the primary clinical target for cost management programs and the highest-ROI focus for prevention or condition management investment. ([Case study](case_studies/healthcare_claims_analysis.md))
-- **Observed in pipeline design:** The analysis pipeline produces **0 hardcoded values** — every number in every output document traces directly back to a programmatic pipeline output, making all results **audit-ready and fully reproducible on re-run**. ([Case study](case_studies/healthcare_claims_analysis.md))
+- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold 1.7%.
+- **Observed in clinical focus output:** Diagnosis **A05.4 is the single leading cost driver at $5,872 (1.98% of total spend)** — the primary clinical target for cost management programs.
+- **Observed in pipeline design:** The analysis pipeline produces **0 hardcoded values** — every number in every output document traces directly back to a programmatic pipeline output, making all results fully reproducible.
 
 ### Lab SLA & QC Analytics (SQL)
-- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear operational constraint and the first target for load-balancing or pre-batching interventions. ([Case study](case_studies/lab_sla_qc_analytics.md))
-- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable arrival timing; dedicated STAT lanes and staggered courier drops are the identified fix. ([Case study](case_studies/lab_sla_qc_analytics.md))
-- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified, actionable effect size that leadership can schedule QC maintenance around. ([Case study](case_studies/lab_sla_qc_analytics.md))
-- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection for auto-verify expansion or staffing adjustment. ([Case study](case_studies/lab_sla_qc_analytics.md))
+- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear operational priority.
+- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable arrival patterns.
+- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified, actionable impact.
+- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection needing intervention.
 
 ### Sales Forecasting & KPI Dashboard
-- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecast quality contract for planning outputs. ([Case study](case_studies/sales_forecasting_kpi_dashboard.md))
-- **Observed in automation delivery:** The end-to-end pipeline **reduced manual reporting effort from 4 hours/week to 0** via reproducible ETL + stable database views powering Power BI refresh. ([Case study](case_studies/sales_forecasting_kpi_dashboard.md))
-- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to an operational action — not just a number. ([Case study](case_studies/sales_forecasting_kpi_dashboard.md))
+- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecast with documented assumptions.
+- **Observed in automation delivery:** The end-to-end pipeline **reduced manual reporting effort from 4 hours/week to 0** via reproducible ETL + stable database views powering Power BI refresh.
+- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to operational action.
 
 ---
 
@@ -212,7 +195,7 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 
 | Project | Highlights |
 |---|---|
-| [Healthcare Encounters Analysis](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) | **219 total rejects** · **80 BLOCKER + 18 HIGH** critical-severity mix for pre-submission triage |
+| [Healthcare Encounters Analysis](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) | **219 total rejects** · **80 BLOCKER + 18 HIGH** critical-severity mix for pre-submission QA |
 | [Medicaid Spending Open Analysis](https://github.com/stalcup-dev/medicaid-spending-open-analysis) | Public Medicaid spending data — exploratory and concentration analysis |
 | [RCM Improvement Plan](https://github.com/stalcup-dev/rcm-improvement-plan) | Structured operational improvement framing for RCM workflows |
 
@@ -224,9 +207,9 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 
 | Project | Links | Highlights |
 |---|---|---|
-| Sales Forecasting & KPI Dashboard | [Case Study](case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | MAPE **~12.3%** · **~80%** coverage · **4 hrs/week → 0** reporting effort |
+| Sales Forecasting & KPI Dashboard | [Case Study](case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | MAPE ~12.3% · 4 hrs/week reporting eliminated |
 | Cohort Retention Decision Pack | [Case Study](case_studies/cohort_retention_decision_pack.md) · [Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | — |
-| MarginMap Scenario Analysis | [Case Study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) · [Repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) | Policy simulator · Cost-to-serve · React UI |
+| MarginMap Scenario Analysis | [Case Study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) · [Repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) | — |
 
 ![MarginMap Policy Simulator](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/assets/screenshots/07_policy_simulator.png?raw=1)
 
@@ -253,9 +236,9 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 |---|---|
 | **Healthcare / RCM Analytics** | Denial trends · AR drivers · KPI concentration · Workflow prioritization |
 | **Healthcare Operations** | SLA/TAT bottleneck analysis · Escalation workflows · QC discipline |
-| **React App Development** | Fast, polished data apps · State management · Drill-down UX · Governance audit trails |
 | **SQL + Python** | Reproducible pipelines · Segmentation logic · QA checks · Canonical view design |
 | **Forecasting + BI** | ETL/model/reporting pipelines · Holdout validation · Power BI · Tableau · dbt |
+| **Front-End (React / TypeScript)** | Productized data apps · Drill-down UX · Interactive decision tools |
 | **Decision Communication** | Stakeholder memos · Assumption documentation · Risk framing · Next-step tests |
 
 <p>
@@ -278,10 +261,10 @@ I design and build fast, polished React apps purpose-built for data analysis wor
 
 | Certification | Issuer | Verification |
 |---|---|---|
-| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/MFHZ5Z7RNSCJ) |
+| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/HO46BGZRBXAY) |
 | **Revenue Cycle, Billing, and Coding** | Johns Hopkins University | Completed Feb 2026 |
-| **Clinical Trials Interpretation** | Johns Hopkins University | — |
-| **Python for Everybody** | Coursera | — |
+| **Clinical Trials Interpretation** | Johns Hopkins University | Completed |
+| **Python for Everybody** | Coursera | Completed |
 
 ---
 
