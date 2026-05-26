@@ -70,5 +70,21 @@ The prototype control room is positioned as an executive-to-operator bridge:
 4. Open dashboard artifacts and validate metric definitions against source logic.
 5. Apply the included prioritization framework to identify top intervention cohorts.
 
+## Latest React App Screenshots (Updated May 25, 2026)
+
+These images reflect the newest React product surface documented in the source project case study.
+
+### 1) React Control Room Summary
+![React Control Room Summary (May 25, 2026)](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+
+### 2) React Reviewer Proof Pack Lens
+![React Reviewer Proof Pack Lens (May 25, 2026)](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_reviewer_proof_pack_lens_2026-05-25.png)
+
+### 3) React Scenario Claim-Tightening Lens
+![React Scenario Claim-Tightening Lens (May 25, 2026)](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_scenario_claim_tightening_lens_2026-05-25.png)
+
+### 4) React Decision Pack Freshness Lens
+![React Decision Pack Freshness Lens (May 25, 2026)](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
+
 ## Repository Link
 - Case study: https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md
