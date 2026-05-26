@@ -306,6 +306,18 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 </details>
 
+<details>
+<summary><strong>📊 Sales Forecasting & KPI Dashboard — Power BI (May 2026)</strong></summary>
+<br/>
+
+> **Why this matters to hiring teams:** These are the two Power BI dashboard pages delivered as the final consumer-facing layer of a full end-to-end pipeline — CSV source → Postgres → dbt → Prophet → Power BI. The forecasting view surfaces SKU-level 90-day demand projections with 80% prediction intervals, trained on Prophet with a 30-day holdout validation (median MAPE ~12.3%, bias ~0). The KPI view provides leadership with at-a-glance performance tracking across revenue, volume, and forecast accuracy metrics. Together they demonstrate the complete BI delivery loop: automated ETL, validated model output, and a stable reporting layer that eliminated 4 hours/week of manual effort.
+
+![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png)
+
+![Sales KPI Dashboard — Power BI KPI View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/KPIDashboard.png)
+
+</details>
+
 ---
 
 <p align="center"><em>All metrics cited in this README are sourced from shipped project artifacts — not estimates. Every number links directly to its proof location.</em></p>
