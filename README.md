@@ -318,6 +318,18 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 </details>
 
+<details>
+<summary><strong>🏥 Encounters Submission QA — Payer Pre-Submission Defect Analysis</strong></summary>
+<br/>
+
+> **Why this matters to hiring teams:** These charts are the analytical core of a production-grade payer encounter QA system — the kind of work that sits between a delegated vendor's weekly batch and an agency submission deadline. The top-rejects view shows exactly which defect codes are driving the highest reject volume, ranked and colored by severity tier (BLOCKER / HIGH / MONITOR), giving ops teams a precise prioritization signal rather than a flat list of errors. The triage trend view tells the 10-week operational story: a BLOCKER spike in W02 that triggered a hold-and-remediate decision, clean recovery through W05, a HIGH/anomaly event in W06–W07, and a controlled close in W10 with zero BLOCKERs. This is the kind of output that supports a real submission governance conversation — not just a count of errors, but a traceable decision record. All 219 rejects were triaged, all 80 BLOCKERs and 18 HIGH defects were resolved before submission, and the system passed 17/17 UAT scenarios.
+
+![Encounters QA — Top Reject Codes by Severity](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/top_rejects.png)
+
+![Encounters QA — Weekly Triage Trend (10-Week Arc)](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/triage_trend.png)
+
+</details>
+
 ---
 
 <p align="center"><em>All metrics cited in this README are sourced from shipped project artifacts — not estimates. Every number links directly to its proof location.</em></p>
