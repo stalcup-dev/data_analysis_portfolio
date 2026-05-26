@@ -29,9 +29,9 @@
 
 ## 👋 Who I Am
 
-Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context directly into data work: I know what the numbers mean before I model them.
+Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context to data analytics: I know what the numbers mean because I lived the workflows they describe.
 
-I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, forecasting, and market analysis.
+I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, sales forecasting, and more.
 
 > 🎯 This portfolio targets **Healthcare Analytics, Revenue Cycle Analyst, RCM Analyst, and Operations Analyst** roles — remote preferred.
 
@@ -80,31 +80,31 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 ### Revenue Integrity Control Room
 - **Observed in shipped output:** The outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure** with **72.9% still recoverable ($9.74K)** and **27.1% already lost ($3.63K)**.
-- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)**.
+- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)** with **~29.8% recoverable ($2.5K)**.
 - **Observed in realism / validation:** The shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing coverage**.
 
 ### Revenue Cycle Healthcare Claims
-- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are unnecessary.
-- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial list into a focused action queue.
+- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are unlikely to move the needle without targeted follow-up.
+- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial list into a targeted action queue.
 - **Observed in root-cause prioritization:** Root-cause segmentation concentrated **98.3% of weighted priority** in the top two denial categories, tightening follow-up around the highest-value work.
 - **Observed in capacity model:** At 10,000 claims/month × 15 min/touch × $35/hr loaded cost, a **0.5 touch/claim reduction in high-friction cohorts releases ~$43,750/month in staff capacity**.
-- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage AR intervention.
+- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage operational change.
 
 ### Healthcare Claims Analysis
-- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold a disproportionate share.
+- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold 1.69%.
 - **Observed in clinical focus output:** Diagnosis **A05.4 is the single leading cost driver at $5,872 (1.98% of total spend)** — the primary clinical target for cost management programs.
 - **Observed in pipeline design:** The analysis pipeline produces **0 hardcoded values** — every number in every output document traces directly back to a programmatic pipeline output, making all figures reproducible and auditable.
 
 ### Lab SLA & QC Analytics (SQL)
-- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear operational priority.
-- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable surge volume.
-- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified downstream impact, not an assumption.
-- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection to target first.
+- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear first target for operational intervention.
+- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable volume spikes.
+- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified operational risk that justifies targeted QC scheduling protocols.
+- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection for staffing and workflow intervention.
 
 ### Sales Forecasting & KPI Dashboard
-- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecast, not a backfit curve.
+- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecast with quantified uncertainty bounds.
 - **Observed in automation delivery:** The end-to-end pipeline **reduced manual reporting effort from 4 hours/week to 0** via reproducible ETL + stable database views powering Power BI refresh.
-- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to operational purchasing decisions.
+- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to actionable purchasing decisions.
 
 ---
 
@@ -167,7 +167,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 </td>
 <td width="50%">
 
-![Rolling 6hr](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_rolling_6hr.png)
+![SLA Heatmap — Analyte x Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png)
 
 </td>
 </tr>
@@ -258,7 +258,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 |---|---|---|---|
 | **ASCP Certified — Clinical Laboratory Scientist / Medical Laboratory Technician** | Certification | American Society for Clinical Pathology (ASCP) | Certified |
 | **AAS — Clinical Laboratory Science** | Degree | — | Associate of Applied Science |
-| **IBM Data Analyst Professional Certificate** | Certification | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/) |
+| **IBM Data Analyst Professional Certificate** | Certification | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/IBS4BXKB5DTX) |
 | **Revenue Cycle, Billing, and Coding** | Certification | Johns Hopkins University | Completed Feb 2026 |
 | **Clinical Trials Interpretation** | Certification | Johns Hopkins University | Completed |
 | **Python for Everybody** | Certification | Coursera | Completed |
@@ -282,7 +282,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>🖥️ Control Room Summary View — React App (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, drill-down routing, and a realism validation layer.
+> **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, real-time KPI tiles, and drill-down navigation across all exception queues.
 
 ![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
 
@@ -292,9 +292,9 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>📋 Queue Governance Browser — Case-Level Detail View (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** This view demonstrates case-level governance depth — every exception carries a current owner, primary blocker, recoverability classification, SLA status, and next-step guidance.
+> **Why this matters to hiring teams:** This view demonstrates case-level governance depth — every exception carries a current owner, primary blocker, recoverability classification, SLA status, and next-step guidance — all filterable and drill-down ready in the React app.
 
-![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/queue_governance_case_detail.png)
+![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_queue_governance_browser_2026-05-25_refresh_v8_taller_clean.png)
 
 </details>
 
@@ -302,7 +302,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>📅 Decision-Pack Freshness Lens — Control Room (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs were last validated and flags stale assumptions before they drive bad calls.
+> **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs were last validated, ensuring the operating view stays trustworthy over time.
 
 ![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
 
@@ -312,7 +312,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>📊 Sales Forecasting & KPI Dashboard — Power BI (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** These are the two Power BI dashboard pages delivered as the final consumer-facing layer of a full end-to-end pipeline — CSV source → Postgres → dbt → Power BI.
+> **Why this matters to hiring teams:** These are the two Power BI dashboard pages delivered as the final consumer-facing layer of a full end-to-end pipeline — CSV source → Postgres → dbt → Power BI — with holdout-validated forecasts and inventory reorder recommendations built in.
 
 ![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png)
 
@@ -324,7 +324,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>🏥 Encounters Submission QA — Payer Pre-Submission Defect Analysis</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** These charts are the analytical core of a production-grade payer encounter QA system — the kind of work that sits between a delegated vendor's weekly batch and a payer's adjudication engine.
+> **Why this matters to hiring teams:** These charts are the analytical core of a production-grade payer encounter QA system — the kind of work that sits between a delegated vendor's weekly batch and a payer's adjudication engine, catching defects before they become denials.
 
 ![Encounters QA — Top Reject Codes by Severity](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/top_rejects.png)
 
