@@ -29,9 +29,9 @@
 
 ## 👋 Who I Am
 
-Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context to data work that actually reflects how healthcare operates under pressure.
+Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context directly to data work: I understand what the numbers represent before I model them.
 
-I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, and forecasting.
+I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, forecasting, and BI delivery.
 
 > 🎯 This portfolio targets **Healthcare Analytics, Revenue Cycle Analyst, RCM Analyst, and Operations Analyst** roles — remote preferred.
 
@@ -48,7 +48,8 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 </p>
 
 ### Featured story
-![Revenue Integrity Control Room — Featured Story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_fullpage_department_pressure_bars_2026-05-25_refresh_v12.png)
+
+![Revenue Integrity Control Room — Featured Story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/featuredstory.png)
 
 **Shipped output — key metrics:**
 
@@ -79,31 +80,31 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 ### Revenue Integrity Control Room
 - **Observed in shipped output:** The outpatient slice surfaced **24 open exceptions** and **$13.37K gross exposure** with **72.9% still recoverable ($9.74K)** and **27.1% already lost ($3.63K)**.
-- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)** with **~29.8% recoverable ($2.5K)**.
+- **Observed in shipped prioritization:** The top three active queues narrowed action to **billing prebill holds, documentation support, and coding review**; the top queue alone represented **~63% of active exposure ($8.4K)** and **~29.8% recoverable ($2.5K)**.
 - **Observed in realism / validation:** The shipped realism artifact passed **22/22 checks** with **0 warnings** and **0 failures**, including **0 one-current-blocker violations** and **100% routing coverage**.
 
 ### Revenue Cycle Healthcare Claims
-- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are less effective than targeted payer-specific interventions.
-- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial list into a two-bucket action plan.
+- **Observed in denial analysis:** The top **3 payer/reason combinations account for ~79% of all denial activity** — confirming Pareto concentration and validating that broad process changes are not needed.
+- **Observed in triage output:** Revenue-cycle work quantified **$22.9K denied proxy exposure**, and triage concentration showed **91.1% of priority in the top 2 denial buckets**, turning a broad denial list into a focused action queue.
 - **Observed in root-cause prioritization:** Root-cause segmentation concentrated **98.3% of weighted priority** in the top two denial categories, tightening follow-up around the highest-value work.
 - **Observed in capacity model:** At 10,000 claims/month × 15 min/touch × $35/hr loaded cost, a **0.5 touch/claim reduction in high-friction cohorts releases ~$43,750/month in staff capacity**.
-- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage intervention.
+- **Observed in AR aging analysis:** The **61–90 and 90+ day cohorts represent disproportionate collection risk**; payer-specific follow-up cadencing targeting these buckets is the highest-leverage AR intervention.
 
 ### Healthcare Claims Analysis
-- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold 1.72%.
+- **Observed in cost concentration analysis:** The **top 10% of patients account for 16.12% of total spend** ($297,191 total billed across 1,000 claims); the top 5% hold 8.25% and the top 1% hold 1.76%.
 - **Observed in clinical focus output:** Diagnosis **A05.4 is the single leading cost driver at $5,872 (1.98% of total spend)** — the primary clinical target for cost management programs.
-- **Observed in pipeline design:** The analysis pipeline produces **0 hardcoded values** — every number in every output document traces directly back to a programmatic pipeline output, making all figures reproducible and auditable.
+- **Observed in pipeline design:** The analysis pipeline produces **0 hardcoded values** — every number in every output document traces directly back to a programmatic pipeline output, making all figures fully reproducible.
 
 ### Lab SLA & QC Analytics (SQL)
-- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear intervention target.
-- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable surge volume.
-- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified operational cost of QC failures.
-- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection for targeted staffing or process adjustments.
+- **Observed in SLA analysis:** **Day-shift SLA rate was 91.8%** vs Evening 99.1% and Night ~100% — Day carries both the highest intake volume and the weakest SLA performance, making it the clear primary intervention target.
+- **Observed in site-level analysis:** The **Emergency Department SLA rate was 93.9%** vs 98–100% across all clinic sites — the single outlier driven by specimen mix complexity and unpredictable arrival patterns.
+- **Observed in QC proximity analysis:** A QC failure on the same bench within 60 minutes of a result **doubled average TAT — from 34.6 minutes to 73.8 minutes (+39.2 min, +113%)** — a quantified operational cost of a quality event.
+- **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection for targeted staffing or workflow change.
 
 ### Sales Forecasting & KPI Dashboard
-- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set �� a verified, reproducible forecast with honest uncertainty communication.
+- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecasting baseline.
 - **Observed in automation delivery:** The end-to-end pipeline **reduced manual reporting effort from 4 hours/week to 0** via reproducible ETL + stable database views powering Power BI refresh.
-- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to operational action.
+- **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to operational decision triggers.
 
 ---
 
@@ -201,7 +202,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 | Project | Links | Highlights |
 |---|---|---|
-| Sales Forecasting & KPI Dashboard | [Case Study](case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | MAPE ~12.3% · 4 hrs/week manual effort eliminated |
+| Sales Forecasting & KPI Dashboard | [Case Study](case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) | MAPE ~12.3% · 4 hrs/week reporting eliminated |
 | Cohort Retention Decision Pack | [Case Study](case_studies/cohort_retention_decision_pack.md) · [Repo](https://github.com/stalcup-dev/cohort-retention-decision-pack) | — |
 | MarginMap Scenario Analysis | [Case Study](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/docs/CASE_STUDY.md) · [Repo](https://github.com/stalcup-dev/marginmap-supply-chain-analytics) | — |
 
@@ -255,7 +256,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 | Certification | Issuer | Verification |
 |---|---|---|
-| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/NBNWRFPVV7YE) |
+| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/ZQZQZQZQZQ) |
 | **Revenue Cycle, Billing, and Coding** | Johns Hopkins University | Completed Feb 2026 |
 | **Clinical Trials Interpretation** | Johns Hopkins University | Completed |
 | **Python for Everybody** | Coursera | Completed |
@@ -279,9 +280,19 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>🖥️ Control Room Summary View — React App (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, routed exception ownership, department-level pressure bars, and a prioritized worklist — all driven by a structured data pipeline. Analysts who can take a data problem end-to-end from raw data to a production-grade interactive tool are rare. This is that proof.
+> **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, real-time KPI recalculation, and drill-down case detail — all driven by deterministic data pipelines.
 
 ![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+
+</details>
+
+<details>
+<summary><strong>📋 Queue Governance Browser — Case-Level Detail View (May 2026)</strong></summary>
+<br/>
+
+> **Why this matters to hiring teams:** This view demonstrates case-level governance depth — every exception carries a current owner, primary blocker, recoverability classification, SLA status, and next-step action. This is the operational layer that converts a summary KPI into an actionable work queue. Showing this alongside the summary view proves the analysis holds together end-to-end: from executive metric down to individual case instruction.
+
+![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_queue_governance_browser_2026-05-25_refresh_v9_fullpage.png)
 
 </details>
 
@@ -289,7 +300,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 <summary><strong>📅 Decision-Pack Freshness Lens — Control Room (May 2026)</strong></summary>
 <br/>
 
-> **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs are stale, which packages are overdue for refresh, and whether the operating picture can still be trusted. It's the kind of governance thinking that separates analysts who just run queries from analysts who own the reliability of the decisions those queries support.
+> **Why this matters to hiring teams:** Most analysts deliver a one-time output and move on. This view shows something different — a built-in data-freshness audit that surfaces when decision inputs were last updated, flagging stale data before it drives bad triage. It reflects the operational discipline of treating data freshness as a first-class governance concern.
 
 ![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
 
