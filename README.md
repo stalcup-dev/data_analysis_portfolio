@@ -109,6 +109,13 @@ Medical Laboratory Technician (8+ years) with frontline experience in regulated 
 **Revenue Integrity Control Room — featured story**  
 ![Revenue Integrity Control Room featured story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/artifacts/reviewer_walkthrough_pack/summary_featured_story.png?raw=1)
 
+
+**Revenue Integrity Control Room — React app summary (May 25, 2026)**  
+![Revenue Integrity Control Room React summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+
+**Revenue Integrity Control Room — React decision-pack freshness lens (May 25, 2026)**  
+![Revenue Integrity Control Room React decision-pack freshness lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
+
 **Revenue Cycle dashboard preview**  
 ![Revenue Cycle dashboard preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1)
 
