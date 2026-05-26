@@ -48,10 +48,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 </p>
 
 ### Featured story
-![Revenue Integrity Control Room — Featured Story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25_refresh_v8_taller_clean.png)
-
-### Control room summary view (May 2026)
-![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+![Revenue Integrity Control Room — Featured Story](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_fullpage_department_pressure_bars_2026-05-25_refresh_v12.png)
 
 **Shipped output — key metrics:**
 
@@ -104,7 +101,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 - **Observed in analyte-level heatmap:** **CBC and PTINR on Day-shift are the weakest SLA cells** in the analyte × shift matrix — exactly where volume peaks, identifying the precise intersection for targeted staffing or process adjustments.
 
 ### Sales Forecasting & KPI Dashboard
-- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set — a verified, reproducible forecast with honest uncertainty communication.
+- **Observed in holdout validation:** Forecasting pipeline achieved **median MAPE ~12.3%** with **~80% interval coverage** and **bias ~0** on the holdout set �� a verified, reproducible forecast with honest uncertainty communication.
 - **Observed in automation delivery:** The end-to-end pipeline **reduced manual reporting effort from 4 hours/week to 0** via reproducible ETL + stable database views powering Power BI refresh.
 - **Observed in inventory planning output:** Reorder recommendations were generated from **14-day lead time demand + 90% service-level safety stock (z=1.28) + on-hand inventory**, linking forecast output directly to operational action.
 
@@ -179,8 +176,8 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 |---|---|
 | Day-shift SLA | **91.8%** (vs Evening 99.1% / Night ~100%) |
 | ED site SLA | **93.9%** (vs Clinics 98–100%) |
-| QC proximity TAT impact | **34.6 min → 73.8 min (+39.2 min, +113%)** |
 | Weakest analyte × shift cell | **CBC / PTINR on Day-shift** |
+| QC proximity TAT impact | **34.6 min → 73.8 min (+39.2 min, +113%)** |
 
 ---
 
@@ -277,6 +274,16 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 ---
 
 ## 🖼️ Additional Visuals
+
+<details>
+<summary><strong>🖥️ Control Room Summary View — React App (May 2026)</strong></summary>
+<br/>
+
+> **Why this matters to hiring teams:** This is a fully deployed React + TypeScript application — not a static dashboard screenshot. It shows a live, filterable operating view with persisted global filters, routed exception ownership, department-level pressure bars, and a prioritized worklist — all driven by a structured data pipeline. Analysts who can take a data problem end-to-end from raw data to a production-grade interactive tool are rare. This is that proof.
+
+![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+
+</details>
 
 <details>
 <summary><strong>📅 Decision-Pack Freshness Lens — Control Room (May 2026)</strong></summary>
