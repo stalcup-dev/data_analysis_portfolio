@@ -29,9 +29,9 @@
 
 ## 👋 Who I Am
 
-Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical cont[...]
+Medical Laboratory Technician with **8+ years of frontline experience** in regulated healthcare operations — SLA/TAT pressure, QC discipline, and escalation workflows. I bring that clinical context directly into data work: I know what the numbers mean before I model them.
 
-I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity,[...]
+I build end-to-end analysis pipelines — from raw data through segmentation, prioritization, and stakeholder-ready output — and I've applied that process across revenue cycle, claims integrity, lab operations, forecasting, and market analysis.
 
 > 🎯 This portfolio targets **Healthcare Analytics, Revenue Cycle Analyst, RCM Analyst, and Operations Analyst** roles — remote preferred.
 
@@ -138,7 +138,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 
 > **Business question:** Where are healthcare claims costs concentrated, and what should be prioritized first?
 
-![Pareto Analysis](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/figures/pareto.png)
+![Patient Total Cost Boxplot](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/figures/patient_total_cost_boxplot.png)
 
 ![Top Diagnoses](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/figures/top5_diagnoses_total_billed.png)
 
@@ -167,7 +167,7 @@ I build end-to-end analysis pipelines — from raw data through segmentation, pr
 </td>
 <td width="50%">
 
-![QC Impact on TAT](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_qc_fail_impact.png)
+![Rolling 6hr](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_rolling_6hr.png)
 
 </td>
 </tr>
