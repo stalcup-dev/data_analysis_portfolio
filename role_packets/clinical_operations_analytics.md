@@ -1,14 +1,31 @@
-# Clinical Operations / Lab Analytics Portfolio Brief
+# Healthcare Data Quality / EHR Workflow Portfolio Brief
 
 ## Recruiter Snapshot
 
-**Candidate lane:** Clinical operations analytics and healthcare systems analysis with direct lab workflow experience.
+**Candidate lane:** Healthcare data quality, EHR/LIS workflow analysis, clinical systems support, and healthcare operations reporting.
 
-**Best-fit titles:** Clinical Operations Analyst · Lab Operations Analyst · LIS Analyst · Epic Beaker Analyst · EHR Workflow Analyst · Healthcare Data Quality Analyst · Application Analyst · Healthcare Systems Analyst
+**Best-fit titles:** EHR Data Analyst · Health IT Data Analyst · Healthcare Data Quality Analyst · Healthcare Integration Analyst · Healthcare Interoperability Analyst · Healthcare Claims Quality Analyst · HEDIS Data Analyst · Population Health Data Analyst · Quality Improvement Data Analyst · Clinical Informatics Analyst · LIS / Epic Beaker Analyst
 
-**Core value:** I translate frontline healthcare workflow pressure — SLA, TAT, QC, documentation, handoffs, escalation, and ownership — into clear analytics, bottleneck detection, and decision-ready prioritization.
+**Core value:** I translate healthcare workflow pressure — documentation, handoffs, EHR/LIS data quality, rejected records, SLA/TAT risk, QC, file exchanges, and ownership gaps — into clean analysis, QA checks, and decision-ready reporting.
 
-**Why I am credible:** ASCP-certified Medical Laboratory Technician with 8+ years in regulated clinical operations. I have worked inside the workflows that create healthcare data, not just analyzed them from the outside.
+**Why I am credible:** ASCP-certified Medical Laboratory Technician with 8+ years in regulated clinical operations. My lab background is not the job title; it is the domain proof that I understand clinical data, quality controls, handoffs, documentation pressure, and operational consequences.
+
+---
+
+## Why This Packet Exists
+
+This is **not** a “lab analytics” packet. That market is too narrow.
+
+This packet targets the real hiring lanes that appear in current healthcare listings:
+
+| Market lane | Common listing language this maps to |
+|---|---|
+| **EHR / Health IT Data Analyst** | EHR data, reporting needs, workflow support, operational analysis, healthcare data validation |
+| **Healthcare Data Quality Analyst** | Data profiling, QA checks, discrepancy detection, data accuracy, research or clinical data quality |
+| **Healthcare Integration / Interoperability Analyst** | Data mapping, validation, file exchanges, APIs, HL7/FHIR-style healthcare data movement |
+| **Claims / Membership Quality Analyst** | Claims QA, audit support, production quality, healthcare records, payer/plan data accuracy |
+| **HEDIS / Population Health Data Analyst** | Quality measures, care gaps, member/patient data, reporting, abstraction support |
+| **LIS / Epic Beaker / Clinical Systems Analyst** | Lab workflow knowledge, clinical systems support, testing, validation, workflow translation |
 
 ---
 
@@ -16,17 +33,18 @@
 
 | Hiring need | Evidence I bring |
 |---|---|
-| Lab / clinical operations insight | 8+ years of frontline clinical lab experience with SLA, QC, TAT, escalation, and regulated documentation. |
-| SLA / TAT bottleneck analysis | Built SQL-based analysis identifying weak shift, site, analyte, and QC-proximity patterns. |
-| LIS / EHR workflow thinking | Portfolio emphasizes expected-vs-actual states, handoffs, blockers, owners, and workflow routing. |
-| Healthcare data quality | Built encounter QA and claims projects that classify defects, severity, and downstream risk. |
-| Stakeholder communication | Case studies convert technical findings into operational recommendations and next actions. |
+| EHR / LIS workflow understanding | 8+ years of clinical lab experience with orders, results, QC, documentation, handoffs, and regulated workflows. |
+| Healthcare data quality | Encounter QA and claims projects classify defects, severity, downstream risk, and pre-submission issues. |
+| SQL / reporting analysis | Lab SLA project uses SQL to identify weak shift, site, analyte, and QC-proximity patterns. |
+| Clinical systems translation | Portfolio frames expected-vs-actual states, blockers, owners, routing, and next actions. |
+| Quality / compliance mindset | ASCP background plus reproducible artifacts, validation checks, and public-safe data practices. |
+| Operational prioritization | Projects turn messy issues into action queues instead of static charts. |
 
 ---
 
 ## Flagship Proof — Lab SLA & QC Analytics
 
-**Operating question:** Where are SLA misses concentrated, and which workflow fixes should be prioritized first?
+**Reframed operating question:** How can clinical workflow data be validated, segmented, and translated into operational risk signals?
 
 | Metric / finding | Result |
 |---|---:|
@@ -38,7 +56,7 @@
 | QC proximity TAT impact | **34.6 min → 73.8 min** |
 | Weakest analyte × shift cells | **CBC / PTINR on Day-shift** |
 
-**Interpretation:** Day shift and ED workflows carried the clearest operational risk, and QC proximity more than doubled average TAT. The output identifies where staffing, workload, specimen mix, and QC scheduling deserve attention first.
+**Recruiter readout:** This project is not positioned as “lab analytics.” It is proof of healthcare data validation, operational reporting, clinical workflow segmentation, QA thinking, and the ability to explain where process risk is concentrated.
 
 **Links:** [Case Study](../case_studies/lab_sla_qc_analytics.md) · [Repository](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis)
 
@@ -46,42 +64,41 @@
 
 ## Supporting Evidence
 
-| Project | Recruiter readout | Links |
+| Project | Recruiter readout | Roles it supports |
 |---|---|---|
-| **Revenue Integrity Control Room** | Owner-routed workflow intelligence with blocker classification, SLA risk, recoverability, failed controls, and next-step guidance. | [Case Study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Repo](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype) |
-| **Healthcare Claims Analysis** | Reproducible claims analysis: **1,000** claims, **$297,191** billed, top 10% of patients = **16.12%** of spend, **0** hardcoded values. | [Case Study](../case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
-| **Encounters Submission QA Evidence Pack** | Healthcare data quality project focused on reject severity, defect triage, and pre-submission QA. | [Repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) |
-| **Revenue Cycle Healthcare Claims** | Denial concentration, AR aging, and follow-up prioritization for healthcare operations workflows. | [Case Study](../case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) |
+| **Encounters Submission QA Evidence Pack** | Pre-submission healthcare data quality project with reject severity, defect triage, and downstream risk framing. | Healthcare Data Quality Analyst · Claims Quality Analyst · QA Analyst |
+| **Revenue Integrity Control Room** | Owner-routed workflow intelligence with blocker classification, SLA risk, recoverability, failed controls, and next-step guidance. | EHR Workflow Analyst · Clinical Systems Analyst · Healthcare Operations Analyst |
+| **Healthcare Claims Analysis** | Reproducible claims pipeline: **1,000** claims, **$297,191** billed, concentration analysis, and **0** hardcoded values. | Healthcare Data Analyst · Population Health Data Analyst · Data Quality Analyst |
+| **Revenue Cycle Healthcare Claims** | Denial concentration, AR aging, and follow-up prioritization for healthcare operations workflows. | Claims Quality Analyst · RCM Data Analyst · Payment Integrity Analyst |
 
 ---
 
-## Clinical Workflow Lens
+## Skill Translation Table
 
-| Workflow pressure | How I translate it analytically |
+| My background / project evidence | How recruiters should read it |
 |---|---|
-| SLA / TAT misses | Shift, site, analyte, workload, and volume concentration analysis |
-| QC failures | Proximity analysis, timing impact, and operational-risk framing |
-| Escalation gaps | Owner, blocker, severity, and next-action classification |
-| EHR / LIS handoffs | Expected-vs-actual state checks and workflow mapping |
-| Data quality issues | Reject analysis, severity triage, and pre-submission QA logic |
-| Operational prioritization | Clear action queues instead of static reporting |
+| ASCP MLT + regulated lab operations | Clinical workflow literacy, quality mindset, documentation discipline, and comfort with healthcare systems. |
+| Lab SLA / QC analytics | SQL reporting, operational segmentation, quality checks, and workflow-risk analysis. |
+| Encounter QA project | Healthcare data quality, reject analysis, severity triage, and pre-submission validation. |
+| Revenue Integrity Control Room | Workflow mapping, owner routing, exception logic, blocker classification, and decision support. |
+| Claims projects | Healthcare data analysis, payer/claims logic, AR/denial context, and data-driven prioritization. |
 
 ---
 
 ## Keywords / ATS Alignment
 
-Clinical operations · lab operations · LIS · Epic Beaker · EHR workflows · healthcare data quality · SLA · TAT · QC · specimen workflows · analyte analysis · escalation workflows · documentation · SQL · Python · Power BI · Tableau · healthcare analytics
+EHR Data Analyst · Health IT Data Analyst · Healthcare Data Quality Analyst · Clinical Informatics Analyst · Healthcare Integration Analyst · Healthcare Interoperability Analyst · LIS Analyst · Epic Beaker Analyst · HEDIS · Population Health · claims QA · data validation · data mapping · workflow analysis · clinical data · healthcare reporting · SQL · Python · Power BI · Tableau · QA checks · HL7 · FHIR · EHR workflows · LIS workflows
 
 ---
 
 ## Interview Talking Points
 
-1. **I understand clinical operations from the inside.** I have worked inside regulated lab workflows where quality, timing, and handoffs matter.
-2. **I connect workflow reality to data.** I analyze where delays, defects, and ownership gaps actually happen.
-3. **I can bridge clinical teams and analytics teams.** I speak the workflow language and can package findings for operational decision-making.
+1. **I am not selling myself as a “lab analytics” candidate.** I am using lab experience as domain credibility for healthcare data quality, EHR/LIS workflows, and clinical systems analysis.
+2. **I understand why bad healthcare data matters.** It creates missed follow-up, delayed results, billing friction, QA failures, and operational noise.
+3. **I can bridge users and data teams.** I understand clinical workflow language and can turn it into SQL analysis, QA checks, reporting, and clear next actions.
 
 ---
 
 ## 15-Second Pitch
 
-I am an ASCP-certified MLT moving into clinical operations analytics and healthcare systems work. My strongest value is connecting real healthcare workflow pressure — SLA, TAT, QC, documentation, and handoffs — to SQL/Python analysis, BI reporting, and practical recommendations teams can act on.
+I am an ASCP-certified MLT moving into healthcare data quality, EHR workflow, and clinical systems analytics. My value is connecting real clinical workflow experience with SQL/Python analysis, QA checks, reporting, and practical workflow recommendations.
