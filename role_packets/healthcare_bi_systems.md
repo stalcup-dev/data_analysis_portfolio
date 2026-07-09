@@ -1,43 +1,57 @@
 # Healthcare BI / Systems Analyst Portfolio Brief
 
-## Positioning
+## Recruiter Snapshot
 
-I build healthcare analytics and BI systems that move from raw data to reproducible pipelines, validated metrics, stakeholder-facing dashboards, and decision-ready outputs.
+**Candidate lane:** Healthcare BI, reporting, data quality, and systems analysis with clinical operations context.
 
-My work is focused on healthcare workflow intelligence: helping teams understand what changed, what is at risk, who owns the next action, and what should be prioritized first.
+**Best-fit titles:** Healthcare BI Analyst · Healthcare Reporting Analyst · Data Quality Analyst · Business Analyst · Systems Analyst · Implementation Analyst · Junior Healthcare Analytics Engineer
 
-## Best Fit Roles
+**Core value:** I build healthcare analytics and BI systems that move from raw data to reproducible pipelines, validated metrics, stakeholder-facing dashboards, and decision-ready outputs.
 
-Healthcare BI Analyst · Healthcare Reporting Analyst · Data Quality Analyst · Business Analyst · Systems Analyst · Implementation Analyst · Healthcare Analytics Engineer, junior/bridge level
+**Why I am credible:** ASCP-certified Medical Laboratory Technician with 8+ years in healthcare operations, plus portfolio work in SQL, Python, Power BI, Tableau, React, TypeScript, KPI design, QA checks, and workflow-focused decision tools.
 
-## Flagship Proof
+---
 
-### Revenue Integrity Control Room
+## Fast Match
 
-Built a React + TypeScript analytics surface for healthcare workflow intelligence, with case-level drilldowns, KPI tiles, queue governance, evidence consistency, and decision-pack style outputs.
+| Hiring need | Evidence I bring |
+|---|---|
+| Healthcare reporting / BI | Built Power BI, Tableau-style, markdown, and React-based decision surfaces for healthcare and operations projects. |
+| SQL / Python analytics | Portfolio uses reproducible pipelines, segmentation, QA checks, validation, and artifact-backed outputs. |
+| Data quality / governance | Projects emphasize zero hardcoded values, validation checks, proof tables, assumptions, and public-safe data handling. |
+| Systems / workflow analysis | Projects identify expected-vs-actual states, blockers, owners, next actions, and process-control gaps. |
+| Stakeholder-ready delivery | Case studies turn technical analysis into operational recommendations, decision packs, and executive summaries. |
 
-Key results:
+---
 
-- **24** open exceptions surfaced
-- **$13.37K** gross exposure identified
-- **72.9%** still recoverable — **$9.74K**
-- **22 / 22** validation checks passed
-- **100%** routing history coverage
-- Case-level owner, blocker, recoverability, SLA, failed-control, and next-action logic
+## Flagship Proof — Revenue Integrity Control Room
 
-Links:
+**Operating question:** How can a healthcare team turn exception data into a trusted decision surface with owners, blockers, risk, recoverability, and next actions?
 
-- [Revenue Integrity Control Room case study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md)
-- [Revenue Integrity Control Room repository](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype)
+| Metric / feature | Result |
+|---|---:|
+| Open exceptions surfaced | **24** |
+| Gross exposure identified | **$13.37K** |
+| Still recoverable | **72.9% — $9.74K** |
+| Validation checks passed | **22 / 22** |
+| Routing history coverage | **100%** |
+| Core UI layer | **React + TypeScript** |
+| Decision logic | Owner, blocker, SLA, recoverability, failed-control, and next-action classification |
 
-## Supporting Proof
+**Links:** [Case Study](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/blob/main/case_study.md) · [Repository](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype)
 
-| Project | Evidence | Links |
+---
+
+## Supporting Evidence
+
+| Project | Recruiter readout | Links |
 |---|---|---|
-| **Sales Forecasting & KPI Dashboard** | Median MAPE **~12.3%** · **~80%** interval coverage · reporting effort reduced from **4 hours/week to 0** | [Case Study](../case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
-| **Revenue Cycle Healthcare Claims** | Denial concentration, AR aging, triage logic, and capacity-release modeling | [Case Study](../case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) |
-| **Lab SLA & QC Analytics** | SQL-driven SLA/TAT/QC operational analysis for clinical workflow performance | [Case Study](../case_studies/lab_sla_qc_analytics.md) · [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
-| **Healthcare Claims Analysis** | Reproducible claims pipeline with **0** hardcoded values and clear concentration analysis | [Case Study](../case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
+| **Sales Forecasting & KPI Dashboard** | End-to-end BI pipeline with median MAPE **~12.3%**, **~80%** interval coverage, and reporting effort reduced from **4 hours/week to 0**. | [Case Study](../case_studies/sales_forecasting_kpi_dashboard.md) · [Repo](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl) |
+| **Revenue Cycle Healthcare Claims** | Denial concentration, AR aging, triage logic, and capacity-release modeling for healthcare operations. | [Case Study](../case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) |
+| **Lab SLA & QC Analytics** | SQL-driven SLA/TAT/QC operational analysis for clinical workflow performance. | [Case Study](../case_studies/lab_sla_qc_analytics.md) · [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| **Healthcare Claims Analysis** | Reproducible claims pipeline with **1,000** claims, **$297,191** billed, concentration analysis, and **0** hardcoded values. | [Case Study](../case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
+
+---
 
 ## BI / Systems Pattern
 
@@ -50,12 +64,22 @@ Links:
 | Governance | Assumptions, proof tables, artifact links, and reproducible outputs |
 | Decision support | What changed, what is at risk, who owns it, and what to do next |
 
-## Tools & Methods
+---
 
-SQL · Python · pandas · Power BI · Tableau · React · TypeScript · Vite · dbt-style modeling · QA checks · KPI design · dashboard storytelling · stakeholder reporting
+## Keywords / ATS Alignment
 
-## Why This Matters
+Healthcare BI · reporting analyst · systems analyst · business analyst · data quality · SQL · Python · Power BI · Tableau · React · TypeScript · KPI design · dashboarding · QA checks · ETL · reproducible pipelines · workflow analysis · stakeholder reporting
 
-BI work should not stop at charts. Strong reporting systems help teams decide what changed, what is at risk, who owns the issue, and what to do next.
+---
 
-That is the standard I build toward: reproducible analysis, validated metrics, clear visuals, and decision-ready delivery.
+## Interview Talking Points
+
+1. **I build beyond the chart.** My projects turn analysis into decision surfaces, proof tables, and next-action logic.
+2. **I care about trust.** I emphasize validation, reproducibility, assumptions, and public-safe data practices.
+3. **I bring domain context.** My healthcare background helps me understand workflow meaning, not just metric definitions.
+
+---
+
+## 15-Second Pitch
+
+I build healthcare BI and systems-analysis projects that turn raw operational data into validated metrics, dashboards, QA checks, and decision-ready outputs. My strongest fit is healthcare reporting, BI, data quality, and systems roles where clinical workflow context matters.
