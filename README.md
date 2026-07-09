@@ -128,6 +128,24 @@
 
 ---
 
+## Selected Visual Proof
+
+> Screenshots matter. They show this is not just notebook work — these projects produce reviewer-facing artifacts, dashboards, and decision surfaces.
+
+| Revenue-cycle triage | Lab operations bottlenecks |
+|---|---|
+| ![Revenue Cycle Dashboard Preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1) | ![SLA by Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_by_shift.png) |
+
+| Lab SLA heatmap | Claims cost concentration |
+|---|---|
+| ![SLA Heatmap — Analyte x Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png) | ![Patient Total Cost Boxplot](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/figures/patient_total_cost_boxplot.png) |
+
+| Power BI forecast surface | Encounter QA defect triage |
+|---|---|
+| ![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png) | ![Encounters QA — Top Reject Codes by Severity](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/top_rejects.png) |
+
+---
+
 ## Cross-Portfolio Proof
 
 | Proof theme | Shipped result |
@@ -180,7 +198,7 @@
 
 ---
 
-## Additional Visual Evidence
+## Deeper Product Screenshots
 
 <details>
 <summary><strong>Revenue Integrity Control Room — React Summary View</strong></summary>
@@ -213,26 +231,32 @@ A built-in data-freshness audit shows when decision inputs were last validated s
 </details>
 
 <details>
-<summary><strong>Sales Forecasting & KPI Dashboard — Power BI</strong></summary>
+<summary><strong>Sales Forecasting & KPI Dashboard — Power BI KPI View</strong></summary>
 <br/>
 
-Two Power BI pages delivered from a full pipeline: CSV source → Postgres → dbt-style modeling → Power BI, with holdout-validated forecasts and inventory reorder recommendations.
-
-![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png)
+This Power BI page is the consumer-facing layer of a full pipeline: CSV source → Postgres → dbt-style modeling → Power BI.
 
 ![Sales KPI Dashboard — Power BI KPI View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/KPIDashboard.png)
 
 </details>
 
 <details>
-<summary><strong>Encounters Submission QA — Pre-Submission Defect Analysis</strong></summary>
+<summary><strong>Encounters Submission QA — Weekly Triage Trend</strong></summary>
 <br/>
 
-These charts represent the analytical core of a payer encounter QA workflow: finding defects before they become downstream denials or rework.
-
-![Encounters QA — Top Reject Codes by Severity](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/top_rejects.png)
+This chart shows payer encounter QA defects over time, turning batch rejects into a trackable triage pattern.
 
 ![Encounters QA — Weekly Triage Trend](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/triage_trend.png)
+
+</details>
+
+<details>
+<summary><strong>MarginMap Scenario Analysis — Policy Simulator</strong></summary>
+<br/>
+
+A scenario simulator for evaluating policy changes and operational tradeoffs.
+
+![MarginMap Policy Simulator](https://github.com/stalcup-dev/marginmap-supply-chain-analytics/blob/main/assets/screenshots/07_policy_simulator.png?raw=1)
 
 </details>
 
@@ -249,4 +273,4 @@ These charts represent the analytical core of a payer encounter QA workflow: fin
 
 ---
 
-<p align="center"><em>Every major claim in this README is tied to a shipped project artifact, reproducible output, or public-safe case study.</em></p>
+<p align="center"><em>Every major claim in this README is tied to a shipped project artifact, reproducible output, screenshot, or public-safe case study.</em></p>
