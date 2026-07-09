@@ -39,6 +39,16 @@
 
 ---
 
+## Role-Specific Portfolio Briefs
+
+| Brief | Best for |
+|---|---|
+| [Revenue Integrity / RCM](role_packets/revenue_integrity_rcm.md) | Revenue Integrity, RCM, Charge Capture, Denials, Payment Integrity |
+| [Clinical Operations / Lab Analytics](role_packets/clinical_operations_analytics.md) | Clinical Ops, Lab Ops, LIS, EHR, Epic Beaker, Data Quality |
+| [Healthcare BI / Systems](role_packets/healthcare_bi_systems.md) | BI, Reporting, Systems Analyst, Business Analyst, Data Quality |
+
+---
+
 ## Role Fit
 
 | Target role | Evidence in this portfolio |
