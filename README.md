@@ -27,7 +27,7 @@
 
 ## 30-Second Reviewer Path
 
-**Best fit:** Healthcare Analytics · Revenue Cycle Analyst · Revenue Integrity Analyst · RCM Reporting Analyst · Clinical Operations Analyst · LIS / EHR Analyst
+**Best fit:** Healthcare Analytics · Revenue Cycle Analyst · Revenue Integrity Analyst · Healthcare Data Quality Analyst · EHR Data Analyst · Health IT Data Analyst · RCM Reporting Analyst · LIS / EHR Analyst
 
 **Why I am different:** I am an ASCP-certified Medical Laboratory Technician with 8+ years in regulated healthcare operations. I have worked inside SLA/TAT pressure, QC discipline, escalation workflows, patient-facing handoffs, and clinical data quality. My portfolio focuses on healthcare workflow intelligence: not just dashboards, but systems that identify what is broken, who owns it, what is recoverable, and what should happen next.
 
@@ -44,7 +44,7 @@
 | Brief | Best for |
 |---|---|
 | [Revenue Integrity / RCM](role_packets/revenue_integrity_rcm.md) | Revenue Integrity, RCM, Charge Capture, Denials, Payment Integrity |
-| [Clinical Operations / Lab Analytics](role_packets/clinical_operations_analytics.md) | Clinical Ops, Lab Ops, LIS, EHR, Epic Beaker, Data Quality |
+| [Healthcare Data Quality / EHR Workflow](role_packets/clinical_operations_analytics.md) | EHR Data Analyst, Health IT Data Analyst, Healthcare Data Quality, Integration / Interoperability, Claims QA |
 | [Healthcare BI / Systems](role_packets/healthcare_bi_systems.md) | BI, Reporting, Systems Analyst, Business Analyst, Data Quality |
 
 ---
@@ -57,7 +57,7 @@
 | **Charge Capture Analyst** | Facility-side opportunity framing, expected-vs-actual charge state, blocker classification, financial-risk prioritization |
 | **Revenue Cycle / RCM Analyst** | Denial segmentation, payer/reason concentration, AR aging risk, triage models, capacity-release estimates |
 | **Healthcare BI Analyst** | SQL/Python pipelines, Power BI/Tableau outputs, KPI design, data QA, stakeholder-ready decision packs |
-| **Clinical Operations Analyst** | Lab SLA/TAT analysis, QC proximity impact, workflow bottleneck detection, healthcare process context |
+| **Healthcare Data Quality / EHR Workflow Analyst** | EHR/LIS workflow knowledge, data validation, encounter QA, claims QA, clinical workflow context |
 | **LIS / EHR Application Analyst** | ASCP MLT background, clinical workflow knowledge, QC/SLA analytics, EHR-facing workflow thinking |
 
 ---
@@ -120,11 +120,12 @@
 | **Encounters Submission QA Evidence Pack** | 219 rejects · 80 BLOCKER + 18 HIGH critical-severity mix for pre-submission QA | [Repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) |
 | **RCM Improvement Plan** | Structured workflow improvement framing for revenue-cycle operations | [Repo](https://github.com/stalcup-dev/rcm-improvement-plan) |
 
-### Track 2 — Healthcare BI / Clinical Operations Analytics
+### Track 2 — Healthcare Data Quality / EHR Workflow
 
 | Project | Best evidence | Links |
 |---|---|---|
 | **Lab SLA & QC Analytics** | Day-shift SLA 91.8% · ED SLA 93.9% · QC proximity doubled TAT from 34.6 to 73.8 minutes | [Case Study](case_studies/lab_sla_qc_analytics.md) · [Repo](https://github.com/stalcup-dev/sql-lab-insights-and-sla-analysis) |
+| **Healthcare Encounters QA Evidence Pack** | 219 rejects · severity triage · pre-submission data quality framing for downstream risk | [Repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) |
 | **Healthcare Claims Analysis** | 1,000 claims · $297,191 billed · top 10% of patients = 16.12% of spend · 0 hardcoded values | [Case Study](case_studies/healthcare_claims_analysis.md) · [Repo](https://github.com/stalcup-dev/healthcare-claims-analysis) |
 | **Medicaid Spending Open Analysis** | Public Medicaid spending data with concentration and exploratory analysis | [Repo](https://github.com/stalcup-dev/medicaid-spending-open-analysis) |
 
@@ -187,7 +188,7 @@
 | Layer | Skills & tools |
 |---|---|
 | **Healthcare / RCM Analytics** | Denial trends · AR drivers · Charge capture logic · Revenue leakage · Work queue prioritization |
-| **Clinical Operations** | SLA/TAT analysis · QC discipline · Escalation workflows · Lab operations · Patient-flow context |
+| **Healthcare Data Quality / EHR Workflow** | EHR/LIS handoffs · data validation · encounter QA · claims QA · clinical workflow context |
 | **Data Engineering** | SQL · Python · pandas · reproducible ETL · QA checks · canonical views · dbt patterns |
 | **BI & Visualization** | Power BI · Tableau · KPI design · dashboard storytelling · stakeholder reporting |
 | **Productized Analytics** | React · TypeScript · Vite · interactive drill-down UX · decision tools |
@@ -274,7 +275,7 @@ A scenario simulator for evaluating policy changes and operational tradeoffs.
 
 ## Contact
 
-**Open to remote Healthcare Analyst, Revenue Cycle Analyst, Revenue Integrity Analyst, RCM Analyst, and Operations Analyst roles.**
+**Open to remote Healthcare Analyst, Revenue Cycle Analyst, Revenue Integrity Analyst, RCM Analyst, Healthcare Data Quality Analyst, EHR Data Analyst, and Operations Analyst roles.**
 
 | | |
 |---|---|
