@@ -27,9 +27,9 @@
 
 ## 30-Second Reviewer Path
 
-**Best fit:** Healthcare Analytics · Revenue Cycle Analyst · Revenue Integrity Analyst · Healthcare Data Quality Analyst · EHR Data Analyst · Health IT Data Analyst · RCM Reporting Analyst · LIS / EHR Analyst
+**Best fit:** Healthcare Analytics · Revenue Cycle Analyst · Revenue Integrity Analyst · Healthcare Data Quality Analyst · EHR Data Analyst · Health IT Data Analyst · RCM Reporting Analyst · BI Analyst
 
-**Why I am different:** I am an ASCP-certified Medical Laboratory Technician with 8+ years in regulated healthcare operations. I have worked inside SLA/TAT pressure, QC discipline, escalation workflows, patient-facing handoffs, and clinical data quality. My portfolio focuses on healthcare workflow intelligence: not just dashboards, but systems that identify what is broken, who owns it, what is recoverable, and what should happen next.
+**Why I am different:** I am an ASCP-certified Medical Laboratory Technician with 8+ years in regulated healthcare operations. I have worked inside SLA/TAT pressure, QC discipline, escalation workflows, and patient-facing operational environments, which gives my analytics a workflow-first lens rather than just a dashboard lens.
 
 **Fast screen:**
 
@@ -119,6 +119,7 @@
 | **Revenue Cycle Healthcare Claims** | $22.9K denied proxy exposure · 91.1% top-2 triage concentration · ~$43,750/month capacity-release model | [Case Study](case_studies/revenue_cycle_healthcare_claims.md) · [Repo](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims) |
 | **Encounters Submission QA Evidence Pack** | 219 rejects · 80 BLOCKER + 18 HIGH critical-severity mix for pre-submission QA | [Repo](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack) |
 | **RCM Improvement Plan** | Structured workflow improvement framing for revenue-cycle operations | [Repo](https://github.com/stalcup-dev/rcm-improvement-plan) |
+| **APCM Revenue Integrity Case Study** | Medicare APCM billing investigation framing, exception testing, controls, and executive decision pack | [Case Study](https://github.com/stalcup-dev/Apcm-revenue-integrity-case-study/blob/main/Allen_Stalcup_APCM_Revenue_Integrity_Case_Study_Portfolio.pdf) · [Repo](https://github.com/stalcup-dev/Apcm-revenue-integrity-case-study) |
 
 ### Track 2 — Healthcare Data Quality / EHR Workflow
 
@@ -145,15 +146,15 @@
 
 | Revenue-cycle triage | Lab operations bottlenecks |
 |---|---|
-| ![Revenue Cycle Dashboard Preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1) | ![SLA by Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_by_shift.png) |
+| ![Revenue Cycle Dashboard Preview](https://github.com/stalcup-dev/revenue-cycle-healthcare-claims/blob/main/docs/images/tab1.png?raw=1) | ![SLA by Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/sla_by_shift.png) |
 
 | Lab SLA heatmap | Claims cost concentration |
 |---|---|
-| ![SLA Heatmap — Analyte x Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png) | ![Patient Total Cost Boxplot](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/figures/patient_total_cost_boxplot.png) |
+| ![SLA Heatmap — Analyte x Shift](https://raw.githubusercontent.com/stalcup-dev/sql-lab-insights-and-sla-analysis/main/visuals/fig_sla_heatmap_analyte_shift.png) | ![Patient Total Cost Boxplot](https://raw.githubusercontent.com/stalcup-dev/healthcare-claims-analysis/main/outputs/fig_patient_total_cost_boxplot.png) |
 
 | Power BI forecast surface | Encounter QA defect triage |
 |---|---|
-| ![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png) | ![Encounters QA — Top Reject Codes by Severity](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/top_rejects.png) |
+| ![Sales Forecasting Dashboard — Power BI Forecasting View](https://github.com/stalcup-dev/end-to-end-sales-forecasting-kpi-dashboard-etl/raw/main/ForecastingDash.png) | ![Encounters QA — Triage Trend](https://github.com/stalcup-dev/encounters-submission-qa-evidence-pack/raw/main/outputs/screenshots/triage_trend.png) |
 
 ---
 
@@ -202,7 +203,7 @@
 |---|---|---|
 | **ASCP Certified — Medical Laboratory Technician** | American Society for Clinical Pathology | Certified clinical laboratory professional |
 | **AAS — Clinical Laboratory Science** | Associate of Applied Science | Clinical laboratory education and training |
-| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IBS4BXKB5DTX) |
+| **IBM Data Analyst Professional Certificate** | IBM / Coursera | [View certificate](certificates/ibm-data-analyst-professional-certificate.png) · [Verify](https://www.coursera.org/account/accomplishments/professional-cert/GV8E7MPLTQ6Z) |
 | **Revenue Cycle, Billing, and Coding** | Johns Hopkins University | Completed Feb 2026 |
 | **Clinical Trials Interpretation** | Johns Hopkins University | Completed |
 | **Python for Everybody** | Coursera | Completed |
@@ -217,7 +218,7 @@
 
 This React + TypeScript surface shows a filterable operating view with KPI tiles, persisted global filters, and drill-down navigation across exception queues.
 
-![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-25.png)
+![Revenue Integrity Control Room — React App Summary](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_control_room_summary_2026-05-19.png)
 
 </details>
 
@@ -227,7 +228,7 @@ This React + TypeScript surface shows a filterable operating view with KPI tiles
 
 Every exception carries a current owner, primary blocker, recoverability classification, SLA status, and next-step guidance.
 
-![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_queue_governance_browser_2026-05-25_refresh_v8_taller_clean.png)
+![Revenue Integrity Control Room — Queue Governance Case Detail](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_queue_governance_case_detail_2026-05-19.png)
 
 </details>
 
@@ -237,7 +238,7 @@ Every exception carries a current owner, primary blocker, recoverability classif
 
 A built-in data-freshness audit shows when decision inputs were last validated so the operating view remains trustworthy over time.
 
-![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_lens_2026-05-25.png)
+![Revenue Integrity Control Room — Decision-Pack Freshness Lens](https://github.com/stalcup-dev/revenue-integrity-control-room-prototype/raw/main/artifacts/browser_audit/react_decision_pack_freshness_2026-05-19.png)
 
 </details>
 
